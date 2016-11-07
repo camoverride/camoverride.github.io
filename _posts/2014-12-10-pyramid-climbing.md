@@ -57,6 +57,6 @@ As I admired the new bruises that were forming on my arms, hands, and legs, I al
 
 We paced back and forth. The city of Giza was a constellation spread across the Earth. We sucked up the illumination of the city below us. We were breathing it like air. The warmth was being sucked out of us by the gnawing desert cold. Climbing above Giza, rising above the tourist crowds, we’d discovered the real history of the place: it was etched across the sandstone blocks by generations of rule-breakers like ourselves.
 
-We made our descent. Nobody spotted us on the way down, or as we crossed the road, or even as we walked along the road towards the entrance. Some of the guards gave us strange looks as we exited the plateau. They smiled when we greeted them with ‘salaam alaikum.’
+We made our descent. Nobody spotted us on the way down, or as we crossed the road, or even as we walked along the road towards the entrance. Some of the guards gave us strange looks as we exited the plateau. They smiled when we greeted them with *‘salaam alaikum.’*
 
 On the walk back Eason pulled out his phone and bought tickets to Cyprus. The plane was departing in six hours. It was just enough time for us to retrieve our bags and be off.

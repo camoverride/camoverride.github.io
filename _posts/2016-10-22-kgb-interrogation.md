@@ -6,7 +6,7 @@ comments: true
 ---
 
 
-If, as a sixteen year-old boy from the suburbs, I had been asked to design my own country, I would have probably come up with something like Transnistria.
+If, as a sixteen year-old boy from the suburbs, I'd been asked to design my own country, I would have probably cobbled together something similar to Transnistria.
 
 
 [link to Yelp review]

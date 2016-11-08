@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample Post
-categories: [hello world]
+categories: []
 comments: true
 ---
 

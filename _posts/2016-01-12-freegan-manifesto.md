@@ -26,6 +26,10 @@ What do you throw away?
 - re-using bottles
 - etc.
 
+make your own stuff - it'll give you goals, teach you a lot, and it's fun!
+
+urban treasure hunt
+
 Bookchin - 
 Scarcity = physical resoueces. Things like prestige, fame, respect, sex might always be scarce -- not everyone can be famous, as that literally contradicts the definition of fame
 

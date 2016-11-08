@@ -20,6 +20,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [X] lang - Pangrams
 - [X] travl - Climbing the Pyramid
 - [ ] travl - Transnistria
+- [ ] lang - Language Games (onset/coda switching)
 - [ ] blog - World Population
 - [ ] blog - Dumpster-diving how-to!
 - [ ] proj - Gleanr

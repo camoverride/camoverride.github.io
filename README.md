@@ -18,6 +18,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 ## Articles to add:
 
 - [X] lang - Pangrams
+- [X] travl - Climbing the Pyramid
 - [ ] travl - Transnistria
 - [ ] blog - World Population
 - [ ] blog - Dumpster-diving how-to!

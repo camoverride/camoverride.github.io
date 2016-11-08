@@ -18,16 +18,16 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 ## Articles to add:
 
 - [X] lang - Pangrams
-- [ ] trav - Transnistria
+- [ ] travl - Transnistria
 - [ ] blog - World Population
 - [ ] blog - Dumpster-diving how-to!
 - [ ] proj - Gleanr
 - [ ] blog - How Racist are Our Movies? (speculations about English as a world-language)
-- [ ] trav - Palestine (arab hospitality, speculation about feminism, oppression, nation states)
-- [ ] trav - Varosha (xenophobia, future of cities after abandonment)
+- [ ] travl - Palestine (arab hospitality, speculation about feminism, oppression, nation states)
+- [ ] travl - Varosha (xenophobia, future of cities after abandonment)
 - [ ] lang - Color Perception
 - [ ] lang - Learn the Arabic Alphabet via Kurdish (no tricky consonants!)
 - [ ] blog - Interactive Koran
 - [ ] proj - Harmonograph Art
-- [ ] trav - Hunter's Point (overpopulation in the Bay Area?)
+- [ ] travl - Hunter's Point (overpopulation in the Bay Area?)
 - [ ] lang - Orthography Taxonomy

@@ -26,10 +26,19 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] travl - Palestine (arab hospitality, speculation about feminism, oppression, nation states)
 - [ ] travl - Varosha (xenophobia, future of cities after abandonment)
 - [ ] lang - Color Perception
+- [ ] lang - What's in a Word?
 - [ ] lang - Learn the Arabic Alphabet via Kurdish (no tricky consonants!)
 - [ ] blog - Interactive Koran
 - [ ] proj - Harmonograph Art
 - [ ] travl - Hunter's Point (overpopulation in the Bay Area?)
 - [ ] lang - Orthography Taxonomy
-- [ ] lang - Mapping Logic to the English language (XOR, mental construction of contrapositive NOR, Sartre joke)
+- [ ] lang - Mapping Logic to the English language (XOR, mental construction of contrapositive NOR, Sartre joke -- engineering approach vs formal logic approach)
 - [ ] blog - Political Map/Earth Map
+- [ ] blog - Tangents
+
+## Find:
+
+- [ ] Srinivasan program
+- [ ] Regier program
+- [ ] Gleanr article
+- [ ] Kawamoto thesis

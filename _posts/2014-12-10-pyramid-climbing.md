@@ -7,6 +7,9 @@ comments: true
 
 Even though it’s two kilometers away, the Great Pyramid is the biggest thing on the horizon. It looms over the Giza Plateau, which in turn looms over the city of Giza. It’s hard to describe just how large the pyramid is; it’s more of a geographic feature than a building. And there’s this even bigger contrast between the Pyramid, which embodies the eternal, the ahistorical, and the enigmatic, and the city of Giza, where you can buy pirated copies of Frozen from teenagers who are chain-smoking cigarettes next to the McDonald’s.
 
+![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
+{: .pull-right}
+
 When the bus jitters to a halt and you shove your way through the crowds of scammers, you’re forced to wrestle with some uncomfortable thoughts. Is this the world’s oldest megastructure, a testament to the creativity and power of human civilization? Or is this the world’s oldest tourist trap, a dismal, decadent, Disneyland?
 
 For Eason (my travel companion) and me, it didn’t really matter. Not being too self-critical when you’re breaking the law is important. We weren’t approaching the Giza Plateau as tourists. We’d come with a specific goal in mind: sneak inside the plateau, wait until night time, and climb to the top of Khufu’s Great Pyramid.
@@ -26,6 +29,9 @@ After a few hours of wandering through the sand, we eventually found a collectio
 We laid our cardboard pieces outside the entrance of the tomb and struck camp. The falafel balls and bottles of water we’d bought quickly vanished, as did the sun. Twilight, Eason argued, would be the best time to start our climb. He was right.
 
 The safest part of the Pyramid to climb is the South-West corner. An asphalt road runs along the pyramid near this corner, and across from it is the necropolis in which our tomb-campsite was located. As we abandoned our camp and approached the pyramid, the tombs offered us concealment: by hugging the sandstone walls and walking slowly, it would be almost impossible for the guards to notice us. We made it to the edge of the road, still hidden by the tombs, and stopped to take account of the situation.
+
+![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
+{: .pull-right}
 
 I was nervous. We would have to make it across the road, up the first blocks of the pyramid’s base, and all the way to the top and back without being caught by the guards or falling to our deaths. The blocks aren’t exactly stable: they’ve been battered by the elements for the past 4,500 years. The whole structure is slowly melting: transforming, poetically, I suppose, back into the sands from which it emerged.
 
@@ -56,6 +62,9 @@ We were both getting numb. Our hands were sore from the wind and from scraping a
 As I admired the new bruises that were forming on my arms, hands, and legs, I also had the chance to admire the graffiti: the pyramid was covered with it, chiseled into every surface. I don’t know how many generations of people had been leaving their mark up there, but I decided to take out a pen and leave a mark of my own.
 
 We paced back and forth. The city of Giza was a constellation spread across the Earth. We sucked up the illumination of the city below us. We were breathing it like air. The warmth was being sucked out of us by the gnawing desert cold. Climbing above Giza, rising above the tourist crowds, we’d discovered the real history of the place: it was etched across the sandstone blocks by generations of rule-breakers like ourselves.
+
+![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
+{: .pull-right}
 
 We made our descent. Nobody spotted us on the way down, or as we crossed the road, or even as we walked along the road towards the entrance. Some of the guards gave us strange looks as we exited the plateau. They smiled when we greeted them with *‘salaam alaikum.’*
 

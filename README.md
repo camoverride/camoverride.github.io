@@ -31,3 +31,5 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] proj - Harmonograph Art
 - [ ] travl - Hunter's Point (overpopulation in the Bay Area?)
 - [ ] lang - Orthography Taxonomy
+- [ ] lang - Mapping Logic to the English language (XOR, mental construction of contrapositive NOR, Sartre joke)
+- [ ] blog - Political Map/Earth Map

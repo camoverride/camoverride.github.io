@@ -63,3 +63,6 @@ Most stories have a cyclical narrative -
 
 	sometimes a story ends with a tangent -- it doesnt circle back upon itself. this is okay - journey is sometimes more important than the destination
 
+
+
+There are multiple universes but they never interact with each other. There is a physical realm ruled by the demiurge and the universe of light which is the domain of the creator. The physical world is corrupt and the world of light is pure. These two worlds don't interact *except when they do*. If multiverses interact, aren't they parts of the same universe?

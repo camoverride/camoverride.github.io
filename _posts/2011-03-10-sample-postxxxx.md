@@ -5,6 +5,8 @@ categories: []
 comments: true
 ---
 
+When a chance encounter resolves itself, and two lives intersect, it becomes fate. Those two seperate time-lines wind themselves into a single filament that is called destiny. And when that filament is severed, it is called inevitability, although in the textile of lives woven together the filament is only one weft.
+
 
 
 <!--more-->

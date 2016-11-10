@@ -13,13 +13,14 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Multi languages support.
 - [ ] Photo blog.
 - [ ] Create favicon.
-- [ ] Maybe modify text size.
+- [ ] Scroll bar/container for tables.
 
 ## Articles to add:
 
 - [X] lang - Pangrams
 - [X] travl - Climbing the Pyramid
 - [ ] travl - Transnistria
+- [ ] litr - Bear Republic
 - [ ] lang - Language Games (onset/coda switching)
 - [ ] blog - World Population
 - [ ] blog - Dumpster-diving how-to!

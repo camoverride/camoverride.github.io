@@ -12,5 +12,9 @@ comments: true
 
 ![]({{ site.url }}/img/bush.jpg)
 
+![]({{ site.url }}/img/market.jpg)
+
+![]({{ site.url }}/img/2.gif)
+
 
 <!--more-->

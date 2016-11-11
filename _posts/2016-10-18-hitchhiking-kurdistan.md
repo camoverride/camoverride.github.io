@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Pangrams
+title: Hitchhiking in Iraqi Kurdistan
 categories: [travel]
 comments: true
 ---
 
 
 ![]({{ site.url }}/img/pope-pic.jpg)
+
+<!--more-->
 
 ![]({{ site.url }}/img/qiz.jpg)
 
@@ -17,4 +19,3 @@ comments: true
 ![]({{ site.url }}/img/2.gif)
 
 
-<!--more-->

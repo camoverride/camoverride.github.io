@@ -1,5 +1,5 @@
 ### Overview
-This website uses a modified version of the [Leonids theme](https://github.com/renyuanz/leonids).
+This website uses a modified version of the [Leonids theme](https://github.com/renyuanz/leonids). Feel free to copy any part of this website's theme. All files in the `_posts` folder are the personal property of the owner and not subject to this project's MIT license.
 
 ## This site is great (from Leonids):
 

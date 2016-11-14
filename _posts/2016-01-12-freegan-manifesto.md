@@ -3,6 +3,7 @@ layout: post
 title: Freegan Manifesto
 categories: [blog]
 comments: true
+published: false
 ---
 
 It's not about instantly jumping to your destination, it's about the journey. Fabian, not revolutionary.

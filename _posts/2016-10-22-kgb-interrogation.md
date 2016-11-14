@@ -3,6 +3,7 @@ layout: post
 title: KGB Interrogation in Transnistria
 categories: [travel]
 comments: true
+published: false
 ---
 
 ![]({{ site.url }}/img/block-house.jpg)

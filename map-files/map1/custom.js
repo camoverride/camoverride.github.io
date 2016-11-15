@@ -33,8 +33,8 @@
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Population Density in 2100</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' people / km<sup>2</sup>'
+		this._div.innerHTML = '<h4>Population Growth</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.percent_growth + '% of 2020'
 			: selecttext);
 	};
 
@@ -60,7 +60,7 @@
 			color: 'white',
 			dashArray: '3',
 			fillOpacity: 1,
-			fillColor: getColor(feature.properties.density)
+			fillColor: getColor(feature.properties.percent_growth)
 		};
 	}
 

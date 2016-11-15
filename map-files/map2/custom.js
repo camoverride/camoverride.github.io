@@ -33,7 +33,7 @@
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Population Density in 2100</h4>' +  (props ?
+		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
 			'<b>' + props.name + '</b><br />' + props.density + ' people / km<sup>2</sup>'
 			: selecttext);
 	};

@@ -33,8 +33,8 @@
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Population Growth</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.percent_growth + '% of 2020'
+		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.density + ' percent above average'
 			: selecttext);
 	};
 
@@ -60,7 +60,7 @@
 			color: 'white',
 			dashArray: '3',
 			fillOpacity: 1,
-			fillColor: getColor(feature.properties.percent_growth)
+			fillColor: getColor(feature.properties.density)
 		};
 	}
 

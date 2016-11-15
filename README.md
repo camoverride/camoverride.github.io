@@ -14,6 +14,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Photo blog.
 - [ ] Create favicon.
 - [ ] Scroll bar/container for tables.
+- [ ] Improve maps - each new map requires a new html doc in `_includes` and a new folder in `map-files`.
 
 ## Articles to add:
 

@@ -1,6 +1,6 @@
-function createMap() {	
+function createMap3() {
 
-	var map = L.map('map').setView([25, 0], 1.5);
+	var map = L.map('map2').setView([25, 0], 1.5);
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
 		maxZoom: 18,
@@ -35,8 +35,8 @@ function createMap() {
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Population Growth in 2100</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.pop_growth + '% of 2020 population'
+		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.density + ' percent above average'
 			: selecttext);
 	};
 
@@ -62,7 +62,7 @@ function createMap() {
 			color: 'white',
 			dashArray: '3',
 			fillOpacity: 1,
-			fillColor: getColor(feature.properties.pop_growth)
+			fillColor: getColor(feature.properties.density)
 		};
 	}
 
@@ -133,6 +133,6 @@ function createMap() {
 	};
 
 	legend.addTo(map);
-};
+}
 
-createMap()
+createMap3()

@@ -15,7 +15,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Create favicon.
 - [ ] Scroll bar/container for tables.
 - [ ] Improve drafts.
-- [ ] Improve maps - each new map requires a new html doc in `_includes` and a new folder in `map-files`.
+- [ ] Improve maps - each new map requires a new html doc in `_includes` and a new folder in `map-files`. Unable to get >2 maps to render on one page.
 
 ## Articles to add:
 

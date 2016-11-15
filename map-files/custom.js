@@ -12,6 +12,12 @@
 	// control that shows state info on hover
 	var info = L.control();
 
+	var subtext = 'ON DESKTOP'
+
+	if (navigator.userAgent.match(/Android/i)) {
+		var subtext = 'ON MOBILE'
+	}
+
 	info.onAdd = function (map) {
 		this._div = L.DomUtil.create('div', 'info');
 		this.update();
@@ -21,7 +27,7 @@
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Population Density in 2100</h4>' +  (props ?
 			'<b>' + props.name + '</b><br />' + props.density + ' people / km<sup>2</sup>'
-			: 'select a country');
+			: subtext);
 	};
 
 	info.addTo(map);

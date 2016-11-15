@@ -15,7 +15,8 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Create favicon.
 - [ ] Scroll bar/container for tables.
 - [ ] Improve drafts.
-- [ ] Improve maps - each new map requires a new html doc in `_includes` and a new folder in `map-files`. Unable to get >2 maps to render on one page.
+- [ ] Improve map file system - each new map requires a new html doc in `_includes` and a new folder in `map-files`. Also, create 'NA' colors for maps.
+- [ ] D3 tree structue diagrams
 
 ## Articles to add:
 
@@ -38,7 +39,6 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] travl - Hunter's Point (overpopulation in the Bay Area?)
 - [ ] lang - Orthography Taxonomy
 - [ ] lang - Mapping Logic to the English language (XOR, mental construction of contrapositive NOR, Sartre joke -- engineering approach vs formal logic approach)
-- [ ] blog - Political Map/Earth Map
 - [ ] blog - Tangents
 
 ## Find:

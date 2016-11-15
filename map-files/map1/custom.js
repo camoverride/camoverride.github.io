@@ -1,6 +1,11 @@
 function createMap() {	
 
-	var map = L.map('map').setView([25, 0], 1.5);
+	var map = L.map('map').setView([0, 0], 1.5);
+
+	var southWest = L.latLng(200, -200),
+    	northEast = L.latLng(-200, 200),
+    	bounds = L.latLngBounds(southWest, northEast);
+
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
 		maxZoom: 18,
@@ -9,7 +14,7 @@ function createMap() {
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.light'
 	});
-
+	map.setMaxBounds(bounds);
 
 	// control that shows state info on hover
 	// write something better than an if-then... maybe viewport size?

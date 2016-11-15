@@ -40,7 +40,7 @@ function createMap2() {
 
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' percent above world average'
+			'<b>' + props.name + '</b><br />' + props.density + ' people/km<sup>2'
 			: selecttext);
 	};
 

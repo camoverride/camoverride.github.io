@@ -9,9 +9,10 @@ comments: true
 
 
 
-The United Nations Population Division [has predicted](https://esa.un.org/unpd/wpp/Download/Standard/Population/) that the world's population will likely rise to more than 11 billion by the end of this century. However, this population growth is very uneven. While the population of Sub-Saharan Africa will more than double, some parts of Europe and East Asia will see their populations contract. I've picked through the UN data to produce some interesting maps. A table of growth projections can be found [on Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_future_population_(United_Nations,_medium_fertility_variant)).
 
 ## Growth
+
+The United Nations Population Division [has predicted](https://esa.un.org/unpd/wpp/Download/Standard/Population/) that the world's population will likely rise to more than 11 billion by the end of this century. However, this population growth is very uneven. While the population of Sub-Saharan Africa will more than double, some parts of Europe and East Asia will see their populations contract. I've picked through the UN data to produce some interesting maps. A table of growth projections can be found [on Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_future_population_(United_Nations,_medium_fertility_variant)).
 
 This first map illustrates simple growth rates. It shows the population in 2100 as a percentage of the population in 2020.
 

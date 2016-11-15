@@ -36,7 +36,7 @@ function createMap() {
 
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Population Growth in 2100</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.pop_growth + '% of 2020 population'
+			'<b>' + props.name + '</b><br />' + props.pop_growth.toFixed(0) + '% of 2020 population'
 			: selecttext);
 	};
 

@@ -10,12 +10,19 @@
 
 
 	// control that shows state info on hover
+	// write something better than an if-then... maybe viewport size?
 	var info = L.control();
 
-	var subtext = 'ON DESKTOP'
+	var selecttext = 'select a country'
 
-	if (navigator.userAgent.match(/Android/i)) {
-		var subtext = 'ON MOBILE'
+	if (navigator.userAgent.match(/Android/i) 
+		|| navigator.userAgent.match(/webOS/i)
+		|| navigator.userAgent.match(/iPhone/i)
+		|| navigator.userAgent.match(/iPad/i)
+		|| navigator.userAgent.match(/iPod/i)
+		|| navigator.userAgent.match(/BlackBerry/i)
+		|| navigator.userAgent.match(/Windows Phone/i)) {
+		var selecttext = ''
 	}
 
 	info.onAdd = function (map) {
@@ -27,7 +34,7 @@
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Population Density in 2100</h4>' +  (props ?
 			'<b>' + props.name + '</b><br />' + props.density + ' people / km<sup>2</sup>'
-			: subtext);
+			: selecttext);
 	};
 
 	info.addTo(map);

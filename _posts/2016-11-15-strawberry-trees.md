@@ -15,5 +15,3 @@ Bananas, apples, pears, peaches, grapes, avocados, watermelons, and the other fr
 But I like the fact that the strawberry fruit is so imperfect. Maybe its imperfection is the reason that Hieronymous Bosch painted one in the middle panel of [The Garden of Earthly Delights](https://upload.wikimedia.org/wikipedia/commons/a/ae/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg); the panel between paradise, where everyone presumably eats pomegranates and avocados, and the inferno, where all you get are durian and crab apples.
 
 The food we encounter on a daily basis is too perfect: it's captivating, controlling, and ultimately corrupting. We've created a food paradise, but taking a bite from the apple gets you cast out of the metaphorical Garden of Eden and into (in our modern situation) a state of obesity. Bosch understood that the strawberry tree is neither too perfect nor too imperfect. It's the secular middle between two extremes: neither deceptively appealing nor totally unappealing. You should try eating a strawberry tree fruit.
-
-![Strawberry tree fruit]({{ site.url }}/img/strawberry-tree-fruits.png)

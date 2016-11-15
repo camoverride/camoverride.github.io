@@ -105,7 +105,7 @@
 		onEachFeature: onEachFeature
 	}).addTo(map);
 
-	map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+	map.attributionControl.addAttribution('Population data &copy; <a href="https://esa.un.org/unpd/wpp/Download/Standard/Population/">UN Population Division</a>');
 
 
 	var legend = L.control({position: 'bottomright'});

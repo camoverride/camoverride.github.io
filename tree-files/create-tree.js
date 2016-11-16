@@ -99,19 +99,203 @@ function createTree() {
 						"parent": "Aramean"
 						},
 						{
-						"name": "Brami",
+						"name": "Brahmic",
 						"parent": "Aramean",
 						"children": [
 							{
 							"name": "North Brahmic",
-							"parent": "Brami",
+							"parent": "Brahmic",
 							"children": [
 								{
-								"name": "Devanagari",
-								"parent": "North Brahmic"
+								"name": "Gupta",
+								"parent": "North Brahmic",
+								"children": [
+									{
+									"name": "Bhaiksuki",
+									"parent": "Gupta"
+									},
+									{
+									"name": "Tocharian",
+									"parent": "Gupta"
+									},
+									{
+									"name": "Khotanese",
+									"parent": "Gupta"
+									},
+									{
+									"name": "Sarada",
+									"parent": "Gupta",
+									"children": [
+										{
+										"name": "Landa",
+										"parent": "Sarada",
+										"children": [
+											{
+											"name": "Gurmukhi",
+											"parent": "Landa"
+											},
+											{
+											"name": "Khojki",
+											"parent": "Landa"
+											},
+											{
+											"name": "Khudabadi",
+											"parent": "Landa"
+											},
+											{
+											"name": "Multani",
+											"parent": "Landa"
+											},
+											{
+											"name": "Mahajani",
+											"parent": "Landa"
+											}
+										]
+										},
+										{
+										"name": "Devasesa",
+										"parent": "Sarada",
+										"children": [
+											{
+											"name": "Takri",
+											"parent": "Devasesa"
+											},
+											{
+											"name": "Dogra",
+											"parent": "Devasesa"
+											}
+										]
+										}
+									]
+									},
+
+
+
+
+									{
+									"name": "Siddham",
+									"parent": "Gupta",
+									"children": [
+										{
+										"name": "Tibetan",
+										"parent": "Siddham",
+										"children": [
+											{
+											"name": "Phags-pa",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Pungs-chen",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Pungs-chung",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Marchen",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Marchung",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Square Script",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Soyombo",
+											"parent": "Tibetan"
+											},
+											{
+											"name": "Lepcha",
+											"parent": "Tibetan",
+											"children": [
+												{
+												"name": "Loyombo",
+												"parent": "Lepcha"
+												}
+											]
+											}
+										]
+										}
+									]
+									},
+									{
+									"name": "Nagari",
+									"parent": "Gupta",
+									"children": [
+										{
+										"name": "Devanagari",
+										"parent": "Nagari",
+										"children": [
+											{
+											"name": "Gujarati",
+											"parent": "Devanagari"
+											},
+											{
+											"name": "Modi",
+											"parent": "Devanagari"
+											}
+										]
+										},
+										{
+										"name": "Nandinagari",
+										"parent": "Nagari"
+										},
+										{
+										"name": "Kaithi",
+										"parent": "Nagari",
+										"children": [
+											{
+											"name": "Sylheti",
+											"parent": "Kaithi"
+											}
+										]
+										}
+									]
+									},
+									{
+									"name": "Kalinga",
+									"parent": "Gupta",
+									"children": [
+										{
+										"name": "Odia",
+										"parent": "Kalinga"
+										}
+									]
+									},
+									{
+									"name": "Gaudi",
+									"parent": "Gupta",
+									"children": [
+										{
+										"name": "Bengali",
+										"parent": "Gaudi"
+										},
+										{
+										"name": "Tirhuta",
+										"parent": "Gaudi"
+										},
+										{
+										"name": "Bhujinmol",
+										"parent": "Gaudi"
+										},
+										{
+										"name": "Newar",
+										"parent": "Gaudi"
+										},
+										{
+										"name": "Ranjana",
+										"parent": "Gaudi"
+										}
+									]
+									}
+								]
 								},
 								{
-								"name": "Bengali",
+								"name": "Meithei",
 								"parent": "North Brahmic"
 								}								
 							]
@@ -137,7 +321,7 @@ function createTree() {
 
 	// ************** Generate the tree diagram	 *****************
 	var margin = {top: 20, right: 120, bottom: 20, left: 120},
-		width = 1560 - margin.right - margin.left,
+		width = 1860 - margin.right - margin.left,
 		height = 1000 - margin.top - margin.bottom;
 		
 	var i = 0,
@@ -174,7 +358,7 @@ function createTree() {
 	  // Normalize for fixed-depth.
 	  nodes.forEach(function(d) { d.y = d.depth * 180; });
 
-	  // Update the nodes…
+	  // Update the nodes
 	  var node = svg.selectAll("g.node")
 		  .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
@@ -263,6 +447,13 @@ function createTree() {
 	  }
 	  update(d);
 	}
+
+	function mouseHover(d) {
+
+	}
+
+
+
 };
 
 createTree()

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample Post
-categories: []
+title: Orthography Taxonomy!
+categories: [language]
 comments: true
 ---
 

@@ -107,6 +107,10 @@ function createTree() {
 							"parent": "Brahmic",
 							"children": [
 								{
+								"name": "Meithei",
+								"parent": "North Brahmic"
+								},
+								{
 								"name": "Gupta",
 								"parent": "North Brahmic",
 								"children": [
@@ -168,10 +172,6 @@ function createTree() {
 										}
 									]
 									},
-
-
-
-
 									{
 									"name": "Siddham",
 									"parent": "Gupta",
@@ -293,16 +293,178 @@ function createTree() {
 									]
 									}
 								]
-								},
-								{
-								"name": "Meithei",
-								"parent": "North Brahmic"
 								}								
 							]
 							},
 							{
 							"name": "South Brahmic",
-							"parent": "Brami"
+							"parent": "Brahmic",
+							"children": [
+								{
+								"name": "Tamili",
+								"parent": "South Brahmic",
+								"children": [
+									{
+									"name": "Vattelettu",
+									"parent": "Tamili",
+									"children": [
+										{
+										"name": "Kolezhuthu",
+										"parent": "Vattelettu"
+										}
+									]
+									}
+								]
+								},
+								{
+								"name": "Tamil",
+								"parent": "South Brahmic"
+								},
+								{
+								"name": "Grantha",
+								"parent": "South Brahmic",
+								"children": [
+									{
+									"name": "Malayalam",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Tigalari",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Sinhala",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Dhives Akuru",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Saurashtra",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Khmer",
+									"parent": "Grantha",
+									"children": [
+										{
+										"name": "Thai",
+										"parent": "Khmer"
+										},
+										{
+										"name": "Lao",
+										"parent": "Khmer"
+										}
+									]
+									},
+									{
+									"name": "Cham",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Ahom",
+									"parent": "Grantha"
+									},
+									{
+									"name": "Kawi",
+									"parent": "Grantha",
+									"children": [
+										{
+										"name": "Balinese",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Javanese",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Baybayin",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Batak",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Buhid",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Hanuno-o",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Tagbanwa",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Sundanese",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Lontara",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Makasar",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Rejang",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Mon",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Burmese",
+										"parent": "Kawi"
+										},
+										{
+										"name": "Chakma",
+										"parent": "Kawi"
+										}
+									]
+									},
+									{
+									"name": "Tai Tham",
+									"parent": "Grantha"
+									}
+								]
+								},
+								{
+								"name": "Bhattiprolu",
+								"parent": "South Brahmic",
+								"children": [
+									{
+									"name": "Kadamba",
+									"parent": "Bhattiprolu",
+									"children": [
+										{
+										"name": "Kannada",
+										"parent": "Kadamba"
+										},
+										{
+										"name": "Telugu",
+										"parent": "Kadamba"
+										}
+									]
+									}
+								]
+								},
+								{
+								"name": "Tai Le",
+								"parent": "South Brahmic",
+								"children": [
+									{
+									"name": "New Tai Lue",
+									"parent": "Tai Le" 
+									}
+									]
+								}
+							]
 							}
 						]
 						}
@@ -356,7 +518,7 @@ function createTree() {
 		  links = tree.links(nodes);
 
 	  // Normalize for fixed-depth.
-	  nodes.forEach(function(d) { d.y = d.depth * 180; });
+	  nodes.forEach(function(d) { d.y = d.depth * 110; });
 
 	  // Update the nodes
 	  var node = svg.selectAll("g.node")
@@ -447,12 +609,6 @@ function createTree() {
 	  }
 	  update(d);
 	}
-
-	function mouseHover(d) {
-
-	}
-
-
 
 };
 

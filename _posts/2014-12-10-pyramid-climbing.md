@@ -5,6 +5,8 @@ categories: [travel]
 comments: true
 ---
 
+*Summary: an autobiographical guide for climbing the Great Pyramid of Giza.*
+
 Even though it’s two kilometers away, the Great Pyramid is the biggest thing on the horizon. It looms over the Giza Plateau, which in turn looms over the city of Giza. It’s hard to describe just how large the pyramid is; it’s more of a geographic feature than a building. And there’s this even bigger contrast between the Pyramid, which embodies the eternal, the ahistorical, and the enigmatic, and the city of Giza, where you can buy pirated copies of Frozen from teenagers who are chain-smoking cigarettes next to the McDonald’s.
 
 When the bus jitters to a halt and you shove your way through the crowds of scammers, you’re forced to wrestle with some uncomfortable thoughts. Is this the world’s oldest megastructure, a testament to the creativity and power of human civilization? Or is this the world’s oldest tourist trap, a dismal, decadent, Disneyland?
@@ -28,7 +30,6 @@ We laid our cardboard pieces outside the entrance of the tomb and struck camp. T
 The safest part of the Pyramid to climb is the South-West corner. An asphalt road runs along the pyramid near this corner, and across from it is the necropolis in which our tomb-campsite was located. As we abandoned our camp and approached the pyramid, the tombs offered us concealment: by hugging the sandstone walls and walking slowly, it would be almost impossible for the guards to notice us. We made it to the edge of the road, still hidden by the tombs, and stopped to take account of the situation.[^1]
 
 ![Pyramid complex map]({{ site.url }}/img/pyramid-map.png)
-
 
 I was nervous. We would have to make it across the road, up the first blocks of the pyramid’s base, and all the way to the top and back without being caught by the guards or falling to our deaths. The blocks aren’t exactly stable: they’ve been battered by the elements for the past 4,500 years. The whole structure is slowly melting: transforming, poetically, I suppose, back into the sands from which it emerged.
 

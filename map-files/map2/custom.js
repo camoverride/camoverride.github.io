@@ -1,6 +1,6 @@
 function createMap2() {
 
-	var map = L.map('map2').setView([25, 0], 1.5);
+	var map = L.map('map2').setView([20, 0], 1.5);
 
 	var southWest = L.latLng(200, -200),
     	northEast = L.latLng(-200, 200),

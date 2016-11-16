@@ -5,10 +5,13 @@ categories: [language]
 comments: true
 ---
 
-This is a taxonomic tree of all the writing systems descended from Proto-Canaanite. It does not include some inspired orthographies such as Cherokee, which was invented by [Sequoyah](https://en.wikipedia.org/wiki/Sequoyah). For easier comprehension, collapse branches by clicking on nodes.
+This is a taxonomic tree of all the writing systems descended from Proto-Canaanite.[^1]<sup>,</sup>[^2] It does not include some inspired orthographies such as Cherokee, which was invented by [Sequoyah](https://en.wikipedia.org/wiki/Sequoyah). For easier comprehension, collapse branches by clicking on nodes.
 
 <!--more-->
 
 {% include tree.html %}
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+[^1]: Data taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_systems).
+[^2]: Some taxonomic groupings, such as `North Brahmic` and `South Brahmic`, are used for conveniene of organization even though they are not scripts themselves.

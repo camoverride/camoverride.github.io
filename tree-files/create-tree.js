@@ -43,6 +43,8 @@ var flare =
   {
     "name": "Proto-Canaanite",
     "parent": "null",
+    "beginning": "1200BC",
+    "end": "500BC",
     "children": [
           {
           "name": "Phonecian",
@@ -569,7 +571,7 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", 5.5)
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
@@ -643,7 +645,9 @@ function mouseover(d) {
     //     })
     //     .text(d.name + ": " + d.id);
 
-    document.getElementById("info-box").innerHTML = d.name;
+    document.getElementById("info-box").innerHTML = d.name + ' was spoken from ' + d.beginning + ' to ' + d.end + '.';
+    document.getElementById("text-sample").src = "/img/pope-pic.jpg";
+
 }
 
 function mouseout(d) {

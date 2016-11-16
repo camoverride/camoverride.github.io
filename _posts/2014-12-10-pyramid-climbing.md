@@ -36,13 +36,15 @@ But there was no time for poetic thought: there were no other people around, and
 
 Eason and I are tall (we’re both almost 200cm, or 6’6” in American units). I don’t know how anyone much shorter than us could reasonably heave themselves on top of one of those blocks. Luckily, as I’d learn soon, the blocks became shorter as the pyramid got taller, shrinking from maybe 170cm at the base to 130cm near the summit.
 
-We scrambled up a few more blocks before laying on our stomachs to take a break. I crawled towards the edge of the block and looked down. On the road we’d just crossed was a car. It approached the corner we’d just dashed up. A pang of adrenaline shot through me. Two people exited the vehicle, both carrying flashlights. I thought we’d been busted already, but they paid no special attention to the corner. They simply followed the road towards an outpost building a couple hundred meters away.
+We scrambled up a few more blocks before lying on our stomachs to take a break. I crawled towards the edge of the block and looked down. On the road we’d just crossed was a car. It approached the corner we’d just dashed up. A pang of adrenaline shot through me. Two people exited the vehicle, both carrying flashlights. I thought we’d been busted already, but they paid no special attention to the corner. They simply followed the road towards an outpost building a couple hundred meters away.
 
 After a little while we decided to continue our ascent. Every few minutes we’d rest, and most of these times we’d notice activity on the road below. But no matter how long the guards lingered near the base of the pyramid, they’d eventually depart.
 
 Things were going well until about a third of the way up, when we were interrupted. As I was lurched over the corner of a block, my entire body was suddenly illuminated. ‘Shit!’ I hissed at Eason, ‘They’ve got a spotlight on us!’
 
 We lay prone and crept toward the edge of the block. There was a spotlight on us, but it wasn’t from the guards: there was a huge light system illuminating the entire southern face of the pyramid. It was the evening light show to entertain the tourists, something that we would have known about if we’d opened any guidebook. We were caught in the middle of it.
+
+![Pyramid illuminated]({{ site.url }}/img/pyramid-light-show.png)
 
 If we started climbing again we’d certainly be caught. Although our bodies were tiny compared to the massive face of the pyramid, a well-trained eye would notice our shadows against the sandstone background.
 
@@ -57,6 +59,8 @@ I guess the adrenaline let me fight through the fear: I was never paralyzed like
 We were both getting numb. Our hands were sore from the wind and from scraping against the unpolished rocks. But we made it. I heaved myself over the last block and crawled towards the center of the pyramid’s flat top. Eason was a few seconds behind me, rising to his feet and walking a more dignified victory procession.
 
 As I admired the new bruises that were forming on my arms, hands, and legs, I also had the chance to admire the graffiti: the pyramid was covered with it, chiseled into every surface. I don’t know how many generations of people had been leaving their mark up there, but I decided to take out a pen and leave a mark of my own.
+
+![Pyramid top]({{ site.url }}/img/pyramid-edge.png)
 
 We paced back and forth. The city of Giza was a constellation spread across the Earth. We sucked up the illumination of the city below us. We were breathing it like air. The warmth was being sucked out of us by the gnawing desert cold. Climbing above Giza, rising above the tourist crowds, we’d discovered the real history of the place: it was etched across the sandstone blocks by generations of rule-breakers like ourselves.
 

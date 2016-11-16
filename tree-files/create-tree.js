@@ -483,8 +483,8 @@ function createTree() {
 
 	// ************** Generate the tree diagram	 *****************
 	var margin = {top: 20, right: 120, bottom: 20, left: 120},
-		width = 1860 - margin.right - margin.left,
-		height = 1000 - margin.top - margin.bottom;
+		width = 1160 - margin.right - margin.left,
+		height = 1280 - margin.top - margin.bottom;
 		
 	var i = 0,
 		duration = 750,
@@ -547,7 +547,7 @@ function createTree() {
 		  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
 	  nodeUpdate.select("circle")
-		  .attr("r", 10)
+		  .attr("r", 8)
 		  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
 	  nodeUpdate.select("text")
@@ -565,7 +565,7 @@ function createTree() {
 	  nodeExit.select("text")
 		  .style("fill-opacity", 1e-6);
 
-	  // Update the links…
+	  // Update the links
 	  var link = svg.selectAll("path.link")
 		  .data(links, function(d) { return d.target.id; });
 

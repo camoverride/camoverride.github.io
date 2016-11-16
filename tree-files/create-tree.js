@@ -629,21 +629,26 @@ function click(d) {
     d.children = d._children;
     d._children = null;
   }
+      document.getElementById("info-box").innerHTML = d.name;
+
   update(d);
 }
 
+// Toggle children on hover
 function mouseover(d) {
-    d3.select(this).append("text")
-        .attr("class", "hover")
-        .attr('transform', function(d){ 
-            return 'translate(5, -10)';
-        })
-        .text(d.name + ": " + d.id);
+    // d3.select(this).append("text")
+    //     .attr("class", "hover")
+    //     .attr('transform', function(d){ 
+    //         return 'translate(5, -10)';
+    //     })
+    //     .text(d.name + ": " + d.id);
+
+    document.getElementById("info-box").innerHTML = d.name;
 }
 
-// Toggle children on click.
 function mouseout(d) {
-    d3.select(this).select("text.hover").remove();
+    // d3.select(this).select("text.hover").remove();
+    // document.getElementById("info-box").innerHTML = '&nbsp;';
 }
 
 function collapse(d) {

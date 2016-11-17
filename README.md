@@ -16,7 +16,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Scroll bar/container for tables.
 - [ ] Improve drafts.
 - [ ] Improve map file system - each new map requires a new html doc in `_includes` and a new folder in `map-files`. Also, create 'NA' colors for maps.
-- [ ] D3 tree structue diagrams
+- [ ] Tree structure: info box, upload picture samples, move tree to json, reorganize tree, add branches to tree, add more forms.
 
 ## Articles to add:
 

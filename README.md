@@ -25,7 +25,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] travl - Transnistria
 - [ ] litr - Bear Republic
 - [ ] lang - Language Games (onset/coda switching)
-- [ ] blog - World Population
+- [X] blog - World Population
 - [ ] blog - Dumpster-diving how-to!
 - [ ] proj - Gleanr
 - [ ] blog - How Racist are Our Movies? (speculations about English as a world-language)
@@ -35,15 +35,16 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] lang - What's in a Word?
 - [ ] lang - Learn the Arabic Alphabet via Kurdish (no tricky consonants!)
 - [ ] blog - Interactive Koran
-- [ ] proj - Harmonograph Art
+- [X] proj - Harmonograph Art
 - [ ] travl - Hunter's Point (overpopulation in the Bay Area?)
 - [ ] lang - Orthography Taxonomy
 - [ ] lang - Mapping Logic to the English language (XOR, mental construction of contrapositive NOR, Sartre joke -- engineering approach vs formal logic approach)
 - [ ] blog - Tangents
 
-## Find:
+## Maybe Upload:
 
 - [ ] Srinivasan program
 - [ ] Regier program
 - [ ] Gleanr article
 - [ ] Kawamoto thesis
+- [ ] Resume

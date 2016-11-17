@@ -2,10 +2,9 @@
 layout: post
 title: Climbing the Great Pyramid of Giza at Night
 categories: [travel]
+excerpt: "An autobiographical guide for climbing the Great Pyramid of Giza."
 comments: true
 ---
-
-*Summary: an autobiographical guide for climbing the Great Pyramid of Giza.*
 
 Even though it’s two kilometers away, the Great Pyramid is the biggest thing on the horizon. It looms over the Giza Plateau, which in turn looms over the city of Giza. It’s hard to describe just how large the pyramid is; it’s more of a geographic feature than a building. And there’s this even bigger contrast between the Pyramid, which embodies the eternal, the ahistorical, and the enigmatic, and the city of Giza, where you can buy pirated copies of Frozen from teenagers who are chain-smoking cigarettes next to the McDonald’s.
 

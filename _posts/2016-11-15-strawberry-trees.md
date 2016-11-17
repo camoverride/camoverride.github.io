@@ -2,6 +2,7 @@
 layout: post
 title: Strawberry Trees
 categories: [blog]
+excerpt: "Strawberry trees are interesting but unappreciated."
 comments: true
 ---
 

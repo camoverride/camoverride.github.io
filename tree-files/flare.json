@@ -1,483 +1,593 @@
 treeData = [
-{
-	"name": "Proto-Canaanite",
+	{
+	"name": "Egyptian Hieroglyphs",
 	"parent": "null",
-	"type": "Abjad",
-	"languages": "Proto-Canaanite",
-	"period": "1800BC - 1500BC",
+	"type": "",
+	"period": "",
 	"children": [
-  		{
-    	"name": "Phonecian",
-    	"parent": "Proto-Canaanite",
-    	"children": [
+		{
+		"name": "Hieratic",
+		"parent": "Egyptian Hieroglyphs",
+		"type": "",
+		"period": "",
+		"children": [
 			{
-			"name": "Greek",
-			"parent": "Proto-Canaanite",
+			"name": "Demotic",
+			"parent": "Hieratic",
+			"type": "",
+			"period": "",
 			"children": [
 				{
-				"name": "Latin",
-				"parent": "Greek",
-				"children": [
-					{
-					"name": "English",
-					"parent": "Latin"
-					},
-					{
-					"name": "Spanish",
-					"parent": "Latin"
-					},
-					{
-					"name": "German",
-					"parent": "Latin"
-					},
-					{
-					"name": "French",
-					"parent": "Latin"
-					},
-					{
-					"name": "Hungarian",
-					"parent": "Latin"
-					},
-					{
-					"name": "Turkish",
-					"parent": "Latin"
-					}
-				]
-				},
+				"name": "Meroitic",
+				"parent": "Demotic",
+				"type": "",
+				"period": ""
+				}
+			]
+			}
+		]
+		},
+		{
+		"name": "Proto-Sinaitic",
+		"parent": "Egyptian Hieroglyphs",
+		"type": "Abjad",
+		"languages": "Proto-Canaanite",
+		"period": "1800BC - 1500BC",
+		"children": [
+			{
+			"name": "Ugaritic",
+			"parent": "Proto-Sinaitic",
+			"type": "",
+			"period": ""
+			},
+			{
+			"name": "South Arabian",
+			"parent": "Proto-Sinaitic",
+			"type": "",
+			"period": "",
+			"children": [
 				{
-				"name": "Cyrillic",
-				"parent": "Greek",
-				"children": [
-					{
-					"name": "Russian",
-					"parent": "Cyrillic"
-					},
-					{
-					"name": "Abaza",
-					"parent": "Cyrillic"
-					},
-					{
-					"name": "Ukrainian",
-					"parent": "Cyrillic"
-					}
-				]
-				},					
-				{
-				"name": "Coptic",
-				"parent": "Greek"
-				},
-				{
-				"name": "Armenian",
-				"parent": "Greek"
-				},
-				{
-				"name": "Georgian",
-				"parent": "Greek"
+				"name": "Geez",
+				"parent": "South Arabian",
+				"type": "",
+				"period": ""
 				}
 			]
 			},
-			{
-			"name": "Persian",
-			"parent": "Proto-Canaanite"
-			},
-			{
-			"name": "Hebrew",
-			"parent": "Proto-Canaanite"
-			},
-			{
-			"name": "Aramean",
-			"parent": "Proto-Canaanite",
-			"children": [
+	  		{
+	    	"name": "Phonecian",
+	    	"parent": "Proto-Canaanite",
+	    	"children": [
 				{
-				"name": "Arabic",
-				"parent": "Aramean"
-				},
-				{
-				"name": "Syriac",
-				"parent": "Aramean"
-				},
-				{
-				"name": "Modern Hebrew",
-				"parent": "Aramean"
-				},
-				{
-				"name": "Brahmic",
-				"parent": "Aramean",
+				"name": "Greek",
+				"parent": "Phonecian",
 				"children": [
 					{
-					"name": "North Brahmic",
-					"parent": "Brahmic",
+					"name": "Old Italic",
+					"parent": "Greek",
 					"children": [
 						{
-						"name": "Meithei",
-						"parent": "North Brahmic"
+						"name": "Runic",
+						"parent": "Old Italic"
 						},
 						{
-						"name": "Gupta",
-						"parent": "North Brahmic",
+						"name": "Etruscan",
+						"parent": "Old Italic",
 						"children": [
 							{
-							"name": "Bhaiksuki",
-							"parent": "Gupta"
-							},
-							{
-							"name": "Tocharian",
-							"parent": "Gupta"
-							},
-							{
-							"name": "Khotanese",
-							"parent": "Gupta"
-							},
-							{
-							"name": "Sarada",
-							"parent": "Gupta",
+							"name": "Latin",
+							"parent": "Etruscan",
 							"children": [
 								{
-								"name": "Landa",
-								"parent": "Sarada",
-								"children": [
-									{
-									"name": "Gurmukhi",
-									"parent": "Landa"
-									},
-									{
-									"name": "Khojki",
-									"parent": "Landa"
-									},
-									{
-									"name": "Khudabadi",
-									"parent": "Landa"
-									},
-									{
-									"name": "Multani",
-									"parent": "Landa"
-									},
-									{
-									"name": "Mahajani",
-									"parent": "Landa"
-									}
-								]
-								},
+								"name": "Cherokee",
+								"parent": "Latin"
+								}
+							]
+							}
+						]
+						}
+					]
+					},
+					{
+					"name": "Cyrillic",
+					"parent": "Greek",
+					},					
+					{
+					"name": "Coptic",
+					"parent": "Greek"
+					},
+					{
+					"name": "Armenian",
+					"parent": "Greek"
+					},
+					{
+					"name": "Georgian",
+					"parent": "Greek"
+					}
+				]
+				},
+				{
+				"name": "Paleo-Hebrew",
+				"parent": "Phonecian",
+				"children": [
+					{
+					"name": "Samaritan",
+					"parent": "Paleo-Hebrew"
+					}
+				]
+				},
+				{
+				"name": "Paleo-Berber",
+				"parent": "Phonecian",
+				"children": [
+					{
+					"name": "Tifinagh",
+					"parent": "Paleo-Berber"
+					}
+				]
+				},
+				{
+				"name": "Paleo-Hispanic",
+				"parent": "Phonecian"
+				},
+				{
+				"name": "Aramaic",
+				"parent": "Proto-Canaanite",
+				"children": [
+					{
+					"name": "Syriac",
+					"parent": "Aramaic",
+					"children": [
+						{
+						"name": "Nabataean",
+						"parent": "Syriac",
+						"children": [
+							{
+							"name": "Arabic",
+							"parent": "Nabataean",
+							"children": [
 								{
-								"name": "Devasesa",
-								"parent": "Sarada",
-								"children": [
-									{
-									"name": "Takri",
-									"parent": "Devasesa"
-									},
-									{
-									"name": "Dogra",
-									"parent": "Devasesa"
-									}
-								]
+								"name": "Nko",
+								"parent": "Arabic",
+								}
+							]
+							}
+						]
+						},
+						{
+						"name": "Sogdian",
+						"parent": "Syriac",
+						"children": [
+							{
+							"name": "Manichaean",
+							"parent": "Sogdian"
+							},
+							{
+							"name": "Old Turkic",
+							"parent": "Sogdian",
+							"children": [
+								{
+								"name": "Old Hungarian",
+								"parent": "Old Turkic"
 								}
 							]
 							},
 							{
-							"name": "Siddham",
-							"parent": "Gupta",
+							"name": "Old Uyghur",
+							"parent": "Sogdian",
 							"children": [
 								{
-								"name": "Tibetan",
-								"parent": "Siddham",
+								"name": "Mongolian",
+								"parent": "Old Uyghur"
+								}
+							]
+							}
+						]
+						}
+					]
+					},
+					{
+					"name": "Hebrew",
+					"parent": "Aramaic"
+					},
+					{
+					"name": "Kharosthi",
+					"parent": "Aramaic"
+					},
+					{
+					"name": "Palmyrene",
+					"parent": "Aramaic"
+					},
+					{
+					"name": "Mandaic",
+					"parent": "Aramaic"
+					},
+					{
+					"name": "Pahlavi",
+					"parent": "Aramaic",
+					"children": [
+						{
+						"name": "Avestan",
+						"parent": "Pahlavi"
+						}
+					]
+					},
+					{
+					"name": "Brahmic",
+					"parent": "Aramaic",
+					"children": [
+						{
+						"name": "North Brahmic",
+						"parent": "Brahmic",
+						"children": [
+							{
+							"name": "Meithei",
+							"parent": "North Brahmic"
+							},
+							{
+							"name": "Gupta",
+							"parent": "North Brahmic",
+							"children": [
+								{
+								"name": "Bhaiksuki",
+								"parent": "Gupta"
+								},
+								{
+								"name": "Tocharian",
+								"parent": "Gupta"
+								},
+								{
+								"name": "Khotanese",
+								"parent": "Gupta"
+								},
+								{
+								"name": "Sarada",
+								"parent": "Gupta",
 								"children": [
 									{
-									"name": "Phags-pa",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Pungs-chen",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Pungs-chung",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Marchen",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Marchung",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Square Script",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Soyombo",
-									"parent": "Tibetan"
-									},
-									{
-									"name": "Lepcha",
-									"parent": "Tibetan",
+									"name": "Landa",
+									"parent": "Sarada",
 									"children": [
 										{
-										"name": "Loyombo",
-										"parent": "Lepcha"
+										"name": "Gurmukhi",
+										"parent": "Landa"
+										},
+										{
+										"name": "Khojki",
+										"parent": "Landa"
+										},
+										{
+										"name": "Khudabadi",
+										"parent": "Landa"
+										},
+										{
+										"name": "Multani",
+										"parent": "Landa"
+										},
+										{
+										"name": "Mahajani",
+										"parent": "Landa"
+										}
+									]
+									},
+									{
+									"name": "Devasesa",
+									"parent": "Sarada",
+									"children": [
+										{
+										"name": "Takri",
+										"parent": "Devasesa"
+										},
+										{
+										"name": "Dogra",
+										"parent": "Devasesa"
 										}
 									]
 									}
 								]
-								}
-							]
-							},
-							{
-							"name": "Nagari",
-							"parent": "Gupta",
-							"children": [
+								},
 								{
-								"name": "Devanagari",
-								"parent": "Nagari",
+								"name": "Siddham",
+								"parent": "Gupta",
 								"children": [
 									{
-									"name": "Gujarati",
-									"parent": "Devanagari"
+									"name": "Tibetan",
+									"parent": "Siddham",
+									"children": [
+										{
+										"name": "Phags-pa",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Pungs-chen",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Pungs-chung",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Marchen",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Marchung",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Square Script",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Soyombo",
+										"parent": "Tibetan"
+										},
+										{
+										"name": "Lepcha",
+										"parent": "Tibetan",
+										"children": [
+											{
+											"name": "Loyombo",
+											"parent": "Lepcha"
+											}
+										]
+										}
+									]
+									}
+								]
+								},
+								{
+								"name": "Nagari",
+								"parent": "Gupta",
+								"children": [
+									{
+									"name": "Devanagari",
+									"parent": "Nagari",
+									"children": [
+										{
+										"name": "Gujarati",
+										"parent": "Devanagari"
+										},
+										{
+										"name": "Modi",
+										"parent": "Devanagari"
+										}
+									]
 									},
 									{
-									"name": "Modi",
-									"parent": "Devanagari"
+									"name": "Nandinagari",
+									"parent": "Nagari"
+									},
+									{
+									"name": "Kaithi",
+									"parent": "Nagari",
+									"children": [
+										{
+										"name": "Sylheti",
+										"parent": "Kaithi"
+										}
+									]
 									}
 								]
 								},
 								{
-								"name": "Nandinagari",
-								"parent": "Nagari"
-								},
-								{
-								"name": "Kaithi",
-								"parent": "Nagari",
+								"name": "Kalinga",
+								"parent": "Gupta",
 								"children": [
 									{
-									"name": "Sylheti",
-									"parent": "Kaithi"
+									"name": "Odia",
+									"parent": "Kalinga"
+									}
+								]
+								},
+								{
+								"name": "Gaudi",
+								"parent": "Gupta",
+								"children": [
+									{
+									"name": "Bengali",
+									"parent": "Gaudi"
+									},
+									{
+									"name": "Tirhuta",
+									"parent": "Gaudi"
+									},
+									{
+									"name": "Bhujinmol",
+									"parent": "Gaudi"
+									},
+									{
+									"name": "Newar",
+									"parent": "Gaudi"
+									},
+									{
+									"name": "Ranjana",
+									"parent": "Gaudi"
+									}
+								]
+								}
+							]
+							}								
+						]
+						},
+						{
+						"name": "South Brahmic",
+						"parent": "Brahmic",
+						"children": [
+							{
+							"name": "Tamili",
+							"parent": "South Brahmic",
+							"children": [
+								{
+								"name": "Vattelettu",
+								"parent": "Tamili",
+								"children": [
+									{
+									"name": "Kolezhuthu",
+									"parent": "Vattelettu"
 									}
 								]
 								}
 							]
 							},
 							{
-							"name": "Kalinga",
-							"parent": "Gupta",
+							"name": "Tamil",
+							"parent": "South Brahmic"
+							},
+							{
+							"name": "Grantha",
+							"parent": "South Brahmic",
 							"children": [
 								{
-								"name": "Odia",
-								"parent": "Kalinga"
+								"name": "Malayalam",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Tigalari",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Sinhala",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Dhives Akuru",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Saurashtra",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Khmer",
+								"parent": "Grantha",
+								"children": [
+									{
+									"name": "Thai",
+									"parent": "Khmer"
+									},
+									{
+									"name": "Lao",
+									"parent": "Khmer"
+									}
+								]
+								},
+								{
+								"name": "Cham",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Ahom",
+								"parent": "Grantha"
+								},
+								{
+								"name": "Kawi",
+								"parent": "Grantha",
+								"children": [
+									{
+									"name": "Balinese",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Javanese",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Baybayin",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Batak",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Buhid",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Hanuno-o",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Tagbanwa",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Sundanese",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Lontara",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Makasar",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Rejang",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Mon",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Burmese",
+									"parent": "Kawi"
+									},
+									{
+									"name": "Chakma",
+									"parent": "Kawi"
+									}
+								]
+								},
+								{
+								"name": "Tai Tham",
+								"parent": "Grantha"
 								}
 							]
 							},
 							{
-							"name": "Gaudi",
-							"parent": "Gupta",
+							"name": "Bhattiprolu",
+							"parent": "South Brahmic",
 							"children": [
 								{
-								"name": "Bengali",
-								"parent": "Gaudi"
-								},
-								{
-								"name": "Tirhuta",
-								"parent": "Gaudi"
-								},
-								{
-								"name": "Bhujinmol",
-								"parent": "Gaudi"
-								},
-								{
-								"name": "Newar",
-								"parent": "Gaudi"
-								},
-								{
-								"name": "Ranjana",
-								"parent": "Gaudi"
+								"name": "Kadamba",
+								"parent": "Bhattiprolu",
+								"children": [
+									{
+									"name": "Kannada",
+									"parent": "Kadamba"
+									},
+									{
+									"name": "Telugu",
+									"parent": "Kadamba"
+									}
+								]
 								}
 							]
+							},
+							{
+							"name": "Tai Le",
+							"parent": "South Brahmic",
+							"children": [
+								{
+								"name": "New Tai Lue",
+								"parent": "Tai Le" 
+								}
+								]
 							}
 						]
-						}								
-					]
-					},
-					{
-					"name": "South Brahmic",
-					"parent": "Brahmic",
-					"children": [
-						{
-						"name": "Tamili",
-						"parent": "South Brahmic",
-						"children": [
-							{
-							"name": "Vattelettu",
-							"parent": "Tamili",
-							"children": [
-								{
-								"name": "Kolezhuthu",
-								"parent": "Vattelettu"
-								}
-							]
-							}
-						]
-						},
-						{
-						"name": "Tamil",
-						"parent": "South Brahmic"
-						},
-						{
-						"name": "Grantha",
-						"parent": "South Brahmic",
-						"children": [
-							{
-							"name": "Malayalam",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Tigalari",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Sinhala",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Dhives Akuru",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Saurashtra",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Khmer",
-							"parent": "Grantha",
-							"children": [
-								{
-								"name": "Thai",
-								"parent": "Khmer"
-								},
-								{
-								"name": "Lao",
-								"parent": "Khmer"
-								}
-							]
-							},
-							{
-							"name": "Cham",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Ahom",
-							"parent": "Grantha"
-							},
-							{
-							"name": "Kawi",
-							"parent": "Grantha",
-							"children": [
-								{
-								"name": "Balinese",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Javanese",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Baybayin",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Batak",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Buhid",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Hanuno-o",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Tagbanwa",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Sundanese",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Lontara",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Makasar",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Rejang",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Mon",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Burmese",
-								"parent": "Kawi"
-								},
-								{
-								"name": "Chakma",
-								"parent": "Kawi"
-								}
-							]
-							},
-							{
-							"name": "Tai Tham",
-							"parent": "Grantha"
-							}
-						]
-						},
-						{
-						"name": "Bhattiprolu",
-						"parent": "South Brahmic",
-						"children": [
-							{
-							"name": "Kadamba",
-							"parent": "Bhattiprolu",
-							"children": [
-								{
-								"name": "Kannada",
-								"parent": "Kadamba"
-								},
-								{
-								"name": "Telugu",
-								"parent": "Kadamba"
-								}
-							]
-							}
-						]
-						},
-						{
-						"name": "Tai Le",
-						"parent": "South Brahmic",
-						"children": [
-							{
-							"name": "New Tai Lue",
-							"parent": "Tai Le" 
-							}
-							]
 						}
 					]
 					}
 				]
 				}
-			]
+				]
 			}
-			]
-		},
-		{
-		"name": "Amharic",
-		"parent": "Proto-Canaanite"
-		},
+		]
+		}
 	]
-}
+	}
 ]

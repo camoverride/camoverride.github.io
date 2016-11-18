@@ -2,6 +2,9 @@ treeData = [
 {
 	"name": "Proto-Canaanite",
 	"parent": "null",
+	"type": "Abjad",
+	"languages": "Proto-Canaanite",
+	"period": "1800BC - 1500BC",
 	"children": [
   		{
     	"name": "Phonecian",

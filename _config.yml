@@ -6,9 +6,9 @@
 title: Cameron Smith
 email: 
 description: A person interested in language, art, and research.
-url: # the base hostname & protocol for your site
+url: https://camtsmith.com
 
-
+# the base hostname & protocol for your site 
 #
 ###################################
 # Jekyll configuration

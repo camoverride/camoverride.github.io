@@ -156,7 +156,8 @@ function mouseover(d) {
     //     .text(d.name + ": " + d.id);
 
     document.getElementById("info-box").innerHTML = d.name + ' was spoken from ' + d.beginning + ' to ' + d.end + '.';
-    document.getElementById("text-sample").src = "/img/script-samples/" + d.name + ".jpg";
+    var picName = d.name.replace(/\s/g, '');
+    document.getElementById("text-sample").src = "/img/script-samples/" + picName + ".png";
 
 }
 

@@ -1,4 +1,4 @@
-
+treeData = [
 {
 	"name": "Proto-Canaanite",
 	"parent": "null",
@@ -477,3 +477,4 @@
 		},
 	]
 }
+]

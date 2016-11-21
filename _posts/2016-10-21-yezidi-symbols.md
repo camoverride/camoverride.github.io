@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Yezidi Symbols
-categories: [blog]
+categories: [travel]
 excerpt: "I photographed a number of interesting symbols on Lalish, a mountain that is holy to people of the Yezidi religion."
 comments: true
 ---
@@ -14,10 +14,6 @@ Lalish is the holiest place in the Yezidi religion. It is the mountain where Mel
 This animal is tied by the neck, which might indicate that it is being given as an offering.
 
 ![carving of an animal]({{ site.url }}/img/yezidi-pics/animal.png)
-
-#### A censer where oil is burned.
-
-![yezidi censer]({{ site.url }}/img/yezidi-pics/censer.png)
 
 #### A carving of a plant that resembles chamomile.
 
@@ -34,6 +30,10 @@ This animal is tied by the neck, which might indicate that it is being given as 
 #### Sun, moon, staff.
 
 ![carving of a sun, moon, and staff]({{ site.url }}/img/yezidi-pics/sun-moon-staff.png)
+
+#### A censer where oil is burned.
+
+![yezidi censer]({{ site.url }}/img/yezidi-pics/censer.png)
 
 #### Door to the Yezidi temple.
 

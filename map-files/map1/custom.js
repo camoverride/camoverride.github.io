@@ -1,6 +1,6 @@
-function createMap() {	
+function createMap2() {
 
-	var map = L.map('map').setView([20, 0], 1.5);
+	var map = L.map('map2').setView([20, 0], 1.5);
 
 	var southWest = L.latLng(200, -200),
     	northEast = L.latLng(-200, 200),
@@ -39,23 +39,23 @@ function createMap() {
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Population Growth in 2100</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.pop_growth.toFixed(0) + '% of 2020 population'
+		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.pop_growth + ' people/km<sup>2'
 			: selecttext);
 	};
 
 	info.addTo(map);
 
 
-	// get color depending on population density value
+	// get color depending on population value
 	function getColor(d) {
-		return d > 350 ? '#800026' :
-				d > 200  ? '#BD0026' :
-				d > 145  ? '#E31A1C' :
-				d > 130  ? '#FC4E2A' :
-				d > 115   ? '#FD8D3C' :
-				d > 100   ? '#FEB24C' :
-				d > 85   ? '#FED976' :
+		return d > 1000 ? '#800026' :
+				d > 500  ? '#BD0026' :
+				d > 200  ? '#E31A1C' :
+				d > 100  ? '#FC4E2A' :
+				d > 50   ? '#FD8D3C' :
+				d > 20   ? '#FEB24C' :
+				d > 10   ? '#FED976' :
 							'#FFEDA0';
 	}
 
@@ -119,7 +119,7 @@ function createMap() {
 	legend.onAdd = function (map) {
 
 		var div = L.DomUtil.create('div', 'info legend'),
-			grades = [45, 85, 100, 115, 130, 145, 200, 350],
+			grades = [0, 10, 20, 50, 100, 200, 500, 1000],
 			labels = [],
 			from, to;
 
@@ -137,6 +137,6 @@ function createMap() {
 	};
 
 	legend.addTo(map);
-};
+}
 
-createMap()
+createMap2()

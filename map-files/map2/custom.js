@@ -49,7 +49,8 @@ function createMap2() {
 
 	// get color depending on population value
 	function getColor(d) {
-		return d > 500 ? '#800026' :
+		return d == "NA" ? '#808080' :
+				d > 500 ? '#800026' :
 				d > 300  ? '#BD0026' :
 				d > 200  ? '#E31A1C' :
 				d > 120  ? '#FC4E2A' :

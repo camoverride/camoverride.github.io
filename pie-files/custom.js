@@ -1,3 +1,4 @@
+
 d3.select("input[value=\"option2020\"]").property("checked", true);
 
 var svg = d3.select("pie-wrapper")
@@ -49,25 +50,25 @@ var color = d3.scale.ordinal()
 
 
 datasetTotal = [
-        {label:"North America", value:19}, 
-        {label:"South America", value:5}, 
-        {label:"Sub-Saharan Africa", value:13},
-        {label:"Europe", value:17},
-        {label:"Middle East", value:19},
-        {label:"South Asia", value:27},
-        {label:"East Asia", value:19},
-        {label:"SE Asia and Oceania", value:19}
+        {label:"North America", value:0.599952}, 
+        {label:"South America", value:0.470966}, 
+        {label:"Sub-Saharan Africa", value:1.090812},
+        {label:"Europe", value:0.826974},
+        {label:"Middle East", value:0.627804},
+        {label:"South Asia", value:1.824887},
+        {label:"East Asia", value:1.714428},
+        {label:"Oceania", value:0.611599}
         ];
 
 datasetOption1 = [
-        {label:"North America", value:19}, 
-        {label:"South America", value:5}, 
-        {label:"Sub-Saharan Africa", value:13},
-        {label:"Europe", value:17},
-        {label:"Middle East", value:19},
-        {label:"South Asia", value:27},
-        {label:"East Asia", value:19},
-        {label:"SE Asian and Oceania", value:19}
+        {label:"North America", value:0.758145}, 
+        {label:"South America", value:0.464003}, 
+        {label:"Sub-Saharan Africa", value:3.921021},
+        {label:"Europe", value:0.737175},
+        {label:"Middle East", value:1.062967},
+        {label:"South Asia", value:2.252434},
+        {label:"East Asia", value:1.269423},
+        {label:"Oceania", value:0.664459}
         ];
 
 change(datasetTotal);
@@ -110,17 +111,6 @@ function change(data) {
                 return arc(interpolate(t));
             };
         })
-    slice
-        .on("mousemove", function(d){
-            div.style("left", d3.event.pageX+10+"px");
-            div.style("top", d3.event.pageY-25+"px");
-            div.style("display", "inline-block");
-            div.html((d.data.label)+"<br>"+(d.data.value)+"%");
-        });
-    slice
-        .on("mouseout", function(d){
-            div.style("display", "none");
-        });
 
     slice.exit()
         .remove();
@@ -136,7 +126,7 @@ function change(data) {
                 var offset =  height * color.domain().length / 2;
                 var horz = -3 * legendRectSize;
                 var vert = i * height - offset;
-                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-100) + ')';
+                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-50) + ')';
             });
 
 
@@ -163,7 +153,7 @@ function change(data) {
             .append("text")
             .attr("dy", ".35em")
             .text(function(d) {
-                return (d.data.label+": "+d.value+"%");
+                return (d.data.label+": "+d.value.toFixed(1));
             });
 
         function midAngle(d){
@@ -193,7 +183,7 @@ function change(data) {
                 };
             })
             .text(function(d) {
-                return (d.data.label+": "+d.value+"%");
+                return (d.data.label+": "+d.value.toFixed(2));
             });
 
 

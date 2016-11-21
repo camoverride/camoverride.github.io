@@ -10,13 +10,14 @@ The United Nations Population Division has predicted[^1] that the world's popula
 
 {% include map1.html %}
 
+Population growth can also be thought of in relative terms. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race. The pie chart below shows how each world region's share of the human population will change over the next eighty years.
+
+{% include pie1.html %}
+
 The next map shows the population density (people/km<sup>2</sup>) of countries in 2100. In 2020, many of the most densely-populated large countries will be in South Asia (India, Bangladesh), East Asia (South Korea, Japan), and Europe (Belgium, the Netherlands). On the other hand, in 2100 many of the densest countries will be in Africa (Uganda, Malawi, Nigeria).
 
 {% include map2.html %}
 
-Hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello.
-
-{% include pie1.html %}
 
 
 

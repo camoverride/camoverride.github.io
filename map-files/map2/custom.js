@@ -39,8 +39,8 @@ function createMap2() {
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Relative Growth</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.pop_growth + ' people/km<sup>2'
+		this._div.innerHTML = '<h4>Density in 2100</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + ((parseInt(props.density_2100) < 1) ? "<1" : props.density_2100.toFixed(0)) + ' people/km<sup>2'
 			: selecttext);
 	};
 
@@ -49,13 +49,13 @@ function createMap2() {
 
 	// get color depending on population value
 	function getColor(d) {
-		return d > 1000 ? '#800026' :
-				d > 500  ? '#BD0026' :
+		return d > 500 ? '#800026' :
+				d > 300  ? '#BD0026' :
 				d > 200  ? '#E31A1C' :
-				d > 100  ? '#FC4E2A' :
-				d > 50   ? '#FD8D3C' :
-				d > 20   ? '#FEB24C' :
-				d > 10   ? '#FED976' :
+				d > 120  ? '#FC4E2A' :
+				d > 80   ? '#FD8D3C' :
+				d > 50   ? '#FEB24C' :
+				d > 20   ? '#FED976' :
 							'#FFEDA0';
 	}
 
@@ -66,7 +66,7 @@ function createMap2() {
 			color: 'white',
 			dashArray: '3',
 			fillOpacity: 1,
-			fillColor: getColor(feature.properties.pop_growth)
+			fillColor: getColor(feature.properties.density_2100)
 		};
 	}
 
@@ -119,7 +119,7 @@ function createMap2() {
 	legend.onAdd = function (map) {
 
 		var div = L.DomUtil.create('div', 'info legend'),
-			grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+			grades = [0, 20, 50, 80, 120, 200, 300, 500],
 			labels = [],
 			from, to;
 

@@ -10,7 +10,7 @@ The United Nations Population Division has predicted[^1] that the world's popula
 
 {% include map1.html %}
 
-The next map shows the population density of countries in 2100. In 2020, many of the most densely-populated large countries will be in South Asia (India, Bangladesh), East Asia (South Korea, Japan), and Europe (Belgium, the Netherlands). On the other hand, in 2100 many of the densest countries will be in Africa (Uganda, Malawi, Nigeria).
+The next map shows the population density (people/km<sup>2</sup>) of countries in 2100. In 2020, many of the most densely-populated large countries will be in South Asia (India, Bangladesh), East Asia (South Korea, Japan), and Europe (Belgium, the Netherlands). On the other hand, in 2100 many of the densest countries will be in Africa (Uganda, Malawi, Nigeria).
 
 {% include map2.html %}
 

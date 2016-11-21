@@ -20,8 +20,8 @@ function collapseAll(){
 }
 
 var margin = {top: 20, right: 60, bottom: 5, left: 10},
-    width = 1400 - margin.right - margin.left,
-    height = 1200 - margin.top - margin.bottom;
+    width = 1300 - margin.right - margin.left,
+    height = 1000 - margin.top - margin.bottom;
     
 var i = 0,
     duration = 750,
@@ -141,75 +141,31 @@ function click(d) {
     d.children = d._children;
     d._children = null;
   }
-      document.getElementById("info-box").innerHTML = d.name;
+    document.getElementById("info-name").innerHTML = d.name;
+    document.getElementById("info-type").innerHTML = d.type;
+    document.getElementById("info-languages").innerHTML = d.languages;
+    document.getElementById("info-period").innerHTML = d.period;
 
   update(d);
 }
 
-// //Toggle children on hover
-// function mouseover(d) {
-//     // d3.select(this).append("text")
-//     //     .attr("class", "hover")
-//     //     .attr('transform', function(d){ 
-//     //         return 'translate(5, -10)';
-//     //     })
-//     //     .text(d.name + ": " + d.id);
-
-//     document.getElementById("info-name").innerHTML = d.name;
-//     document.getElementById("info-type").innerHTML = d.type;
-//     document.getElementById("info-languages").innerHTML = d.languages;
-//     document.getElementById("info-period").innerHTML = d.period;
-
-//     var picName = d.name.replace(/\s/g, '');
-//     document.getElementById("text-sample").src = "/img/script-samples/" + picName + ".png";
-// }
-
-// var mouseX;
-// var mouseY;
-// $(document).mousemove( function(loc) {
-//    mouseX = e.pageX; 
-//    mouseY = e.pageY;
-// });  
-// $(".classForHoverEffect").mouseover(function(){
-//   $('#floating-info-box').css({'top':loc,'left':loc}).fadeIn('slow');
-// });
-
-
-
-//function mouseover(d) {}
-
+//Toggle children on hover
 function mouseover(d) {
-  $(".node").hover(function(loc) {
-    var locx ="padding-left:" + loc.pageX;
-    document.getElementById("floating-info-box").innerHTML = typeof locx;
-    document.getElementById("floating-info-box").style = locx;
-  })
+    // d3.select(this).append("text")
+    //     .attr("class", "hover")
+    //     .attr('transform', function(d){ 
+    //         return 'translate(5, -10)';
+    //     })
+    //     .text(d.name + ": " + d.id);
+
+    document.getElementById("info-name").innerHTML = d.name;
+    document.getElementById("info-type").innerHTML = d.type;
+    document.getElementById("info-languages").innerHTML = d.languages;
+    document.getElementById("info-period").innerHTML = d.period;
+
+    var picName = d.name.replace(/\s/g, '');
+    document.getElementById("text-sample").src = "/img/script-samples/" + picName + ".png";
 }
-
-// var mouseX;
-// var mouseY;
-
-// function mouseover(d) {
-//   $(".node").hover(function(loc) {
-
-//     document.getElementById("info-name").innerHTML = d.name;
-
-//     $($(this).data("tooltip")).css({
-//         left: loc.pageX + 5,
-//         top: loc.pageY + 5
-//     }).stop().show(100);
-// }, function() {
-//     $($(this).data("tooltip")).hide();
-// });
-// }
-
-
-
-
-
-
-
-
 
 function mouseout(d) {
     // d3.select(this).select("text.hover").remove();

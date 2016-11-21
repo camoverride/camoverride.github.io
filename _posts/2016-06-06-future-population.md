@@ -2,7 +2,7 @@
 layout: post
 title: Population Projections
 categories: [blog]
-excerpt: "The United Nations Population Division has predicted that the world's population will likely rise to more than 11 billion by the end of this century. I provide some visualizations of this data and speculate about the importance of demographics in science fiction."
+excerpt: "The United Nations Population Division has predicted that the world's population will likely rise to more than 11 billion by the end of this century."
 comments: true
 ---
 

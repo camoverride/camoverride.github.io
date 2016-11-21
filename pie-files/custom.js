@@ -49,30 +49,25 @@ var color = d3.scale.ordinal()
 
 
 datasetTotal = [
-        {label:"Category 1", value:19}, 
-        {label:"Category 2", value:5}, 
-        {label:"Category 3", value:13},
-        {label:"Category 4", value:17},
-        {label:"Category 5", value:19},
-        {label:"Category 6", value:27}
+        {label:"North America", value:19}, 
+        {label:"South America", value:5}, 
+        {label:"Sub-Saharan Africa", value:13},
+        {label:"Europe", value:17},
+        {label:"Middle East", value:19},
+        {label:"South Asia", value:27},
+        {label:"East Asia", value:19},
+        {label:"SE Asia and Oceania", value:19}
         ];
 
 datasetOption1 = [
-        {label:"Category 1", value:22}, 
-        {label:"Category 2", value:33}, 
-        {label:"Category 3", value:4},
-        {label:"Category 4", value:15},
-        {label:"Category 5", value:36},
-        {label:"Category 6", value:0}
-        ];
-
-datasetOption2 = [
-        {label:"Category 1", value:10}, 
-        {label:"Category 2", value:20}, 
-        {label:"Category 3", value:30},
-        {label:"Category 4", value:5},
-        {label:"Category 5", value:12},
-        {label:"Category 6", value:23}
+        {label:"North America", value:19}, 
+        {label:"South America", value:5}, 
+        {label:"Sub-Saharan Africa", value:13},
+        {label:"Europe", value:17},
+        {label:"Middle East", value:19},
+        {label:"South Asia", value:27},
+        {label:"East Asia", value:19},
+        {label:"SE Asian and Oceania", value:19}
         ];
 
 change(datasetTotal);
@@ -141,7 +136,7 @@ function change(data) {
                 var offset =  height * color.domain().length / 2;
                 var horz = -3 * legendRectSize;
                 var vert = i * height - offset;
-                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-50) + ')';
+                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-100) + ')';
             });
 
 

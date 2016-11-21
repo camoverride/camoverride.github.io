@@ -141,7 +141,7 @@ function change(data) {
                 var offset =  height * color.domain().length / 2;
                 var horz = -3 * legendRectSize;
                 var vert = i * height - offset;
-                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-100) + ')';
+                return 'translate(' + ((horz/2)-(width/2.5))+ ',' + ((vert*2)-50) + ')';
             });
 
 

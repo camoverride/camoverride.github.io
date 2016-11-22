@@ -16,7 +16,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 
 ## Articles to add/edit
 
-- [X] lang - Pangrams - create scroll-bar for tables
+- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables.
 - [X] travl - Climbing the Pyramid
 - [X] blog - World Population - make pie chart mobile friendly.
 - [X] lang - Orthography Taxonomy

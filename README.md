@@ -17,7 +17,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 
 ## Articles to add/edit
 
-- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables. 
+- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables. Classical Arabic. Devanagari's beauty from imperfection: sound change = ligatures, syllable supremacy, alphebet only invented once.
 - [X] blog - World Population - make pie chart mobile-friendly.
 - [X] lang - Orthography Taxonomy - make tree mobile-friendly
 - [ ] proj - Harmonograph Art

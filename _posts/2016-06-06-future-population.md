@@ -16,7 +16,7 @@ The United Nations Population Division has predicted[^1] that the world's popula
 
 {% include map1.html %}
 
-Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race. The pie chart below[^3] shows how each region's share of the total human population will change over the next eighty years (population is measured in billions).
+Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race than it did in 2020. The pie chart below[^3] shows how each region's share of the total human population will change over the next eighty years (population is measured in billions).
 
 {% include pie1.html %}
 
@@ -28,8 +28,12 @@ The next map shows the population density (people/km<sup>2</sup>) of countries i
 
 The maps and chart above show that the future of the world will be dominated by Sub-Saharan Africa and South Asia, while the historically large populations of Europe and East Asia will shrink. One of the few popular Western science fiction novels that tries to depict a future Islamic society is Georce Alec Effinger's *When Gravity Fails*, a cyberpunk novel set in a future Middle Eastern society. 
 
-I think that it's important for writers of speculative fiction to understand the demographic transition that the world is going through and reflect this in their writing. The East Asian cliché that gets depicted in novels like *Neuromancer* and movies like *Bladerunner* is certainly an improvement over 1960's sci-fi, where future humanity tends to be blue-eyed and blond-haired (in Fred Hoyle's novel *The Black Cloud* a gas cloud conveniently eliminates only the "equatorial" peoples, leaving the future planet with a demographic composition more agreeable to the author). But it's time that we moved past the East Asian cliché as well and writers began reflecting population predictions in their novels.
+I think that it's important for writers of speculative fiction to understand the demographic transition that the world is going through and reflect this in their writing. The East Asian cliché that gets depicted in novels like *Neuromancer* and movies like *Bladerunner* is certainly an improvement over 1960's sci-fi, where future humanity tends to be blue-eyed and blond-haired (in Fred Hoyle's novel *The Black Cloud* a gas cloud conveniently eliminates only the "equatorial" peoples, leaving the future planet with a demographic composition more agreeable to the author). But it's time that we moved past the East Asian cliché as well: writers should begin reflecting up-to-date population predictions in their novels.
 
+
+
+
+<hr/>
 
 [^1]: [World Population Prospects, 2015, United Nations Population Division](https://esa.un.org/unpd/wpp/Download/Standard/Population/).
 [^2]: Wikipedia provides [a table of growth rates](https://en.wikipedia.org/wiki/List_of_countries_by_future_population_(United_Nations,_medium_fertility_variant)) that complements this map.

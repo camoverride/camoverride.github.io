@@ -12,12 +12,11 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 
 - [ ] Multi languages support.
 - [ ] Photo blog.
-- [ ] Scroll bar/container for tables.
 - [ ] Improve drafts.
 
 ## Articles to add/edit
 
-- [X] lang - Pangrams
+- [X] lang - Pangrams - create scroll-bar for tables
 - [X] travl - Climbing the Pyramid
 - [X] blog - World Population - make pie chart mobile friendly.
 - [X] lang - Orthography Taxonomy

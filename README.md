@@ -13,13 +13,13 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Multi languages support.
 - [ ] Photo blog.
 - [ ] Improve drafts.
+- [ ] Create favicon.
 
 ## Articles to add/edit
 
-- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables.
-- [X] travl - Climbing the Pyramid
-- [X] blog - World Population - make pie chart mobile friendly.
-- [X] lang - Orthography Taxonomy
+- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables. 
+- [X] blog - World Population - make pie chart mobile-friendly.
+- [X] lang - Orthography Taxonomy - make tree mobile-friendly
 - [ ] proj - Harmonograph Art
 - [ ] lang - Color Perception
 - [ ] lang - What's in a Word?

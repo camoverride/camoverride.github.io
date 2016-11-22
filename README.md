@@ -13,7 +13,7 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Multi languages support.
 - [ ] Photo blog.
 - [ ] Improve drafts.
-- [ ] Create favicon.
+- [ ] Improve favicon.
 
 ## Articles to add/edit
 

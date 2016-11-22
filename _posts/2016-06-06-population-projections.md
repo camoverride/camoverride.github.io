@@ -24,11 +24,11 @@ The next map shows the population density (people/km<sup>2</sup>) of countries i
 
 {% include map2.html %}
 
-### Reflection
+### Comments
 
-The maps and chart above show that the future of the world will be dominated by Sub-Saharan Africa and South Asia, while the historically large populations of Europe and East Asia will shrink. One of the few popular Western science fiction novels that tries to depict a future Islamic society is Georce Alec Effinger's *When Gravity Fails*, a cyberpunk novel set in a future Middle Eastern society. 
+The maps and chart above show that the future of the world will be dominated by Sub-Saharan Africa and South Asia, while the historically large populations of Europe and East Asia will shrink. One of the few popular Western science fiction novels that tries to depict a future Islamic society is George Alec Effinger's *When Gravity Fails*, a cyberpunk novel set in a future Middle Eastern society. 
 
-I think that it's important for writers of speculative fiction to understand the demographic transition that the world is going through and reflect this in their writing. The East Asian cliché that gets depicted in novels like *Neuromancer* and movies like *Bladerunner* is certainly an improvement over 1960's sci-fi, where future humanity tends to be blue-eyed and blond-haired (in Fred Hoyle's novel *The Black Cloud* a gas cloud conveniently eliminates only the "equatorial" peoples, leaving the future planet with a demographic composition more agreeable to the author). But it's time that we moved past the East Asian cliché as well: writers should begin reflecting up-to-date population predictions in their novels.
+I think that it's important for writers of speculative fiction to understand the demographic transition that the world is going through and reflect this in their writing. The East Asian cliché that gets depicted in novels like *Neuromancer* and movies like *Bladerunner* is certainly an improvement over 1960's sci-fi, where future humanity tends to be blue-eyed and blond-haired (in Fred Hoyle's novel *The Black Cloud* a gas cloud conveniently eliminates only the "equatorial" peoples, leaving the future planet with a demographic composition more agreeable to the author). But it's time that we moved past the East Asian cliché as well: writers should begin reflecting up-to-date population projections in their novels.
 
 
 

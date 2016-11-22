@@ -30,7 +30,6 @@
 		position: absolute;
 		bottom: 0;
 		clear: both;
-		background:pink;
 	}
 }
 
@@ -71,9 +70,10 @@
 
 #text-sample {
 	width:90%;
-	margin-left: 7px;
-	margin-right: 7px;
+	padding: 7px;
 	max-height: 20%;
+	display: block;
+	margin: auto;
 }
 
 .info-text {

@@ -6,25 +6,25 @@
 
 
 
-	<div style="width:20%;height:100%;background:#f5f5f5;position:fixed; top:0;left:0">
+<div id="info-box">
 
 
-		<p><span id="info-name">Alphabetica</span></p>
-		<img id="text-sample" src="/img/script-samples/Proto-Canaanite.png" alt="image of script">
-		<p class="info-text"><span class="forms">Type: </span><span id="info-type">&nbsp;</span></p>
-		<p class="info-text"><span class="forms">Languages: </span><span id="info-languages">&nbsp;</span></p>
-		<p class="info-text"><span class="forms">Time period: </span><span id="info-period">&nbsp;</span></p>
+	<p><span id="info-name">Alphabetica</span></p>
+	<img id="text-sample" src="/img/script-samples/Proto-Canaanite.png" alt="image of script">
+	<p class="info-text"><span class="forms">Type: </span><span id="info-type">&nbsp;</span></p>
+	<p class="info-text"><span class="forms">Languages: </span><span id="info-languages">&nbsp;</span></p>
+	<p class="info-text"><span class="forms">Time period: </span><span id="info-period">&nbsp;</span></p>
 
-	<button onclick="expandAll()">Expand All</button>
-		<button onclick="collapseAll()">Collapse All</button>
-
-		
-	</div>
+<button onclick="expandAll()">Expand All</button>
+	<button onclick="collapseAll()">Collapse All</button>
 
 
-	<div id="tree" style="margin-left:20%;overflow:scroll; height:100%">
-		<tree-structure></tree-structure>
-	</div>
+</div>
+
+
+<div id="tree">
+	<tree-structure></tree-structure>
+</div>
 
 
 <script type="text/javascript" src="/tree-files/full-screen/create-tree.js"></script>

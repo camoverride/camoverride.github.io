@@ -51,6 +51,12 @@
 	height: 30%;
 }
 
+@media screen and (max-width: 1000px) {
+	#info-box {
+		clear: both;
+	}
+}
+
 @media screen and (min-width: 1000px) {
 	#info-box {
 		width: 20%;
@@ -69,7 +75,6 @@
 }
 
 #text-sample {
-	width:90%;
 	padding: 7px;
 	max-height: 20%;
 	display: block;

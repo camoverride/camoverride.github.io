@@ -26,11 +26,11 @@
 
 @media screen and (max-width: 1000px) {
 	#tree {
-		margin-top: 0%;
 		height: 70%;
 		position: absolute;
 		bottom: 0;
 		clear: both;
+		background:pink;
 	}
 }
 

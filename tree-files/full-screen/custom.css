@@ -54,6 +54,7 @@
 @media screen and (max-width: 1000px) {
 	#info-box {
 		clear: both;
+		position: absolute;
 	}
 }
 
@@ -98,4 +99,10 @@
 
 button {
 	margin-left: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+	.info-text {
+		display: none;
+	}
 }

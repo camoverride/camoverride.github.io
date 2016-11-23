@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Hitchhiking in Iraqi Kurdistan
+title: Hitchhiking Kurdistan
 categories: [travel]
 comments: true
 image:
   feature: pope-pic.png
 ---
-
-
-![]({{ site.url }}/img/pope-pic.jpg)
-
 <!--more-->
 
 ![]({{ site.url }}/img/qiz.jpg)

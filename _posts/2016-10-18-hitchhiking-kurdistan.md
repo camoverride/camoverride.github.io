@@ -3,7 +3,8 @@ layout: post
 title: Hitchhiking in Iraqi Kurdistan
 categories: [travel]
 comments: true
-published: false
+image:
+  feature: pope-pic.png
 ---
 
 

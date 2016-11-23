@@ -45,24 +45,27 @@ layout: default
 
     {% endif %}
 
-    <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn">Read More ></a></div>
-
     {% if post.image.feature %}
     <div class="post-image-feature">
-      <img src=
-      {% if post.image.feature contains 'http' %}
-      "{{ post.image.feature }}"
-      {% else %}
-      "{{ site.url }}/img/{{ post.image.feature }}"
-      {% endif %}
-      alt="{{ post.title }} feature image">
+      <a href="{{ site.url }}{{ post.url }}">
 
-      {% if post.image.credit %}
-      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
-      {% endif %}
 
+        <!--img src=
+        {% if post.image.feature contains 'http' %}
+        "{{ post.image.feature }}"
+        {% else %}
+        "{{ site.url }}/img/{{ post.image.feature }}"
+        {% endif %}
+        alt="{{ post.title }} feature image"-->
+
+        <div style="background-image:url({{ site.url }}/img/{{ post.image.feature }}); height:300px; width:auto;background-size: cover;background-repeat: no-repeat;"></div>
+
+      </a>
     </div><!-- /.image-wrap -->
+
     {% endif %}
+
+    <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn">Read More ></a></div>
 
   <hr/>
 </section>

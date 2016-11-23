@@ -4,6 +4,8 @@ title: Strawberry Trees
 categories: [blog]
 excerpt: "Strawberry trees are interesting but unappreciated."
 comments: true
+image:
+  feature: strawberry-trees.png
 ---
 
 ![Strawberry tree]({{ site.url }}/img/strawberry-trees.png)

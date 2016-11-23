@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-<section class="post">
+<section class="post" style="margin-bottom:0;">
   <header class="post-header">
     
     <h1>
@@ -45,7 +45,6 @@ layout: default
 
     {% endif %}
 
-    <br>
     <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn">Read More ></a></div>
 
     {% if post.image.feature %}
@@ -65,6 +64,6 @@ layout: default
     </div><!-- /.image-wrap -->
     {% endif %}
 
-  <br><hr/>
+  <hr/>
 </section>
 {% endfor %}

@@ -2,26 +2,30 @@ treeData = [
 	{
 	"name": "Egyptian Hieroglyphs",
 	"parent": "null",
-	"type": "",
-	"period": "",
+	"type": "Logography, abjad",
+	"languages": "Egyptian",
+	"period": "3200 BC - 400 AD",
 	"children": [
 		{
 		"name": "Hieratic",
 		"parent": "Egyptian Hieroglyphs",
-		"type": "",
-		"period": "",
+		"type": "Abjad, logographic elements",
+		"languages": "Egyptian",
+		"period": "3200 BC - 200 AD",
 		"children": [
 			{
 			"name": "Demotic",
 			"parent": "Hieratic",
-			"type": "",
-			"period": "",
+			"type": "Abjad",
+			"languages": "Egyptian",
+			"period": "650 BC - 400 AD",
 			"children": [
 				{
 				"name": "Meroitic",
 				"parent": "Demotic",
-				"type": "",
-				"period": ""
+				"type": "Abugida",
+				"languages": "Meroitic, possibly Old Nubian",
+				"period": "300 BC - 600 AD"
 				}
 			]
 			}
@@ -31,56 +35,102 @@ treeData = [
 		"name": "Proto-Sinaitic",
 		"parent": "Egyptian Hieroglyphs",
 		"type": "Abjad",
-		"languages": "Proto-Canaanite",
-		"period": "1800BC - 1500BC",
+		"languages": "Northwest Semetic languages",
+		"period": "1800 BC - 1500 BC",
 		"children": [
 			{
 			"name": "Ugaritic",
 			"parent": "Proto-Sinaitic",
-			"type": "",
-			"period": ""
+			"type": "Abjad",
+			"languages": "Ugaritic, Hurrian",
+			"period": "1500 BC - 1300 BC"
 			},
 			{
 			"name": "South Arabian",
 			"parent": "Proto-Sinaitic",
-			"type": "",
-			"period": "",
+			"type": "Abjad",
+			"languages": "Ge'ez, Old South Arabian",
+			"period": "900 BC - 700 AD",
 			"children": [
 				{
-				"name": "Geez",
+				"name": "Ge'ez",
 				"parent": "South Arabian",
-				"type": "",
-				"period": ""
+				"type": "Abugida",
+				"languages": "Ethiopian Semetic languages, Cushitic languages, Nilo-Saharan languages",
+				"period": "600 BC - present"
 				}
 			]
 			},
 	  		{
-	    	"name": "Phonecian",
+	    	"name": "Phoenecian",
 	    	"parent": "Proto-Canaanite",
+	    	"type": "Abjad",
+	    	"languages": "Phoenecian, Punic",
+			"period": "1200 BC - 150 BC",
 	    	"children": [
 				{
 				"name": "Greek",
-				"parent": "Phonecian",
+				"parent": "Phoenecian",
+				"type": "Alphabet",
+				"languages": "Greek",
+				"period": "800 BC - present",
 				"children": [
 					{
 					"name": "Old Italic",
 					"parent": "Greek",
+					"type": "Alphabet",
+					"languages": "Italic languages, Etruscan, Raetic, Venetic, Lepontic, Messapic",
+					"period": "800 BC - 100 BC",
 					"children": [
 						{
-						"name": "Runic",
-						"parent": "Old Italic"
+						"name": "Elder Futhark",
+						"parent": "Old Italic",
+						"type": "Alphabet",
+						"languages": "Germanic languages",
+						"period": "200 AD - 800 AD",
+						"children": [
+							{
+							"name": "Younger Futhark",
+							"parent": "Elder Futhark",
+							"type": "Alphabet",
+							"languages": "Old Norse",
+							"period": "8th to 12th centuries",
+							"children": [
+								{
+								"name": "Futhork",
+								"parent": "Younger Futhark",
+								"type": "Alphabet",
+								"languages": "North Germanic languages",
+								"period": "12th to 17th centuries"
+								}
+							]
+							},
+							{
+							"name": "Anglo-Saxon Futhark",
+							"parent": "Elder Futhark",
+							"type": "Alphabet",
+							"languages": "Old English, Old Frisian, Latin",
+							"period": "5th to 11th centuries"
+							}
+						]
 						},
 						{
 						"name": "Etruscan",
 						"parent": "Old Italic",
+						"type": "", "languages": "",
+						"period": "",
 						"children": [
 							{
 							"name": "Latin",
 							"parent": "Etruscan",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Cherokee",
-								"parent": "Latin"
+								"parent": "Latin",
+								"type": "", "languages": "",
+								"period": ""
 								}
 							]
 							}
@@ -91,64 +141,92 @@ treeData = [
 					{
 					"name": "Cyrillic",
 					"parent": "Greek",
+					"type": "", "languages": "",
+					"period": ""
 					},					
 					{
 					"name": "Coptic",
-					"parent": "Greek"
+					"parent": "Greek",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Armenian",
-					"parent": "Greek"
+					"parent": "Greek",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Georgian",
-					"parent": "Greek"
+					"parent": "Greek",
+					"type": "", "languages": "",
+					"period": ""
 					}
 				]
 				},
 				{
 				"name": "Paleo-Hebrew",
 				"parent": "Phonecian",
+				"type": "", "languages": "",
+				"period": "",
 				"children": [
 					{
 					"name": "Samaritan",
-					"parent": "Paleo-Hebrew"
+					"parent": "Paleo-Hebrew",
+					"type": "", "languages": "",
+					"period": ""
 					}
 				]
 				},
 				{
 				"name": "Paleo-Berber",
 				"parent": "Phonecian",
+				"type": "", "languages": "",
+				"period": "",
 				"children": [
 					{
 					"name": "Tifinagh",
-					"parent": "Paleo-Berber"
+					"parent": "Paleo-Berber",
+					"type": "", "languages": "",
+					"period": ""
 					}
 				]
 				},
 				{
 				"name": "Paleo-Hispanic",
-				"parent": "Phonecian"
+				"parent": "Phonecian",
+				"type": "", "languages": "",
+				"period": ""
 				},
 				{
 				"name": "Aramaic",
 				"parent": "Proto-Canaanite",
+				"type": "", "languages": "",
+				"period": "",
 				"children": [
 					{
 					"name": "Syriac",
 					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": "",
 					"children": [
 						{
 						"name": "Nabataean",
 						"parent": "Syriac",
+						"type": "", "languages": "",
+						"period": "",
 						"children": [
 							{
 							"name": "Arabic",
 							"parent": "Nabataean",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Nko",
 								"parent": "Arabic",
+								"type": "", "languages": "",
+								"period": ""
 								}
 							]
 							}
@@ -157,28 +235,40 @@ treeData = [
 						{
 						"name": "Sogdian",
 						"parent": "Syriac",
+						"type": "", "languages": "",
+						"period": "",
 						"children": [
 							{
 							"name": "Manichaean",
-							"parent": "Sogdian"
+							"parent": "Sogdian",
+							"type": "", "languages": "",
+							"period": ""
 							},
 							{
 							"name": "Old Turkic",
 							"parent": "Sogdian",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Old Hungarian",
-								"parent": "Old Turkic"
+								"parent": "Old Turkic",
+								"type": "", "languages": "",
+								"period": ""
 								}
 							]
 							},
 							{
 							"name": "Old Uyghur",
 							"parent": "Sogdian",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Mongolian",
-								"parent": "Old Uyghur"
+								"parent": "Old Uyghur",
+								"type": "", "languages": "",
+								"period": ""
 								}
 							]
 							}
@@ -188,99 +278,145 @@ treeData = [
 					},
 					{
 					"name": "Hebrew",
-					"parent": "Aramaic"
+					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Kharosthi",
-					"parent": "Aramaic"
+					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Palmyrene",
-					"parent": "Aramaic"
+					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Mandaic",
-					"parent": "Aramaic"
+					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": ""
 					},
 					{
 					"name": "Pahlavi",
 					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": "",
 					"children": [
 						{
 						"name": "Avestan",
-						"parent": "Pahlavi"
+						"parent": "Pahlavi",
+						"type": "", "languages": "",
+						"period": ""
 						}
 					]
 					},
 					{
 					"name": "Brahmic",
 					"parent": "Aramaic",
+					"type": "", "languages": "",
+					"period": "",
 					"children": [
 						{
 						"name": "North Brahmic",
 						"parent": "Brahmic",
+						"type": "", "languages": "",
+						"period": "",
 						"children": [
 							{
 							"name": "Meithei",
-							"parent": "North Brahmic"
+							"parent": "North Brahmic",
+							"type": "", "languages": "",
+							"period": ""
 							},
 							{
 							"name": "Gupta",
 							"parent": "North Brahmic",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Bhaiksuki",
-								"parent": "Gupta"
+								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Tocharian",
-								"parent": "Gupta"
+								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Khotanese",
-								"parent": "Gupta"
+								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Sarada",
 								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Landa",
 									"parent": "Sarada",
+									"type": "", "languages": "",
+									"period": "",
 									"children": [
 										{
 										"name": "Gurmukhi",
-										"parent": "Landa"
+										"parent": "Landa",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Khojki",
-										"parent": "Landa"
+										"parent": "Landa",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Khudabadi",
-										"parent": "Landa"
+										"parent": "Landa",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Multani",
-										"parent": "Landa"
+										"parent": "Landa",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Mahajani",
-										"parent": "Landa"
+										"parent": "Landa",
+										"type": "", "languages": "",
+										"period": ""
 										}
 									]
 									},
 									{
 									"name": "Devasesa",
 									"parent": "Sarada",
+									"type": "", "languages": "",
+									"period": "",
 									"children": [
 										{
 										"name": "Takri",
-										"parent": "Devasesa"
+										"parent": "Devasesa",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Dogra",
-										"parent": "Devasesa"
+										"parent": "Devasesa",
+										"type": "", "languages": "",
+										"period": ""
 										}
 									]
 									}
@@ -289,46 +425,68 @@ treeData = [
 								{
 								"name": "Siddham",
 								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Tibetan",
 									"parent": "Siddham",
+									"type": "", "languages": "",
+									"period": "",
 									"children": [
 										{
 										"name": "Phags-pa",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Pungs-chen",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Pungs-chung",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Marchen",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Marchung",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Square Script",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Soyombo",
-										"parent": "Tibetan"
+										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Lepcha",
 										"parent": "Tibetan",
+										"type": "", "languages": "",
+										"period": "",
 										"children": [
 											{
 											"name": "Loyombo",
-											"parent": "Lepcha"
+											"parent": "Lepcha",
+											"type": "", "languages": "",
+											"period": ""
 											}
 										]
 										}
@@ -339,32 +497,46 @@ treeData = [
 								{
 								"name": "Nagari",
 								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Devanagari",
 									"parent": "Nagari",
+									"type": "", "languages": "",
+									"period": "",
 									"children": [
 										{
 										"name": "Gujarati",
-										"parent": "Devanagari"
+										"parent": "Devanagari",
+										"type": "", "languages": "",
+										"period": ""
 										},
 										{
 										"name": "Modi",
-										"parent": "Devanagari"
+										"parent": "Devanagari",
+										"type": "", "languages": "",
+										"period": ""
 										}
 									]
 									},
 									{
 									"name": "Nandinagari",
-									"parent": "Nagari"
+									"parent": "Nagari",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Kaithi",
 									"parent": "Nagari",
+									"type": "", "languages": "",
+									"period": "",
 									"children": [
 										{
 										"name": "Sylheti",
-										"parent": "Kaithi"
+										"parent": "Kaithi",
+										"type": "", "languages": "",
+										"period": ""
 										}
 									]
 									}
@@ -373,36 +545,52 @@ treeData = [
 								{
 								"name": "Kalinga",
 								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Odia",
-									"parent": "Kalinga"
+									"parent": "Kalinga",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								},
 								{
 								"name": "Gaudi",
 								"parent": "Gupta",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Bengali",
-									"parent": "Gaudi"
+									"parent": "Gaudi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Tirhuta",
-									"parent": "Gaudi"
+									"parent": "Gaudi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Bhujinmol",
-									"parent": "Gaudi"
+									"parent": "Gaudi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Newar",
-									"parent": "Gaudi"
+									"parent": "Gaudi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Ranjana",
-									"parent": "Gaudi"
+									"parent": "Gaudi",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								}
@@ -413,18 +601,26 @@ treeData = [
 						{
 						"name": "South Brahmic",
 						"parent": "Brahmic",
+						"type": "", "languages": "",
+						"period": "",
 						"children": [
 							{
 							"name": "Tamili",
 							"parent": "South Brahmic",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Vattelettu",
 								"parent": "Tamili",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Kolezhuthu",
-									"parent": "Vattelettu"
+									"parent": "Vattelettu",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								}
@@ -432,137 +628,201 @@ treeData = [
 							},
 							{
 							"name": "Tamil",
-							"parent": "South Brahmic"
+							"parent": "South Brahmic",
+							"type": "", "languages": "",
+							"period": ""
 							},
 							{
 							"name": "Grantha",
 							"parent": "South Brahmic",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Malayalam",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Tigalari",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Sinhala",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Dhives Akuru",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Saurashtra",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Khmer",
 								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Thai",
-									"parent": "Khmer"
+									"parent": "Khmer",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Lao",
-									"parent": "Khmer"
+									"parent": "Khmer",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								},
 								{
 								"name": "Cham",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Ahom",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								},
 								{
 								"name": "Kawi",
 								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Balinese",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Javanese",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Baybayin",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Batak",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Buhid",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Hanuno-o",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Tagbanwa",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Sundanese",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Lontara",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Makasar",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Rejang",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Mon",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Burmese",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Chakma",
-									"parent": "Kawi"
+									"parent": "Kawi",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								},
 								{
 								"name": "Tai Tham",
-								"parent": "Grantha"
+								"parent": "Grantha",
+								"type": "", "languages": "",
+								"period": ""
 								}
 							]
 							},
 							{
 							"name": "Bhattiprolu",
 							"parent": "South Brahmic",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "Kadamba",
 								"parent": "Bhattiprolu",
+								"type": "", "languages": "",
+								"period": "",
 								"children": [
 									{
 									"name": "Kannada",
-									"parent": "Kadamba"
+									"parent": "Kadamba",
+									"type": "", "languages": "",
+									"period": ""
 									},
 									{
 									"name": "Telugu",
-									"parent": "Kadamba"
+									"parent": "Kadamba",
+									"type": "", "languages": "",
+									"period": ""
 									}
 								]
 								}
@@ -571,10 +831,14 @@ treeData = [
 							{
 							"name": "Tai Le",
 							"parent": "South Brahmic",
+							"type": "", "languages": "",
+							"period": "",
 							"children": [
 								{
 								"name": "New Tai Lue",
-								"parent": "Tai Le" 
+								"parent": "Tai Le",
+								"type": "", "languages": "",
+								"period": "" 
 								}
 								]
 							}

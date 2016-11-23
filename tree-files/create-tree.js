@@ -61,8 +61,7 @@ function update(source) {
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
       .on("click", click)
-      .on("mouseover", mouseover)
-      .on("mouseout", mouseout);
+      .on("mouseover", mouseover);
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
@@ -149,27 +148,15 @@ function click(d) {
   update(d);
 }
 
-//Toggle children on hover
+// Toggle children on hover
+// Edit this function to handle errors - read fs to see whether picture exists, else default.
 function mouseover(d) {
-    // d3.select(this).append("text")
-    //     .attr("class", "hover")
-    //     .attr('transform', function(d){ 
-    //         return 'translate(5, -10)';
-    //     })
-    //     .text(d.name + ": " + d.id);
-
     document.getElementById("info-name").innerHTML = d.name;
     document.getElementById("info-type").innerHTML = d.type;
     document.getElementById("info-languages").innerHTML = d.languages;
     document.getElementById("info-period").innerHTML = d.period;
-
     var picName = d.name.replace(/\s/g, '');
     document.getElementById("text-sample").src = "/img/script-samples/" + picName + ".png";
-}
-
-function mouseout(d) {
-    // d3.select(this).select("text.hover").remove();
-    // document.getElementById("info-box").innerHTML = '&nbsp;';
 }
 
 function collapse(d) {

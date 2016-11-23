@@ -8,11 +8,11 @@ image:
 ---
 <!--more-->
 
-![]({{ site.url }}/img/qiz.jpg)
+![]({{ site.url }}/img/qiz.png)
 
-![]({{ site.url }}/img/bush.jpg)
+![]({{ site.url }}/img/bush.png)
 
-![]({{ site.url }}/img/market.jpg)
+![]({{ site.url }}/img/market.png)
 
 ![]({{ site.url }}/img/2.gif)
 

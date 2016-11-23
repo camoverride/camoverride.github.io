@@ -30,9 +30,6 @@ The maps and chart above show that the future of the world will be dominated by 
 
 I think that it's important for writers of speculative fiction to understand the demographic transition that the world is going through and reflect this in their writing. The East Asian cliché that gets depicted in novels like *Neuromancer* and movies like *Bladerunner* is certainly an improvement over 1960's sci-fi, where future humanity tends to be blue-eyed and blond-haired (in Fred Hoyle's novel *The Black Cloud* a gas cloud conveniently eliminates only the "equatorial" peoples, leaving the future planet with a demographic composition more agreeable to the author). But it's time that we moved past the East Asian cliché as well: writers should begin reflecting up-to-date population projections in their novels.
 
-
-
-
 <hr/>
 
 [^1]: [World Population Prospects, 2015, United Nations Population Division](https://esa.un.org/unpd/wpp/Download/Standard/Population/).

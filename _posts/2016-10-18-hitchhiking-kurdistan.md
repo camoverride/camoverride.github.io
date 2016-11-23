@@ -8,6 +8,8 @@ image:
 ---
 <!--more-->
 
+![]({{ site.url }}/img/pope-pic.png)
+
 ![]({{ site.url }}/img/qiz.png)
 
 ![]({{ site.url }}/img/bush.png)

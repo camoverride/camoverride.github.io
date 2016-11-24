@@ -14,12 +14,13 @@ This website uses a modified version of the [Leonids theme](https://github.com/r
 - [ ] Photo blog.
 - [ ] Improve drafts.
 - [ ] Improve favicon.
+- [ ] Select generic width for all images (1500px?).
 
 ## Articles to add/edit
 
-- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables. Classical Arabic. Devanagari's beauty from imperfection: sound change = ligatures, syllable supremacy, alphebet only invented once.
+- [X] lang - Pangrams - create scroll-bar for tables. Mobile-friendly tables. Classical Arabic. Devanagari's beauty from imperfection: sound change = ligatures, syllable supremacy, alphebet only invented once. Change virama example -- it is actually a ligature.
 - [X] blog - World Population - make pie chart mobile-friendly.
-- [X] lang - Orthography Taxonomy - make tree mobile-friendly
+- [X] lang - Orthography Taxonomy - make tree mobile-friendly.
 - [ ] proj - Harmonograph Art
 - [ ] lang - Color Perception
 - [ ] lang - What's in a Word?

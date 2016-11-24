@@ -4,28 +4,28 @@ treeData = [
 	"parent": "null",
 	"type": "Logography, abjad",
 	"languages": "Egyptian",
-	"period": "3200 BC - 400 AD",
+	"period": "32nd century BC to 5th century AD",
 	"children": [
 		{
 		"name": "Hieratic",
 		"parent": "Egyptian Hieroglyphs",
 		"type": "Abjad, logographic elements",
 		"languages": "Egyptian",
-		"period": "3200 BC - 200 AD",
+		"period": "32nd century BC to 3rd century AD",
 		"children": [
 			{
 			"name": "Demotic",
 			"parent": "Hieratic",
 			"type": "Abjad",
 			"languages": "Egyptian",
-			"period": "650 BC - 400 AD",
+			"period": "7th century BC to 5th century AD",
 			"children": [
 				{
 				"name": "Meroitic",
 				"parent": "Demotic",
 				"type": "Abugida",
 				"languages": "Meroitic, possibly Old Nubian",
-				"period": "300 BC - 600 AD"
+				"period": "3rd century BC to 6th century AD"
 				}
 			]
 			}
@@ -36,72 +36,72 @@ treeData = [
 		"parent": "Egyptian Hieroglyphs",
 		"type": "Abjad",
 		"languages": "Northwest Semetic languages",
-		"period": "1800 BC - 1500 BC",
+		"period": "18th to 15th centuries BC",
 		"children": [
 			{
 			"name": "Ugaritic",
 			"parent": "Proto-Sinaitic",
 			"type": "Abjad",
 			"languages": "Ugaritic, Hurrian",
-			"period": "1500 BC - 1300 BC"
+			"period": "15th to 13th centuries BC"
 			},
 			{
 			"name": "South Arabian",
 			"parent": "Proto-Sinaitic",
 			"type": "Abjad",
 			"languages": "Ge'ez, Old South Arabian",
-			"period": "900 BC - 700 AD",
+			"period": "9th century BC to 6th century AD",
 			"children": [
 				{
 				"name": "Ge'ez",
 				"parent": "South Arabian",
 				"type": "Abugida",
 				"languages": "Ethiopian Semetic languages, Cushitic languages, Nilo-Saharan languages",
-				"period": "600 BC - present"
+				"period": "6th century BC to present"
 				}
 			]
 			},
 	  		{
-	    	"name": "Phoenecian",
-	    	"parent": "Proto-Canaanite",
+	    	"name": "Phoenician",
+	    	"parent": "Proto-Sinaitic",
 	    	"type": "Abjad",
-	    	"languages": "Phoenecian, Punic",
-			"period": "1200 BC - 150 BC",
+	    	"languages": "Phoenician, Punic",
+			"period": "12th to 2nd centuries BC",
 	    	"children": [
 				{
 				"name": "Greek",
-				"parent": "Phoenecian",
+				"parent": "Phoenician",
 				"type": "Alphabet",
 				"languages": "Greek",
-				"period": "800 BC - present",
+				"period": "8th century BC - present",
 				"children": [
 					{
 					"name": "Old Italic",
 					"parent": "Greek",
 					"type": "Alphabet",
 					"languages": "Italic languages, Etruscan, Raetic, Venetic, Lepontic, Messapic",
-					"period": "800 BC - 100 BC",
+					"period": "8th to 1st centuries BC",
 					"children": [
 						{
 						"name": "Elder Futhark",
 						"parent": "Old Italic",
 						"type": "Alphabet",
 						"languages": "Germanic languages",
-						"period": "200 AD - 800 AD",
+						"period": "2nd to 8th centuries AD",
 						"children": [
 							{
 							"name": "Younger Futhark",
 							"parent": "Elder Futhark",
 							"type": "Alphabet",
 							"languages": "Old Norse",
-							"period": "8th to 12th centuries",
+							"period": "8th to 12th centuries AD",
 							"children": [
 								{
 								"name": "Futhork",
 								"parent": "Younger Futhark",
 								"type": "Alphabet",
 								"languages": "North Germanic languages",
-								"period": "12th to 17th centuries"
+								"period": "12th to 17th centuries AD"
 								}
 							]
 							},
@@ -110,27 +110,30 @@ treeData = [
 							"parent": "Elder Futhark",
 							"type": "Alphabet",
 							"languages": "Old English, Old Frisian, Latin",
-							"period": "5th to 11th centuries"
+							"period": "5th to 11th centuries AD"
 							}
 						]
 						},
 						{
 						"name": "Etruscan",
 						"parent": "Old Italic",
-						"type": "", "languages": "",
-						"period": "",
+						"type": "Alphabet",
+						"languages": "Etruscan",
+						"period": "8th to 1st centuries BC",
 						"children": [
 							{
 							"name": "Latin",
 							"parent": "Etruscan",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Alphabet",
+							"languages": "Indo-European, Turkic, and Niger-Congo languages along with many others",
+							"period": "5th century BC to present",
 							"children": [
 								{
 								"name": "Cherokee",
 								"parent": "Latin",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Syllabary",
+								"languages": "Cherokee",
+								"period": "1820's to present"
 								}
 							]
 							}
@@ -141,92 +144,115 @@ treeData = [
 					{
 					"name": "Cyrillic",
 					"parent": "Greek",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Alphabet",
+					"languages": "Slavic, Turkic, and Iranian languages along with many others",
+					"period": "10th century to present"
 					},					
 					{
 					"name": "Coptic",
 					"parent": "Greek",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Alphabet",
+					"languages": "Coptic",
+					"period": "2nd century BC to present"
 					},
 					{
 					"name": "Armenian",
 					"parent": "Greek",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Alphabet",
+					"languages": "Armenian",
+					"period": "405 AD to present"
 					},
 					{
 					"name": "Georgian",
 					"parent": "Greek",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Alphabet",
+					"languages": "Georgian and Kartvelian languages",
+					"period": "430 AD to present"
 					}
 				]
 				},
 				{
 				"name": "Paleo-Hebrew",
 				"parent": "Phonecian",
-				"type": "", "languages": "",
-				"period": "",
+				"type": "Abjad",
+				"languages": "Hebrew",
+				"period": "10th century BC to 2nd century AD",
 				"children": [
 					{
 					"name": "Samaritan",
 					"parent": "Paleo-Hebrew",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Abjad",
+					"languages": "Samaritan Hebrew and Samaritan Aramaic",
+					"period": "6th century BC to present"
 					}
 				]
 				},
 				{
-				"name": "Paleo-Berber",
+				"name": "Libyco-Berber",
 				"parent": "Phonecian",
-				"type": "", "languages": "",
-				"period": "",
+				"type": "Abjad",
+				"languages": "Berber languages",
+				"period": "3rd century BC to 3rd century AD",
 				"children": [
 					{
 					"name": "Tifinagh",
-					"parent": "Paleo-Berber",
-					"type": "", "languages": "",
-					"period": ""
+					"parent": "Libyco-Berber",
+					"type": "Abjad",
+					"languages": "Berber languages",
+					"period": "unknown to present",
+					"children": [
+						{
+						"name": "Neo-Tifinagh",
+						"parent": "Tifinagh",
+						"type": "Alphabet",
+						"languages": "Tamazight and north Berber languages",
+						"period": "1980 to present"
+						}
+					]
 					}
 				]
 				},
 				{
 				"name": "Paleo-Hispanic",
 				"parent": "Phonecian",
-				"type": "", "languages": "",
-				"period": ""
+				"type": "Semi-syllabary",
+				"languages": "Paleo-Hispanic languages",
+				"period": "5th to 1st centuries BC"
 				},
 				{
 				"name": "Aramaic",
-				"parent": "Proto-Canaanite",
-				"type": "", "languages": "",
-				"period": "",
+				"parent": "Proto-Sinaitic",
+				"type": "Abjad",
+				"languages": "Aramaic, Hebrew, Syriac, Mandaic, Edomite",
+				"period": "8th century BC to 7th century AD",
 				"children": [
 					{
 					"name": "Syriac",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": "",
+					"type": "Abjad",
+					"languages": "Aramaic languages, Arabic (Garshuni)",
+					"period": "2nd century BC to present",
 					"children": [
 						{
 						"name": "Nabataean",
 						"parent": "Syriac",
-						"type": "", "languages": "",
-						"period": "",
+						"type": "Abjad",
+						"languages": "Nabataean",
+						"period": "2nd century BC to 4th century AD",
 						"children": [
 							{
 							"name": "Arabic",
 							"parent": "Nabataean",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Abjad",
+							"languages": "Semitic, Indo-European, and Turkic languages, and many others",
+							"period": "4th century AD to present",
 							"children": [
 								{
-								"name": "Nko",
+								"name": "N'ko",
 								"parent": "Arabic",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Alphabet",
+								"languages": "N'ko",
+								"period": "1949 to present"
 								}
 							]
 							}
@@ -235,40 +261,46 @@ treeData = [
 						{
 						"name": "Sogdian",
 						"parent": "Syriac",
-						"type": "", "languages": "",
-						"period": "",
+						"type": "Abjad",
+						"languages": "Sogdian",
+						"period": "2nd to 13th centuries AD",
 						"children": [
 							{
 							"name": "Manichaean",
 							"parent": "Sogdian",
-							"type": "", "languages": "",
-							"period": ""
+							"type": "Abjad",
+							"languages": "Manichaean Middle Iranian",
+							"period": "3rd to 10th centuries AD"
 							},
 							{
 							"name": "Old Turkic",
 							"parent": "Sogdian",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Alphabet",
+							"languages": "Old Turkic",
+							"period": "8th to 10th centuries AD",
 							"children": [
 								{
 								"name": "Old Hungarian",
 								"parent": "Old Turkic",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Alphabet",
+								"languages": "Hungarian",
+								"period": "12th to 17th centuries AD"
 								}
 							]
 							},
 							{
 							"name": "Old Uyghur",
 							"parent": "Sogdian",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Alphabet",
+							"languages": "Old Uyghur and Western Yugur",
+							"period": "8th to 19th centuries AD",
 							"children": [
 								{
 								"name": "Mongolian",
 								"parent": "Old Uyghur",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Alphabet",
+								"languages": "Mongolian, Manchu, and Evenki",
+								"period": "13th century AD to present"
 								}
 							]
 							}
@@ -279,118 +311,130 @@ treeData = [
 					{
 					"name": "Hebrew",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Abjad",
+					"languages": "Hebrew and Jewish languages",
+					"period": "3rd century BC to present"
 					},
 					{
 					"name": "Kharosthi",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Abugida",
+					"languages": "Gandhari Prakrit",
+					"period": "4th century BC to 3rd century AD"
 					},
 					{
 					"name": "Palmyrene",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Abjad",
+					"languages": "Palmyrene Aramaic",
+					"period": "1st century BC to 4th century AD"
 					},
 					{
 					"name": "Mandaic",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": ""
+					"type": "Alphabet",
+					"languages": "Mandaic, Neo-Mandaic",
+					"period": "unknown to present"
 					},
 					{
 					"name": "Pahlavi",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": "",
+					"type": "Abjad, logography",
+					"languages": "Middle Iranian languages",
+					"period": "2nd century BC to 17th century AD",
 					"children": [
 						{
 						"name": "Avestan",
 						"parent": "Pahlavi",
-						"type": "", "languages": "",
-						"period": ""
+						"type": "Alphabet",
+						"languages": "Avestan language, Middle Persian",
+						"period": "5th to 11th centuries AD"
 						}
 					]
 					},
 					{
-					"name": "Brahmic",
+					"name": "Brahmi",
 					"parent": "Aramaic",
-					"type": "", "languages": "",
-					"period": "",
+					"type": "Abugida",
+					"languages": "Prakrit languages, Dravidian languages, Saka, Tocharian",
+					"period": "3rd century BC to 5th century AD",
 					"children": [
 						{
 						"name": "North Brahmic",
-						"parent": "Brahmic",
-						"type": "", "languages": "",
+						"parent": "Brahmi",
+						"type": "Abugida",
+						"languages": "",
 						"period": "",
 						"children": [
 							{
 							"name": "Meithei",
 							"parent": "North Brahmic",
-							"type": "", "languages": "",
-							"period": ""
+							"type": "Abugida",
+							"languages": "Meithei",
+							"period": "unknown to 18th century AD"
 							},
 							{
 							"name": "Gupta",
 							"parent": "North Brahmic",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Abugida",
+							"languages": "Sanskrit",
+							"period": "4th century AD to unknown",
 							"children": [
 								{
 								"name": "Bhaiksuki",
 								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Sanskrit",
+								"period": "11th to 12th centuries AD"
 								},
 								{
 								"name": "Tocharian",
 								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": ""
-								},
-								{
-								"name": "Khotanese",
-								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Tocharian",
+								"period": "8th century AD"
 								},
 								{
 								"name": "Sarada",
 								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Sanskrit, Kashmiri",
+								"period": "9th century AD to present",
 								"children": [
 									{
 									"name": "Landa",
 									"parent": "Sarada",
-									"type": "", "languages": "",
-									"period": "",
+									"type": "Abugida",
+									"languages": "Punjabi and other Indo-Aryan languages",
+									"period": "10th century to present",
 									"children": [
 										{
 										"name": "Gurmukhi",
 										"parent": "Landa",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Punjabi and Gurmukhi, also Indo-Aryan languages and Persian",
+										"period": "16th century AD to present"
 										},
 										{
 										"name": "Khojki",
 										"parent": "Landa",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Gujarati, Kutchi, Sindhi",
+										"period": "16th century AD to present"
 										},
 										{
 										"name": "Khudabadi",
 										"parent": "Landa",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Sindhi",
+										"period": "16th century AD to 1947"
 										},
 										{
 										"name": "Multani",
 										"parent": "Landa",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Saraiki",
+										"period": "18th to 20th centuries AD"
 										},
 										{
 										"name": "Mahajani",
@@ -600,7 +644,7 @@ treeData = [
 						},
 						{
 						"name": "South Brahmic",
-						"parent": "Brahmic",
+						"parent": "Brahmi",
 						"type": "", "languages": "",
 						"period": "",
 						"children": [

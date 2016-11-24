@@ -155,7 +155,7 @@ function mouseover(d) {
     document.getElementById("info-type").innerHTML = d.type;
     document.getElementById("info-languages").innerHTML = d.languages;
     document.getElementById("info-period").innerHTML = d.period;
-    var picName = d.name.replace(/\s/g, '');
+    var picName = d.name.replace(/\s/g, '').replace(/'/g, '');
     document.getElementById("text-sample").src = "/img/script-samples/" + picName + ".png";
 }
 

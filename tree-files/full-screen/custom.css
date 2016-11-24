@@ -80,9 +80,8 @@
 
 #text-sample {
 	padding: 7px;
-	max-height: 20%;
 	display: block;
-	margin: auto;
+	width:96%;
 }
 
 .info-text {

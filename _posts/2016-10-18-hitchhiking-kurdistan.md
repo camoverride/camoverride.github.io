@@ -8,6 +8,8 @@ image:
 ---
 <!--more-->
 
+In 2016 I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Along the way I had the chance to learn some of the Kurdish language, experience the regional cultures, and meet a lot of interesting people. Some of my photographs are below.
+
 #### Mor Gabriel
 
 I met the patriarch of Mor Gabriel, an Assyrian Christian monastary in Turkey.
@@ -16,13 +18,13 @@ I met the patriarch of Mor Gabriel, an Assyrian Christian monastary in Turkey.
 
 #### Qizqapan
 
-Qizqapan is rumored to be the tomb of Median King Cyaxares. Cyaxares' forces clashed with the Lydians in the battle of Halys. During the battle, an eclipse occurred. Interpreting this as an omen, the opposing sides agreed to stop the bloodshed. [The Eclipse of Thales](https://en.wikipedia.org/wiki/Eclipse_of_Thales) is the oldest historical event that is known to the exact day. The Ionian columns that flank the tomb's entrance predate any Ionian columns in Greece, which has led some historians to include that this architectural style was invented by the Medians, not the Greeks.
+Qizqapan is rumored to be the tomb of Median King Cyaxares. Cyaxares' forces clashed with the Lydians in the battle of Halys. During the battle, an eclipse occurred. Interpreting this as an omen, the opposing sides agreed to stop the bloodshed. [The Eclipse of Thales](https://en.wikipedia.org/wiki/Eclipse_of_Thales) is the oldest historical event that is known to the exact day. The Ionian columns that flank the tomb's entrance predate any Ionian columns in Greece, which has led some historians to include that this architectural style was invented by the Medians.
 
 ![]({{ site.url }}/img/qiz.png)
 
 #### Checkpoints
 
-Peshmerga soldiers control the roads, making Iraqi Kurdistan one of the safest places in the Middle East. Many Kurds are fond of the Bush administration for ending the regime of Saddam Hussein -- although the invasion has caused the rest of Iraq to descent into chaos, Kurdistan was able to free itself from the weakened central government and to flourish independently.
+Peshmerga soldiers control the roads, making Iraqi Kurdistan an island of stability in a war-torn region. Many Kurds are fond of the Bush administration for ending the regime of Saddam Hussein -- although the invasion has caused the rest of Iraq to descent into chaos, Kurdistan was able to free itself from the weakened central government and to flourish independently.
 
 ![]({{ site.url }}/img/bush.png)
 

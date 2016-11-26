@@ -8,7 +8,7 @@ image:
 ---
 <!--more-->
 
-In 2016 I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Along the way I had the chance to learn some of the Kurdish language, experience the regional cultures, and meet interesting people. Some of my photographs are below.
+I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Along the way I had the chance to learn some of the Kurdish language, experience the regional cultures, and meet interesting people. Some of my photographs are below.
 
 #### Bazaar
 

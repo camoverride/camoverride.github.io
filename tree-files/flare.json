@@ -1,6 +1,6 @@
 treeData = [
 	{
-	"name": "Egyptian Hieroglyphs",
+	"name": "Hieroglyphs",
 	"parent": "null",
 	"type": "Logography, abjad",
 	"languages": "Egyptian",

@@ -4,6 +4,7 @@ title: Yazidi Symbols
 categories: [travel]
 excerpt: "I photographed a number of interesting symbols on Lalish, a mountain holy to Yazidis."
 comments: true
+published: false
 image:
   feature: yezidi-pics/sun-moon-staff.png
 ---

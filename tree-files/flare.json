@@ -39,13 +39,6 @@ treeData = [
 		"period": "18th to 15th centuries BC",
 		"children": [
 			{
-			"name": "Ugaritic",
-			"parent": "Proto-Sinaitic",
-			"type": "Abjad",
-			"languages": "Ugaritic, Hurrian",
-			"period": "15th to 13th centuries BC"
-			},
-			{
 			"name": "South Arabian",
 			"parent": "Proto-Sinaitic",
 			"type": "Abjad",
@@ -69,15 +62,59 @@ treeData = [
 			"period": "12th to 2nd centuries BC",
 	    	"children": [
 				{
-				"name": "Greek",
+				"name": "Archaic Greek",
 				"parent": "Phoenician",
 				"type": "Alphabet",
-				"languages": "Greek",
-				"period": "8th century BC - present",
+				"languages": "Archaic Greek languages",
+				"period": "8th to 4th centuries BC",
 				"children": [
 					{
+					"name": "Anatolian Scripts",
+					"parent": "Archaic Greek",
+					"type": "Alphabet",
+					"languages": "Anatolian languages, Phrygian",
+					"period": "5th to 3rd centuries BC"
+					},
+					{
+					"name": "Greek",
+					"parent": "Archaic Greek",
+					"type": "Alphabet",
+					"languages": "Greek",
+					"period": "4th century BC to present",
+					"children": [
+						{
+						"name": "Cyrillic",
+						"parent": "Greek",
+						"type": "Alphabet",
+						"languages": "Slavic, Turkic, and Iranian languages along with many others",
+						"period": "10th century to present"
+						},					
+						{
+						"name": "Coptic",
+						"parent": "Greek",
+						"type": "Alphabet",
+						"languages": "Coptic",
+						"period": "2nd century BC to present"
+						},
+						{
+						"name": "Armenian",
+						"parent": "Greek",
+						"type": "Alphabet",
+						"languages": "Armenian",
+						"period": "405 AD to present"
+						},
+						{
+						"name": "Georgian",
+						"parent": "Greek",
+						"type": "Alphabet",
+						"languages": "Georgian and Kartvelian languages",
+						"period": "430 AD to present"
+						}
+					]
+					},
+					{
 					"name": "Old Italic",
-					"parent": "Greek",
+					"parent": "Archaic Greek",
 					"type": "Alphabet",
 					"languages": "Italic languages, Etruscan, Raetic, Venetic, Lepontic, Messapic",
 					"period": "8th to 1st centuries BC",
@@ -140,34 +177,6 @@ treeData = [
 						]
 						}
 					]
-					},
-					{
-					"name": "Cyrillic",
-					"parent": "Greek",
-					"type": "Alphabet",
-					"languages": "Slavic, Turkic, and Iranian languages along with many others",
-					"period": "10th century to present"
-					},					
-					{
-					"name": "Coptic",
-					"parent": "Greek",
-					"type": "Alphabet",
-					"languages": "Coptic",
-					"period": "2nd century BC to present"
-					},
-					{
-					"name": "Armenian",
-					"parent": "Greek",
-					"type": "Alphabet",
-					"languages": "Armenian",
-					"period": "405 AD to present"
-					},
-					{
-					"name": "Georgian",
-					"parent": "Greek",
-					"type": "Alphabet",
-					"languages": "Georgian and Kartvelian languages",
-					"period": "430 AD to present"
 					}
 				]
 				},

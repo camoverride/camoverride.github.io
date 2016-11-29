@@ -712,141 +712,149 @@ treeData = [
 								{
 								"name": "Cham",
 								"parent": "Grantha",
-								"type": "",
-								"languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Cham",
+								"period": "8th century AD to present"
 								},
 								{
 								"name": "Ahom",
 								"parent": "Grantha",
-								"type": "",
-								"languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Ahom",
+								"period": "13th to 19th centuries AD"
 								},
 								{
 								"name": "Kawi",
 								"parent": "Grantha",
-								"type": "",
-								"languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": " 	Indonesian Languages, Philippine Languages, Malaysian Languages",
+								"period": "8th to 16th centuries AD",
 								"children": [
 									{
 									"name": "Balinese",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Balinese, Sasak",
+									"period": "11th century AD to present"
 									},
 									{
 									"name": "Javanese",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Javanese, Sundanese, Sasak, Banyumasan, Osing, Madurese, Cirebonese",
+									"period": "13th century AD to present"
 									},
 									{
 									"name": "Baybayin",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Bikol languages, Ilocano, Pangasinan, Tagalog, Visayan, other Philippine languages",
+									"period": "13th to 18th centuries AD"
 									},
 									{
 									"name": "Batak",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Batak languages",
+									"period": "14th century AD to present"
 									},
 									{
 									"name": "Buhid",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Buhid",
+									"period": "14th century AD to present"
 									},
 									{
-									"name": "Hanuno-o",
+									"name": "Hanuno'o",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Hanuno'o",
+									"period": "14th century AD to present"
 									},
 									{
 									"name": "Tagbanwa",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Palawan languages",
+									"period": "14th century AD to present"
 									},
 									{
 									"name": "Sundanese",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Sundanese",
+									"period": "14th century AD to present"
 									},
 									{
 									"name": "Lontara",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Makasar",
-									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Buginese language, Makassarese language, Mandar language",
+									"period": "17th century AD to present"
 									},
 									{
 									"name": "Rejang",
 									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Mon",
-									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Burmese",
-									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Chakma",
-									"parent": "Kawi",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Rejang",
+									"period": "Unknown to 20th century AD"
 									}
 								]
 								},
 								{
 								"name": "Tai Tham",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Northern Thai, Tai Lü, Khün",
+								"period": "14th century AD to present"
 								}
 							]
 							},
 							{
 							"name": "Bhattiprolu",
 							"parent": "South Brahmic",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Abugida",
+							"languages": "Dravidian languages, Prakrit",
+							"period": "3rd to 1st centuries AD",
 							"children": [
 								{
 								"name": "Kadamba",
 								"parent": "Bhattiprolu",
-								"type": "", "languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Kannada, Sanskrit, Konkani, Marathi",
+								"period": "5th to 10th centuries AD",
 								"children": [
 									{
 									"name": "Kannada",
 									"parent": "Kadamba",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Kannada, Tulu, Kodava, Badaga, Beary, Sanketi",
+									"period": "5th century AD to present"
 									},
 									{
 									"name": "Telugu",
 									"parent": "Kadamba",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Telugu, Sanskrit",
+									"period": "4th century BC to present"
+									},
+									{
+									"name": "Pyu",
+									"parent": "Kadamba",
+									"type": "Abugida",
+									"languages": "Pyu",
+									"period": "3rd to 13th centuries AD",
+									"children": [
+										{
+										"name": "Burmese",
+										"parent": "Pyu",
+										"type": "Abugida",
+										"languages": "Burmese",
+										"period": "10th century AD to present"
+										}
+
+									]
 									}
 								]
 								}
@@ -861,8 +869,9 @@ treeData = [
 								{
 								"name": "New Tai Lue",
 								"parent": "Tai Le",
-								"type": "", "languages": "",
-								"period": "" 
+								"type": "Abugida",
+								"languages": "Tai Lü",
+								"period": "20th century AD to present" 
 								}
 								]
 							}

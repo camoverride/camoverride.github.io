@@ -69,4 +69,13 @@ layout: default
 
   <hr/>
 </section>
+<script type="text/javascript">
+  var fnotes = ["fn:1", "fn:2", "fn:3", "fn:4", "fn:5", "fn:6",]
+  for (i = 0; i <= fnotes.length; i++) {
+    var element = document.getElementById(fnotes[i]);
+    element.outerHTML = "";
+  }
+</script>
 {% endfor %}
+
+<!--  stop footnotes from appearing  -->

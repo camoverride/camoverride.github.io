@@ -2,7 +2,6 @@
 layout: post
 title: Climbing the Great Pyramid of Giza at Night
 categories: [travel]
-excerpt: "An autobiographical guide for climbing the Great Pyramid of Giza."
 comments: true
 ---
 

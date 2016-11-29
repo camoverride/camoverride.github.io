@@ -2,7 +2,6 @@
 layout: post
 title: Population Projections
 categories: [blog]
-excerpt: "The United Nations Population Division has predicted that the world's population will likely rise to more than 11 billion by the end of this century. I talk about how demographic predictions can inform speculative fiction."
 comments: true
 ---
 
@@ -15,6 +14,8 @@ In the next section I created some data visualizations to demonstrate the planet
 The United Nations Population Division has predicted[^1] that the world's population will likely rise to more than 11 billion by the end of this century. While most countries will experience population growth, some will experience more growth than others. Niger is expected to grow from a population of 24 million in 2020 to around 200 million in 2100. Countries such as Botswana will grow close to the world's average rate of 145%. On the other hand, Moldova's population will decrease from four million to less than two million: the greatest decline of any country. The map below[^2] shows the population of countries in 2100 as a percentage of their population in 2020.
 
 {% include map1.html %}
+
+<!--more-->
 
 Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race than it did in 2020. The pie chart below[^3] shows how each region's share of the total human population will change over the next eighty years (population is measured in billions).
 

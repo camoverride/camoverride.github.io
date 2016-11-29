@@ -6,7 +6,6 @@ comments: true
 image:
   feature: pope-pic.png
 ---
-<!--more-->
 
 I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Along the way I had the chance to learn some of the Kurdish language, experience the regional cultures, and meet interesting people. Some of my photographs are below.
 
@@ -21,6 +20,8 @@ This is the main market in Sulaymaniyah, cultural capital of Iraqi Kurdistan. Su
 Qizqapan is rumored to be the tomb of Median King Cyaxares. Cyaxares' forces clashed with the Lydians in the battle of Halys. During the battle, an eclipse occurred. Interpreting this as an omen, the opposing sides agreed to stop the bloodshed. Because it occurred during [The Eclipse of Thales](https://en.wikipedia.org/wiki/Eclipse_of_Thales), this battle is the oldest historical event that is known to the exact day. The Ionian columns that flank the tomb's entrance predate any Ionian columns in Greece, which has led some historians to include that this architectural style was invented first by the Medians. Also, in contrast to its standard depiction, the [Faravahar](https://en.wikipedia.org/wiki/Faravahar) symbol left of the tomb's entrance has wings that curl upwards. I'm not sure why someone spray-painted **ناتۆ** (NATO) all over the tomb's facade.
 
 ![]({{ site.url }}/img/qiz.png)
+
+<!--more-->
 
 #### Checkpoints
 

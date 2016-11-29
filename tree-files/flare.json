@@ -471,20 +471,11 @@ treeData = [
 								"period": "7th century AD to present",
 								"children": [
 									{
-									"name": "Bengali",
-									"parent": "Siddham",
+									"name": "Ranjana",
+									"parent": "Gaudi",
 									"type": "Abugida",
-									"languages": "Bengali, Meithei, Bishnupriya Manipuri, Kokborok",
-									"period": "11th century AD to present",
-									"children": [
-										{
-										"name": "Tirhuta",
-										"parent": "Bengali",
-										"type": "Abugida",
-										"languages": "Maithili, Sanskrit",
-										"period": "15th to 20th centuries AD"
-										}
-									]
+									"languages": "Newar, Sanskrit, Tibetan",
+									"period": "11th century AD to present"
 									},
 									{
 									"name": "Tibetan",
@@ -535,53 +526,69 @@ treeData = [
 								{
 								"name": "Nagari",
 								"parent": "Gupta",
-								"type": "",
-								"languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Sanskrit, Old Javanese, Old Sundanese",
+								"period": "8th to 11th centuries AD",
 								"children": [
+									{
+									"name": "Bengali",
+									"parent": "Siddham",
+									"type": "Abugida",
+									"languages": "Bengali, Meithei, Bishnupriya Manipuri, Kokborok",
+									"period": "11th century AD to present",
+									"children": [
+										{
+										"name": "Tirhuta",
+										"parent": "Bengali",
+										"type": "Abugida",
+										"languages": "Maithili, Sanskrit",
+										"period": "15th to 20th centuries AD"
+										}
+									]
+									},
 									{
 									"name": "Devanagari",
 									"parent": "Nagari",
-									"type": "",
-									"languages": "",
-									"period": "",
+									"type": "Abugida",
+									"languages": "Many Indo-Aryan languages including Hindi, Maithili, Nepali, and Sindhi. Also Bodo.",
+									"period": "11th century AD to present",
 									"children": [
 										{
 										"name": "Gujarati",
 										"parent": "Devanagari",
-										"type": "",
-										"languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Gujarati, Sanskrit, Kutchi, Avestan",
+										"period": "16th century AD to present"
 										},
 										{
 										"name": "Modi",
 										"parent": "Devanagari",
-										"type": "",
-										"languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Marathi. Also Konkani, Gujarati, Hindi, Kannada, Telugu, Tamil, Urdu and Sanskrit",
+										"period": "13th to 17th centuries AD"
 										}
 									]
 									},
 									{
 									"name": "Nandinagari",
 									"parent": "Nagari",
-									"type": "",
-									"languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Sanskrit",
+									"period": "8th century AD to present"
 									},
 									{
 									"name": "Kaithi",
 									"parent": "Nagari",
-									"type": "",
-									"languages": "",
-									"period": "",
+									"type": "Abugida",
+									"languages": "Angika, Awadhi, Bhojpuri, Braj Bhasha, Caribbean Hindustani, Fiji Hindi, Magahi, Maithili, Hindi, Urdu",
+									"period": "16th to 20th centuries AD",
 									"children": [
 										{
 										"name": "Sylheti",
 										"parent": "Kaithi",
-										"type": "",
-										"languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Sylheti, Bengali",
+										"period": "14th to 20th centuries AD"
 										}
 									]
 									}
@@ -603,33 +610,6 @@ treeData = [
 									}
 								]
 								},
-
-
-
-
-
-									
-
-
-
-									{
-									"name": "Bhujinmol",
-									"parent": "Gaudi",
-									"type": "",
-									"languages": "",
-									"period": ""
-									},
-									{
-									"name": "Ranjana",
-									"parent": "Gaudi",
-									"type": "",
-									"languages": "",
-									"period": ""
-									}
-
-
-
-
 							]
 							}								
 						]

@@ -69,13 +69,21 @@ layout: default
 
   <hr/>
 </section>
+
+<!--  stop footnotes from appearing  -->
 <script type="text/javascript">
-  var fnotes = ["fn:1", "fn:2", "fn:3", "fn:4", "fn:5", "fn:6",]
-  for (i = 0; i <= fnotes.length; i++) {
-    var element = document.getElementById(fnotes[i]);
+  var allElements = document.getElementsByTagName("*");
+  var allIds = [];
+  for (var i = 0, n = allElements.length; i < n; ++i) {
+    var el = allElements[i];
+    if (el.id.substring(0,3) == "fn:") { 
+      allIds.push(el.id);
+    }
+  }
+  for (i = 0; i < allIds.length; i++) {
+    var element = document.getElementById(allIds[i]);
     element.outerHTML = "";
   }
 </script>
-{% endfor %}
 
-<!--  stop footnotes from appearing  -->
+{% endfor %}

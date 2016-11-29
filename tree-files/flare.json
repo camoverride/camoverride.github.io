@@ -471,6 +471,22 @@ treeData = [
 								"period": "7th century AD to present",
 								"children": [
 									{
+									"name": "Bengali",
+									"parent": "Siddham",
+									"type": "Abugida",
+									"languages": "Bengali, Meithei, Bishnupriya Manipuri, Kokborok",
+									"period": "11th century AD to present",
+									"children": [
+										{
+										"name": "Tirhuta",
+										"parent": "Bengali",
+										"type": "Abugida",
+										"languages": "Maithili, Sanskrit",
+										"period": "15th to 20th centuries AD"
+										}
+									]
+									},
+									{
 									"name": "Tibetan",
 									"parent": "Siddham",
 									"type": "Abugida",
@@ -480,32 +496,37 @@ treeData = [
 										{
 										"name": "Phags-pa",
 										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Alphabet",
+										"languages": "Mongolian, Sanskrit, Tibetan, Chinese, Uyghur",
+										"period": "13th to 14th centuries AD"
 										},
 										{
 										"name": "Square Script",
 										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "unknown",
+										"languages": "Mongolian",
+										"period": "unknown"
 										},
 										{
 										"name": "Soyombo",
 										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Mongolian, Tibetan, Sanskrit",
+										"period": "17th to 18th centuries AD"
 										},
 										{
 										"name": "Lepcha",
 										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Lepcha",
+										"period": "18th century AD to present"
 										},
 										{
 										"name": "Limbu",
 										"parent": "Lepcha",
-										"type": "", "languages": "",
-										"period": ""
+										"type": "Abugida",
+										"languages": "Limbu",
+										"period": "18th century AD to present"
 										}
 									]
 									}
@@ -514,25 +535,29 @@ treeData = [
 								{
 								"name": "Nagari",
 								"parent": "Gupta",
-								"type": "", "languages": "",
+								"type": "",
+								"languages": "",
 								"period": "",
 								"children": [
 									{
 									"name": "Devanagari",
 									"parent": "Nagari",
-									"type": "", "languages": "",
+									"type": "",
+									"languages": "",
 									"period": "",
 									"children": [
 										{
 										"name": "Gujarati",
 										"parent": "Devanagari",
-										"type": "", "languages": "",
+										"type": "",
+										"languages": "",
 										"period": ""
 										},
 										{
 										"name": "Modi",
 										"parent": "Devanagari",
-										"type": "", "languages": "",
+										"type": "",
+										"languages": "",
 										"period": ""
 										}
 									]
@@ -540,19 +565,22 @@ treeData = [
 									{
 									"name": "Nandinagari",
 									"parent": "Nagari",
-									"type": "", "languages": "",
+									"type": "",
+									"languages": "",
 									"period": ""
 									},
 									{
 									"name": "Kaithi",
 									"parent": "Nagari",
-									"type": "", "languages": "",
+									"type": "",
+									"languages": "",
 									"period": "",
 									"children": [
 										{
 										"name": "Sylheti",
 										"parent": "Kaithi",
-										"type": "", "languages": "",
+										"type": "",
+										"languages": "",
 										"period": ""
 										}
 									]
@@ -562,55 +590,46 @@ treeData = [
 								{
 								"name": "Kalinga",
 								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Dravidian languages",
+								"period": "Unknown to 12th century AD",
 								"children": [
 									{
 									"name": "Odia",
 									"parent": "Kalinga",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Odia",
+									"period": "11th century AD to present"
 									}
 								]
 								},
-								{
-								"name": "Gaudi",
-								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": "",
-								"children": [
-									{
-									"name": "Bengali",
-									"parent": "Gaudi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Tirhuta",
-									"parent": "Gaudi",
-									"type": "", "languages": "",
-									"period": ""
-									},
+
+
+
+
+
+									
+
+
+
 									{
 									"name": "Bhujinmol",
 									"parent": "Gaudi",
-									"type": "", "languages": "",
-									"period": ""
-									},
-									{
-									"name": "Newar",
-									"parent": "Gaudi",
-									"type": "", "languages": "",
+									"type": "",
+									"languages": "",
 									"period": ""
 									},
 									{
 									"name": "Ranjana",
 									"parent": "Gaudi",
-									"type": "", "languages": "",
+									"type": "",
+									"languages": "",
 									"period": ""
 									}
-								]
-								}
+
+
+
+
 							]
 							}								
 						]

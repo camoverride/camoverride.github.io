@@ -617,109 +617,117 @@ treeData = [
 						{
 						"name": "South Brahmic",
 						"parent": "Brahmi",
-						"type": "", "languages": "",
+						"type": "",
+						"languages": "",
 						"period": "",
 						"children": [
 							{
 							"name": "Tamili",
 							"parent": "South Brahmic",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Abugida",
+							"languages": "Archaic Tamil",
+							"period": "2nd century BC to 6th century AD",
 							"children": [
 								{
 								"name": "Vattelettu",
 								"parent": "Tamili",
-								"type": "", "languages": "",
-								"period": "",
-								"children": [
-									{
-									"name": "Kolezhuthu",
-									"parent": "Vattelettu",
-									"type": "", "languages": "",
-									"period": ""
-									}
-								]
+								"type": "Abugida",
+								"languages": "Tamil, Malayalam",
+								"period": "8th century AD to present"
 								}
 							]
 							},
 							{
 							"name": "Tamil",
 							"parent": "South Brahmic",
-							"type": "", "languages": "",
-							"period": ""
+							"type": "Abugida",
+							"languages": "Tamil, Kanikkaran, Badaga, Irula, Paniya, Sanskrit, Saurashtra",
+							"period": "8th century AD to present"
 							},
 							{
 							"name": "Grantha",
 							"parent": "South Brahmic",
-							"type": "", "languages": "",
-							"period": "",
+							"type": "Abugida",
+							"languages": "Malayalam, Tamil, Sanskrit",
+							"period": "7th century AD to present",
 							"children": [
 								{
 								"name": "Malayalam",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Malayalam, Sanskrit",
+								"period": "9th century AD to present"
 								},
 								{
 								"name": "Tigalari",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Sanskrit, Tulu",
+								"period": "13th century AD to present"
 								},
 								{
 								"name": "Sinhala",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Sinhalese",
+								"period": "8th century AD to present"
 								},
 								{
 								"name": "Dhives Akuru",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Maldivan",
+								"period": "12th to 20th centuries AD"
 								},
 								{
 								"name": "Saurashtra",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": ""
+								"type": "Abugida",
+								"languages": "Saurashtra",
+								"period": "19th century AD to present"
 								},
 								{
 								"name": "Khmer",
 								"parent": "Grantha",
-								"type": "", "languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Khmer",
+								"period": "7th century AD to present",
 								"children": [
 									{
 									"name": "Thai",
 									"parent": "Khmer",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Thai, Lanna, Isan",
+									"period": "13th century AD to present"
 									},
 									{
 									"name": "Lao",
 									"parent": "Khmer",
-									"type": "", "languages": "",
-									"period": ""
+									"type": "Abugida",
+									"languages": "Lao, Thai",
+									"period": "14th century AD to present"
 									}
 								]
 								},
 								{
 								"name": "Cham",
 								"parent": "Grantha",
-								"type": "", "languages": "",
+								"type": "",
+								"languages": "",
 								"period": ""
 								},
 								{
 								"name": "Ahom",
 								"parent": "Grantha",
-								"type": "", "languages": "",
+								"type": "",
+								"languages": "",
 								"period": ""
 								},
 								{
 								"name": "Kawi",
 								"parent": "Grantha",
-								"type": "", "languages": "",
+								"type": "",
+								"languages": "",
 								"period": "",
 								"children": [
 									{

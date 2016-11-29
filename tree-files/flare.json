@@ -448,71 +448,37 @@ treeData = [
 										{
 										"name": "Mahajani",
 										"parent": "Landa",
-										"type": "", "languages": "",
+										"type": "Abugida",
+										"languages": "",
 										"period": ""
 										}
 									]
 									},
 									{
-									"name": "Devasesa",
-									"parent": "Sarada",
-									"type": "", "languages": "",
-									"period": "",
-									"children": [
-										{
-										"name": "Takri",
-										"parent": "Devasesa",
-										"type": "", "languages": "",
-										"period": ""
-										},
-										{
-										"name": "Dogra",
-										"parent": "Devasesa",
-										"type": "", "languages": "",
-										"period": ""
-										}
-									]
+									"name": "Takri",
+									"parent": "Devasesa",
+									"type": "Abugida",
+									"languages": "Dogri",
+									"period": "Unknown to 1980's"
 									}
 								]
 								},
 								{
 								"name": "Siddham",
 								"parent": "Gupta",
-								"type": "", "languages": "",
-								"period": "",
+								"type": "Abugida",
+								"languages": "Sanskrit",
+								"period": "7th century AD to present",
 								"children": [
 									{
 									"name": "Tibetan",
 									"parent": "Siddham",
-									"type": "", "languages": "",
-									"period": "",
+									"type": "Abugida",
+									"languages": "Tibetan, Dzongkha, Ladakhi, Sikkimese, Balti, Tamang, Sherpa, Yolmo, Tshangla, Gurung",
+									"period": "6th century AD to present",
 									"children": [
 										{
 										"name": "Phags-pa",
-										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
-										},
-										{
-										"name": "Pungs-chen",
-										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
-										},
-										{
-										"name": "Pungs-chung",
-										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
-										},
-										{
-										"name": "Marchen",
-										"parent": "Tibetan",
-										"type": "", "languages": "",
-										"period": ""
-										},
-										{
-										"name": "Marchung",
 										"parent": "Tibetan",
 										"type": "", "languages": "",
 										"period": ""
@@ -533,15 +499,13 @@ treeData = [
 										"name": "Lepcha",
 										"parent": "Tibetan",
 										"type": "", "languages": "",
-										"period": "",
-										"children": [
-											{
-											"name": "Loyombo",
-											"parent": "Lepcha",
-											"type": "", "languages": "",
-											"period": ""
-											}
-										]
+										"period": ""
+										},
+										{
+										"name": "Limbu",
+										"parent": "Lepcha",
+										"type": "", "languages": "",
+										"period": ""
 										}
 									]
 									}

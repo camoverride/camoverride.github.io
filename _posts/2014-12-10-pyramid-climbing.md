@@ -11,8 +11,6 @@ When the bus jitters to a halt and you shove your way through the crowds of scam
 
 For Eason (my travel companion) and me, it didn’t really matter. Not being too self-critical when you’re breaking the law is important. We weren’t approaching the Giza Plateau as tourists. We’d come with a specific goal in mind: sneak inside the plateau, wait until night time, and climb to the top of Khufu’s Great Pyramid.
 
-<!--more-->
-
 As perpetually underprepared travelers, we needed to wander through Giza to find the supplies necessary for our ascent. Our quest for food, water, and cardboard gave us the opportunity to scope out the fence that separated the Giza Plateau from the city of Giza.
 
 The fence was about ten meters high. The bottom half was concrete and the upper half chain-link topped with an extra dash of barbed-wire. The fence was adjacent to a slum, so we figured that there had to be some sort of hole drilled in it. However, after an hour of trudging through the slum, we can to the conclusion that the thing was impenetrable.
@@ -24,6 +22,8 @@ After we paid the entrance fee and wandered a little deeper into the plateau, th
 After a few hours of wandering through the sand, we eventually found a collection of tombs that made for a decent hiding place. One of the tombs was accessible: a yawning rectangular opening at the bottom of a depression in the sand, a maw shrouded in shadow. It was like something from an Indiana Jones movie, except that upon closer examination the tomb turned out to be filled with soda bottles instead of snakes.
 
 We laid our cardboard pieces outside the entrance of the tomb and struck camp. The falafel balls and bottles of water we’d bought quickly vanished, as did the sun. Twilight, Eason argued, would be the best time to start our climb. He was right.
+
+<!--more-->
 
 The safest part of the Pyramid to climb is the South-West corner. An asphalt road runs along the pyramid near this corner, and across from it is the necropolis in which our tomb-campsite was located. As we abandoned our camp and approached the pyramid, the tombs offered us concealment: by hugging the sandstone walls and walking slowly, it would be almost impossible for the guards to notice us. We made it to the edge of the road, still hidden by the tombs, and stopped to take account of the situation.[^1]
 

@@ -184,7 +184,16 @@ treeData = [
 								"parent": "Latin",
 								"type": "Syllabary",
 								"languages": "Cherokee",
-								"period": "1820's to present"
+								"period": "1820's to present",
+								"children": [
+									{
+									"name": "Vai",
+									"parent": "Cherokee",
+									"type": "Syllabary",
+									"languages": "Vai",
+									"period": "1830's to present"
+									}
+								]
 								}
 							]
 							}

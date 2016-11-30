@@ -28,6 +28,13 @@ treeData = [
 				"period": "3rd century BC to 6th century AD"
 				}
 			]
+			},
+			{
+			"name": "Byblic",
+			"parent": "Hieratic",
+			"type": "Unknown; possibly a Syllabary",
+			"languages": "Unknown",
+			"period": "18th century to 14th centuries BC"
 			}
 		]
 		},
@@ -88,6 +95,13 @@ treeData = [
 						"type": "Alphabet",
 						"languages": "Slavic, Turkic, and Iranian languages along with many others",
 						"period": "10th century AD to present"
+						},
+						{
+						"name": "Glagolithic",
+						"parent": "Greek",
+						"type": "Alphabet",
+						"languages": "Old Church Slavic",
+						"period": "9th to 20th centuries AD"
 						},					
 						{
 						"name": "Coptic",
@@ -677,7 +691,16 @@ treeData = [
 								"parent": "Grantha",
 								"type": "Abugida",
 								"languages": "Maldivan",
-								"period": "12th to 20th centuries AD"
+								"period": "12th to 20th centuries AD",
+								"children": [
+									{
+									"name": "Thaana",
+									"parent": "Dhives Akuru",
+									"type": "Abugida",
+									"languages": "Maldivan",
+									"period": "18th century AD to present"
+									}
+								]
 								},
 								{
 								"name": "Saurashtra",

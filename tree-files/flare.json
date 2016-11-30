@@ -737,7 +737,16 @@ treeData = [
 									"parent": "Khmer",
 									"type": "Abugida",
 									"languages": "Lao, Thai",
-									"period": "14th century AD to present"
+									"period": "14th century AD to present",
+									"children": [
+										{
+										"name": "Pahawh Hmong",
+										"parent": "Lao",
+										"type": "Semi-syllabary",
+										"languages": "Hmong Daw, Hmong Njua",
+										"period": "20th century to present"
+										}
+									]
 									}
 								]
 								},

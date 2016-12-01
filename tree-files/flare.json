@@ -46,6 +46,13 @@ treeData = [
 		"period": "18th to 15th centuries BC",
 		"children": [
 			{
+			"name": "Ugaritic",
+			"parent": "Proto-Sinaitic",
+			"type": "Abjad",
+			"languages": "Ugaritic, Hurrian",
+			"period": "13th to 11th centuries BC"
+			},
+			{
 			"name": "South Arabian",
 			"parent": "Proto-Sinaitic",
 			"type": "Abjad",

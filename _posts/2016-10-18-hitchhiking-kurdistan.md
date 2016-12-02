@@ -5,11 +5,11 @@ categories: [travel]
 comments: true
 ---
 
-I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Along the way I had the chance to learn some of the Kurdish language, experience the regional cultures, and meet interesting people. Some of my photographs are below.
+I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Below are some pictures that I took along the way.
 
 #### Bazaar
 
-This is the main market in Sulaymaniyah, cultural capital of Iraqi Kurdistan. Sulaymaniyah has suburbs that sprawl into the brown naked hills that ring the city on every side. Because of its location in a valley, the city is shrouded in thick smog before the afternoon winds arrive to blow it away. After the smog dissipates, it's pleasant to stroll through the market and buy lunch.
+This is the main market in Sulaymaniyah, cultural capital of Iraqi Kurdistan. Sulaymaniyah's suburbs sprawl into the brown naked hills that ring the city. Because of its location in a valley, the city is shrouded in thick smog before the afternoon winds arrive to blow it away. After the smog dissipates, the market becomes populated.
 
 ![]({{ site.url }}/img/market.png)
 
@@ -23,7 +23,7 @@ Qizqapan is rumored to be the tomb of Median King Cyaxares. Cyaxares' forces cla
 
 #### Checkpoints
 
-Peshmerga soldiers control the roads, making Iraqi Kurdistan an island of stability in a war-torn region. Many Kurds are fond of the Bush administration for ending the regime of Saddam Hussein -- although the invasion has caused the rest of Iraq to descent into chaos, Kurdistan was able to free itself from the weakened central government and to flourish independently.
+Peshmerga soldiers control the roads, making Iraqi Kurdistan an island of stability in a war-torn region. Many Kurds are fond of the Bush administration for ending the regime of Saddam Hussein -- although the invasion has caused the rest of Iraq to descend into chaos, Kurdistan was able to free itself from the weakened central government and to flourish independently.
 
 ![]({{ site.url }}/img/bush.png)
 

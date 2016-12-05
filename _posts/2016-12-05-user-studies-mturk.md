@@ -15,11 +15,11 @@ But language-learning is only one category of research that I'm interested in. O
 
 I wanted to see whether people have a similar bias for head directions. I found 120 images: 40 with heads in three-quarters view facing right, 40 facing left, and 40 looking forward. I presented the images to different participants in their naturally-occurring orientation and flipped horizontally and asked participants to rate the images for attractiveness. Although I'm still scraping through the data, it seems that people tend to have a preference for heads facing towards the right, exposing the left side of the face.
 
-This is very interesting, because it seems to suggest that advertisers could increase the likeability of their advertisements by simply flipping them. For instance, in the cropped Coca-Cola advertisement below, participants preferred the reversed image on the right over the original image on the left.
+This is very interesting, because it seems to suggest that advertisers can increase the likeability of their advertisements by simply flipping them. For instance, in the cropped Coca-Cola advertisement below, participants preferred the reversed image on the right over the original image on the left.
 
 ![picture coke advertisement, normal and flipped]({{ site.url }}/img/coke-ad.png)
 
-Producing a professional advertisement can cost tens of thousands of dollars[^4], but conducting a simple Mechanical Turk study is so cheap that I can do it as a hobby. Perhaps companies should take a more research-oriented approach to advertising, accounting for well-known psychological preferences before revealing their ads. After all, the cost of horizontally flipping an image is free.
+Producing a professional advertisement can cost tens of thousands of dollars[^4], but conducting a simple Mechanical Turk study is so cheap that I can do it as a hobby. Perhaps companies should take a more research-oriented approach to advertising, accounting for well-known psychological preferences before revealing their ads. After all, the cost of horizontally flipping an image is nothing when compared with the cost of designing an entire advertisement.
 
 [^1]: [Nisbett & Wilson, 1978](http://www.people.virginia.edu/~tdw/nisbett&wilson.pdf). When shown several identical stockings, people have a strong preference for the stockings on their right.
 [^2]: [Bergen, Benjamin. (2012). Louder Than Words](http://www.cogsci.ucsd.edu/~bkbergen/#books). People prefer scenes that flow in the same direction as their writing system. English-speakers like scenes that go from left to right, whereas Arabic and Hebrew speakers like scenes that go from right to left.

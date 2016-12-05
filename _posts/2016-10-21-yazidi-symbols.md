@@ -2,11 +2,7 @@
 layout: post
 title: Yazidi Symbols
 categories: [travel]
-excerpt: "I photographed a number of interesting symbols on Lalish, a mountain holy to Yazidis."
 comments: true
-published: false
-image:
-  feature: yezidi-pics/sun-moon-staff.png
 ---
 
 Yazidis believe that god created the world by casting a white pearl into the cosmic ocean. As it sunk into the depths, the pearl shattered, becoming the substance from which the material universe would be formed. To assist in his work, god created the Peacock Angel, Tawsi Melek. Six more angels were fashioned by god to assist Tawsi Melek, greatest of the angels, in his creation of the world.
@@ -23,6 +19,8 @@ While I wandered through Lalish I asked locals about the meanings of the symbols
 An animal tied by the neck, which might indicate that it is being given as an offering.
 
 ![carving of an animal]({{ site.url }}/img/yezidi-pics/animal.png)
+
+<!--more-->
 
 #### Chamomile
 
@@ -50,6 +48,6 @@ A five-petaled flower that resembles a cinquefoil. However, cinquefoils are not 
 
 #### Tomb of Sheikh Adi
 
-The peacock in the pediment above the door is Tawsi Melek. To the right of the door is a black snake. This snake might have once been a living snake that had attacked the residents of Lalish. It might also be the physical manifestation of one of the seven angels.
+The peacock in the pediment above the door is Tawsi Melek. To the right of the door is a black snake. This might have once been a living snake that had attacked the residents of Lalish. It might also be the physical manifestation of one of the seven angels.
 
 ![picture of the door to the yezidi temple]({{ site.url }}/img/yezidi-pics/door.png)

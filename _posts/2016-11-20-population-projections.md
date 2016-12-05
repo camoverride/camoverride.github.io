@@ -15,7 +15,7 @@ The United Nations Population Division has projected[^1] that the world's popula
 
 {% include map1.html %}
 
-Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race than it did in 2020. The pie chart below[^3] shows how each region's share of the total human population will change over the next eighty years (population is measured in billions).
+Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race than it did in 2020. The pie charts below[^3] shows how each region's share of the total human population will change over the next eighty years (population is measured in billions).
 
 <!--more-->
 

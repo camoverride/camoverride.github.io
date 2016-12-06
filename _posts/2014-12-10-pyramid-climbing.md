@@ -25,9 +25,10 @@ We laid our cardboard pieces outside the entrance of the tomb and struck camp. T
 
 <!--more-->
 
-The safest part of the Pyramid to climb is the South-West corner. An asphalt road runs along the pyramid near this corner, and across from it is the necropolis in which our tomb-campsite was located. As we abandoned our camp and approached the pyramid, the tombs offered us concealment: by hugging the sandstone walls and walking slowly, it would be almost impossible for the guards to notice us. We made it to the edge of the road, still hidden by the tombs, and stopped to take account of the situation.[^1]
+The safest part of the Pyramid to climb is the South-West corner. An asphalt road runs along the pyramid near this corner, and across from it is the necropolis in which our tomb-campsite was located. As we abandoned our camp and approached the pyramid, the tombs offered us concealment: by hugging the sandstone walls and walking slowly, it would be almost impossible for the guards to notice us. We made it to the edge of the road, still hidden by the tombs, and stopped to take account of the situation.
 
 ![Pyramid complex map]({{ site.url }}/img/pyramid-map.png)
+<div class="image-credit">Map of the Pyramid complex. Our route up is indicted by the red arrow.</div>
 
 I was nervous. We would have to make it across the road, up the first blocks of the pyramid’s base, and all the way to the top and back without being caught by the guards or falling to our deaths. The blocks aren’t exactly stable: they’ve been battered by the elements for the past 4,500 years. The whole structure is slowly melting: transforming, poetically, I suppose, back into the sands from which it emerged.
 
@@ -44,6 +45,7 @@ Things were going well until about a third of the way up, when we were interrupt
 We lay prone and crept toward the edge of the block. There was a spotlight on us, but it wasn’t from the guards: there was a huge light system illuminating the entire southern face of the pyramid. It was the evening light show to entertain the tourists, something that we would have known about if we’d opened any guidebook. We were caught in the middle of it.
 
 ![Pyramid illuminated]({{ site.url }}/img/pyramid-light-show.png)
+<div class="image-credit">The pyramid's surprise light show. Taken after our descent.</div>
 
 If we started climbing again we’d certainly be caught. Although our bodies were tiny compared to the massive face of the pyramid, a well-trained eye would notice our shadows against the sandstone background.
 
@@ -60,6 +62,7 @@ We were both getting numb. Our hands were sore from the wind and from scraping a
 As I admired the new bruises that were forming on my arms, hands, and legs, I also had the chance to admire the graffiti: the pyramid was covered with it, chiseled into every surface. I don’t know how many generations of people had been leaving their mark up there, but I decided to take out a pen and leave a mark of my own.
 
 ![Pyramid top]({{ site.url }}/img/pyramid-edge.png)
+<div class="image-credit">Looking towards Giza.</div>
 
 We paced back and forth. The city of Giza was a constellation spread across the Earth. We sucked up the illumination of the city below us. We were breathing it like air. The warmth was being sucked out of us by the gnawing desert cold. Climbing above Giza, rising above the tourist crowds, we’d discovered the real history of the place: it was etched across the sandstone blocks by generations of rule-breakers like ourselves.
 

@@ -18,6 +18,7 @@ I wanted to see whether people have a similar bias for head directions. I found 
 This is very interesting, because it seems to suggest that advertisers can increase the likeability of their advertisements by simply flipping them. For instance, in the cropped Coca-Cola advertisement below, participants preferred the reversed image on the right over the original image on the left.
 
 ![picture coke advertisement, normal and flipped]({{ site.url }}/img/coke-ad.png)
+<div class="image-credit">Participants prefer the flipped image (right) over the original (left).</div>
 
 Producing a professional advertisement can cost tens of thousands of dollars,[^4] but conducting a simple Mechanical Turk study is so cheap that I can do it as a hobby. Perhaps companies should take a more research-oriented approach to advertising, accounting for well-known psychological preferences before revealing their ads. After all, the cost of horizontally flipping an image is nothing when compared with the cost of designing an entire advertisement.
 

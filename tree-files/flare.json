@@ -479,8 +479,8 @@ treeData = [
 										"name": "Mahajani",
 										"parent": "Landa",
 										"type": "Abugida",
-										"languages": "",
-										"period": ""
+										"languages": "Hindi, Punjabi, and Marwari",
+										"period": "Unknown"
 										}
 									]
 									},

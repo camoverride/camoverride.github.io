@@ -17,8 +17,13 @@ Kurdish, on the other hand, is a group of languages within the Indo-European fam
 I believe that it's possible to gain more momentum learning to read and write the Arabic language via Kurdish than via Arabic. 
 
 
-
 ## The Basics
+
+Arabic isn't technically an alphabet: it's an abjad. Whereas alphabets have symbols for consonants and vowels, abjads have symbols for consonants and some optional markers for vowels. In Arabic, these vowel markers usually take the form of diacritics that float above the letters; however, they are usually unmarked, meaning that you are usually reading sentences like this: *Arbc s n ntrstng wrtng systm*.
+
+Additionally, most Arabic letters come in four different forms. For instance, the letter **س** (*s*), is **س** when isolated, **سـ** initially, **ـسـ** medially, and **ـس** in final form. The four forms of **س** are quite similar to one another, however, in letters like **ه** things can be a bit more complicated: **ه** = isolated, **هـ** = initial, **ـهـ** = medial, **ـه** = final.
+
+Also, Arabic is written from right to left. 
 
 ## Vowels
 

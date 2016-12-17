@@ -6,7 +6,16 @@ comments: true
 published: false
 ---
 
-Learning new writing systems is fun, but it can sometimes be frustrating. In order to learn a new script it's important to memorize pronouncable words. However, this can be difficult with languages like Arabic that possess many sounds that English lacks. But there's hope: there are many languages that use the Arabic writing system that are more closely related to English, and therefore have more similar speech sounds. Some of these languages include Urdu, Dari, and Kurdish. I'll be providing some 
+Learning to read the Arabic alphabet is fun and rewarding. A huge amount of culture and history is tangled up in the Arabic alphabet: the Western World's Renaissance is partly descended from the intellectual tradition of the Islamic Golden Age. Furthermore, in the future the world will have disproportinately more Arabic speakers and Muslims. This means that Classical Arabic -- the language of the Koran -- will be increasingly important.
+
+But Classical Arabic isn't the only language written with the Arabic alphabet. Iranic languages like Persian, Balochi, Kurdish, and Pashto, Indic languages like Sindhi, Punjabi, and Urdu, all the diverse modern Arabic languages like Iraqi, Hejazi, Moroccan, Egyptian, etc., and other languages like Uyghur and Jawi all use this script. 
+
+Most tutorials on learning the Arabic alphabet focus on Classical or Modern Standard Arabic. However, for English-speakers, this can be a bit tricky. Arabic is a Semetic language, and has some grammatical features that are quite different from English, an Indo-European language. For instance, the emphatic consonants /tˤ/, /dˤ/, /sˤ/, and /ðˤ/ are tricky to pronounce. The uvular consonants /q/, /χ/, and /ʁ/ are equally foreign. Many English-speakers find the pharyngeals /ħ/ and /ʕ/ extremely difficult.
+
+Kurdish, on the other hand, is a group of languages within the Indo-European family -- distant cousins to English. Because Kurdish words are easier to pronounce and some English homophones exist, Kurdish is much easier to learn than English.
+
+I believe that it's possible to gain more momentum learning to read and write the Arabic language via Kurdish than via Arabic. 
+
 
 
 ## The Basics

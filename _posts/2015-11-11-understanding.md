@@ -24,3 +24,5 @@ What would you expect, having no money?
 The parents were too lazy to get a job.
 They were raised in a family that didn't value education. Would anyone really enjoy being a plumber?
 And so on...
+
+The whole is reflected in each of its parts, in each of its parts is another whole.

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Learn the Arabic Alphabet via Kurdish!
+title: Learn the Arabic Alphabet via Kurdish
 categories: [language]
 comments: true
-published: false
 ---
 
 Learning to read the Arabic alphabet is fun and rewarding. A huge amount of culture and history is tangled up in the Arabic alphabet: the Western World's Renaissance is partly descended from the intellectual tradition of the Islamic Golden Age. Furthermore, in the future the world will have disproportinately more Arabic speakers and Muslims. This means that Classical Arabic -- the language of the Koran -- will be increasingly important.
@@ -19,9 +18,9 @@ I believe that it's possible to gain more momentum learning to read and write th
 
 ## The Basics
 
-Arabic isn't technically an alphabet: it's an abjad. Whereas alphabets have symbols for consonants and vowels, abjads have symbols for consonants and some optional markers for vowels. In Arabic, these vowel markers usually take the form of diacritics that float above the letters; however, they are usually unmarked, meaning that you are usually reading sentences like this: *Arbc s n ntrstng wrtng systm*.
+Arabic isn't technically an alphabet: it's an abjad. Whereas alphabets have symbols for consonants and vowels, abjads have symbols for consonants and some optional markers for vowels. In Arabic, these vowel markers take the form of diacritics that float above the letters; however, they are usually unmarked, meaning that you'll be reading sentences like this: *Arbc s n ntrstng wrtng systm*.
 
-Additionally, most Arabic letters come in four different forms. For instance, the letter **س** (*s*), is **س** when isolated, **سـ** initially, **ـسـ** medially, and **ـس** in final form. The four forms of **س** are quite similar to one another, however, in letters like **ه** things can be a bit more complicated: **ه** = isolated, **هـ** = initial, **ـهـ** = medial, **ـه** = final.
+Additionally, most Arabic letters come in four different forms. For instance, the letter **س** (*s*), is **س** when isolated, **سـ** initially, **ـسـ** medially, and **ـس** in final form. The four forms of **س** are quite similar to one another, however, in letters like **ه** (*h*) things can be a bit more complicated: **ه** = isolated, **هـ** = initial, **ـهـ** = medial, **ـه** = final.
 
 Also, Arabic is written from right to left. 
 

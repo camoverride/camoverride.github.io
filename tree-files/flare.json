@@ -189,14 +189,14 @@ treeData = [
 								{
 								"name": "Cherokee",
 								"parent": "Latin",
-								"type": "Syllabary",
+								"type": "Inspired, Syllabary",
 								"languages": "Cherokee",
 								"period": "1820's to present",
 								"children": [
 									{
 									"name": "Vai",
 									"parent": "Cherokee",
-									"type": "Syllabary",
+									"type": "Inspired, Syllabary",
 									"languages": "Vai",
 									"period": "1830's to present"
 									}
@@ -749,7 +749,7 @@ treeData = [
 										{
 										"name": "Pahawh Hmong",
 										"parent": "Lao",
-										"type": "Semi-syllabary",
+										"type": "Inspired, Semi-syllabary",
 										"languages": "Hmong Daw, Hmong Njua",
 										"period": "20th century to present"
 										}

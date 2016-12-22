@@ -3,6 +3,7 @@ layout: post
 title: Learn the Arabic Alphabet via Kurdish
 categories: [language]
 comments: true
+published: false
 ---
 
 Learning to read the Arabic alphabet is fun and rewarding. A huge amount of culture and history is tangled up in the Arabic alphabet: the Western World's Renaissance is partly descended from the intellectual tradition of the Islamic Golden Age. Furthermore, in the future the world will have disproportinately more Arabic speakers and Muslims. This means that Classical Arabic -- the language of the Koran -- will be increasingly important.

@@ -1,23 +1,23 @@
-function expand(d){   
-    var children = (d.children)?d.children:d._children;
-    if (d._children) {        
-        d.children = d._children;
-        d._children = null;       
-    }
-    if(children)
-      children.forEach(expand);
-}
+// function expand(d){   
+//     var children = (d.children)?d.children:d._children;
+//     if (d._children) {        
+//         d.children = d._children;
+//         d._children = null;       
+//     }
+//     if(children)
+//       children.forEach(expand);
+// }
 
-function expandAll(){
-    expand(root); 
-    update(root);
-}
+// function expandAll(){
+//     expand(root); 
+//     update(root);
+// }
 
-function collapseAll(){
-    root.children.forEach(collapse);
-    collapse(root);
-    update(root);
-}
+// function collapseAll(){
+//     root.children.forEach(collapse);
+//     collapse(root);
+//     update(root);
+// }
 
 var margin = {top: 20, right: 60, bottom: 5, left: 10},
     width = 1300 - margin.right - margin.left,

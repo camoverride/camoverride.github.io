@@ -60,7 +60,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", click)
+      //.on("click", click)
       .on("mouseover", mouseover);
 
   nodeEnter.append("circle")
@@ -132,21 +132,21 @@ function update(source) {
 }
 
 // Toggle children on click.
-function click(d) {
-  if (d.children) {
-    d._children = d.children;
-    d.children = null;
-  } else {
-    d.children = d._children;
-    d._children = null;
-  }
-    document.getElementById("info-name").innerHTML = d.name;
-    document.getElementById("info-type").innerHTML = d.type;
-    document.getElementById("info-languages").innerHTML = d.languages;
-    document.getElementById("info-period").innerHTML = d.period;
+// function click(d) {
+//   if (d.children) {
+//     d._children = d.children;
+//     d.children = null;
+//   } else {
+//     d.children = d._children;
+//     d._children = null;
+//   }
+//     document.getElementById("info-name").innerHTML = d.name;
+//     document.getElementById("info-type").innerHTML = d.type;
+//     document.getElementById("info-languages").innerHTML = d.languages;
+//     document.getElementById("info-period").innerHTML = d.period;
 
-  update(d);
-}
+//   update(d);
+// }
 
 // Toggle children on hover
 // Edit this function to handle errors - read fs to see whether picture exists, else default.

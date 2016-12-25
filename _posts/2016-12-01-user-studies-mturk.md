@@ -22,6 +22,8 @@ This is very interesting, because it seems to suggest that advertisers can incre
 
 Producing a professional advertisement can cost tens of thousands of dollars,[^4] but conducting a simple Mechanical Turk study is so cheap that I can do it as a hobby. Perhaps companies should take a more research-oriented approach to advertising, accounting for well-known psychological preferences before revealing their ads. After all, the cost of horizontally flipping an image is nothing when compared with the cost of designing an entire advertisement.
 
+The picture of myself that I've used for this website was among the test images. I'll let you guess whether it's in the natural or mirrored orientation.
+
 [^1]: [Nisbett & Wilson, 1978](http://www.people.virginia.edu/~tdw/nisbett&wilson.pdf). When shown several identical stockings, people have a strong preference for the stockings on their right.
 [^2]: [Bergen, Benjamin. (2012). Louder Than Words](http://www.cogsci.ucsd.edu/~bkbergen/#books). People prefer scenes that flow in the same direction as their writing system. English-speakers like scenes that go from left to right, whereas Arabic and Hebrew speakers like scenes that go from right to left.
 [^3]: [Porac & Buller, 1990](http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/h0084268). Bias against lefties often leads left-handers to change their handedness.

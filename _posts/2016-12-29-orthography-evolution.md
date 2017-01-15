@@ -16,6 +16,6 @@ Similar processes occur in orthography. Many writing systems slowly evolve into 
 
 Below are some of these inspired scripts:
 
-
+....
 
 <!--more-->

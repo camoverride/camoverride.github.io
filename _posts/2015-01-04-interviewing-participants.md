@@ -3,6 +3,7 @@ layout: post
 title: Interviewing Participants
 categories: [blog]
 comments: true
+published: false
 ---
 
 User interviews are critically important in the software design process. I've recently been working on a lengthy scientfic experiment where participants learn bits of a new artificial language (a conlang) and then provide responses. These responses should lead them to acquire a knowledge of the spatial relationships of the conlang: they should have an intuitive knowledge that word X is associated with 'up' and word Z means something like 'to the side of.'

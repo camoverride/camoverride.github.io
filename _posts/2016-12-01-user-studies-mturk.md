@@ -3,6 +3,7 @@ layout: post
 title: User Studies with Amazon Mechanical Turk
 categories: [blog]
 comments: true
+published: false
 ---
 
 [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome) is an extremely useful resource for conducting basic human research. It allows researchers to quickly gather data from large numbers of participants at a very low cost. MTurk's built-in platform is generally used for conducting surveys; however, I find MTurk more useful as a recruiting platform. After recruiting participants, I can then redirect them to a website I've created that hosts my user study.

@@ -9,7 +9,7 @@ Yazidis believe that god created the world by casting a white pearl into the cos
 
 After the earth was created it began shaking uncontrollably. Tawsi Melek descended from heaven in the form of a peacock and stopped the shaking. He then transferred the rainbow colors of his plumage to the earth, filling it with flora and fauna. The place that Tawsi Melek descended to is Lalish, the mountain holy to the Yazidis.
 
-I visited Lalish to learn more about the Yazidi religion. In a narrow valley that meanders towards the crest of the short mountain are clustered many of this religion's holiest sites. Among graves, shrines, and strange minaret-like structures are many symbols carved into their surfaces.
+I visited Lalish to learn more about the Yazidi religion. In a narrow valley that meanders towards the crest of the short mountain are clustered many of this religion's holiest sites. There are graves, shrines, and strange minaret-like structures. Many of these have symbols carved into their surfaces.
 
 While I wandered through Lalish I asked locals about the meanings of the symbols. While some have obvious meanings (the Peacock in the last image is Tawsi Melek), many were more mysterious. Below are photographs along with speculations about their possible meanings.
 

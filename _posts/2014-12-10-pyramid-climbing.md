@@ -7,13 +7,13 @@ comments: true
 
 Even though it’s two kilometers away, the Great Pyramid is the biggest thing on the horizon. It looms over the Giza Plateau, which in turn looms over the city of Giza. It’s hard to describe just how large the pyramid is; it’s more of a geographic feature than a building. And there’s this even bigger contrast between the Pyramid, which embodies the eternal, the ahistorical, and the enigmatic, and the city of Giza, where you can buy pirated copies of Frozen from teenagers who are chain-smoking cigarettes next to the McDonald’s.
 
-When the bus jitters to a halt and you shove your way through the crowds of scammers, you’re forced to wrestle with some uncomfortable thoughts. Is this the world’s oldest megastructure, a testament to the creativity and power of human civilization? Or is this the world’s oldest tourist trap, a dismal, decadent, Disneyland?
+When the bus jitters to a halt and you shove your way through the crowds of scammers, you’re forced to wrestle with some uncomfortable thoughts. Is this the world’s oldest megastructure, a testament to the creativity and power of human civilization? Or is this the world’s oldest tourist trap: a dismal, decadent, Disneyland?
 
 For Eason (my travel companion) and me, it didn’t really matter. Not being too self-critical when you’re breaking the law is important. We weren’t approaching the Giza Plateau as tourists. We’d come with a specific goal in mind: sneak inside the plateau, wait until night time, and climb to the top of Khufu’s Great Pyramid.
 
 As perpetually underprepared travelers, we needed to wander through Giza to find the supplies necessary for our ascent. Our quest for food, water, and cardboard gave us the opportunity to scope out the fence that separated the Giza Plateau from the city of Giza.
 
-The fence was about ten meters high. The bottom half was concrete and the upper half chain-link topped with an extra dash of barbed-wire. The fence was adjacent to a slum, so we figured that there had to be some sort of hole drilled in it. However, after an hour of trudging through the slum, we can to the conclusion that the thing was impenetrable.
+The fence was about ten meters high. The bottom half was concrete and the upper half chain-link topped with an extra dash of barbed-wire. The fence was adjacent to a slum, so we figured that there had to be some sort of hole drilled in it. However, after an hour of trudging through the slum, we can to the conclusion that it was impenetrable.
 
 We began retracing our steps back towards the official entrance. This entrance is easily recognizable because of the presence of screaming children, guys selling Pharaoh hats, and overweight Americans embroiled in intensely whispered arguments. It’s the same sort of crowd that you might see at an amusement park, soccer game, or a beach in Florida.
 
@@ -34,7 +34,7 @@ I was nervous. We would have to make it across the road, up the first blocks of 
 
 But there was no time for poetic thought: there were no other people around, and it this was our chance. We had to take it. So we dashed across the road to the base of the pyramid and heaved ourselves on top of the first block.
 
-Eason and I are tall (we’re both almost 200cm, or 6’6” in American units). I don’t know how anyone much shorter than us could reasonably heave themselves on top of one of those blocks. Luckily, as I’d learn soon, the blocks became shorter as the pyramid got taller, shrinking from maybe 170cm at the base to 130cm near the summit.
+Eason and I are tall (we’re both almost 200 cm, or 6’6” in American units). I don’t know how anyone much shorter than us could reasonably heave themselves on top of one of those blocks. Luckily, as I’d learn soon, the blocks became shorter as the pyramid got taller, shrinking from maybe 170cm at the base to 130cm near the summit.
 
 We scrambled up a few more blocks before lying on our stomachs to take a break. I crawled towards the edge of the block and looked down. On the road we’d just crossed was a car. It approached the corner we’d just dashed up. A pang of adrenaline shot through me. Two people exited the vehicle, both carrying flashlights. I thought we’d been busted already, but they paid no special attention to the corner. They simply followed the road towards an outpost building a couple hundred meters away.
 
@@ -49,15 +49,15 @@ We lay prone and crept toward the edge of the block. There was a spotlight on us
 
 If we started climbing again we’d certainly be caught. Although our bodies were tiny compared to the massive face of the pyramid, a well-trained eye would notice our shadows against the sandstone background.
 
-But after a few minutes the lights were cut. We waited until we’d convinced ourselves that the light show was over for the evening, and then we resumed our climb. After another few minutes the lights came on again, and we were forced to retreat into the shadows on the eastern side of the corner. Things were beginning to resemble a real-life version of a children’s game, but with possibly fatal consequences. When the lights were on, we froze. When they were off, we climbed as quickly as possible.
+But after a few minutes the lights were cut. We waited until we’d convinced ourselves that the light show was over for the evening, and then we resumed our climb. After another few minutes the lights came on again, and we were forced to retreat into the shadows on the eastern side of the corner. Things were beginning to resemble a real-life version of the children’s game 'red-light green-light,' but with possibly fatal consequences. When the lights were on, we froze. When they were off, we climbed as quickly as possible.
 
 As we got closer to the pyramid’s apex, I could feel the cold desert air on my skin. When I turned my head, I could see faint urban lights on the ground below. But I absolutely refused to look down, even to speak to Eason, who was a few blocks below me. I couldn’t make myself look down to speak to him: we would only talk only during breaks while resting on the same block.
 
 The pyramid rises at an angle of about 45 degrees. 45 degrees doesn’t seem that steep if you look at it on a protractor. But when you’re hugging the side of a pyramid, that’s an angle steep enough to make the horizon vanish below you, creating the illusion of a perpetual vertical drop. 
 
-I guess the adrenaline let me fight through the fear: I was never paralyzed like I usually am by heights. After about thirty minutes we were almost there. I could see the last few blocks above me. But then things got tricky. Up here, the blocks started disintegrating. Although terrifying near the base, down there it didn’t seem like there was much of a risk of slipping and falling. Up here was much worse: the cracked and slanting rocks made it more challenging to find a stable foothold. Our pace slowed.
+I guess the adrenaline let me fight through the fear: I was never paralyzed like I usually am by heights. After about thirty minutes we were almost there. I could see the last few blocks above me. But then things got tricky. Up here, the blocks started disintegrating. Although terrifying near the base, there wasn't much of a risk of slipping and falling. Up here was much worse: the cracked and slanting rocks made it more challenging to find a stable foothold. Our pace slowed.
 
-We were both getting numb. Our hands were sore from the wind and from scraping against the unpolished rocks. But we made it. I heaved myself over the last block and crawled towards the center of the pyramid’s flat top. Eason was a few seconds behind me, rising to his feet and walking a more dignified victory procession.
+We were both getting numb. Our hands were sore from the wind and from scraping against the unpolished rocks. But we made it. I heaved myself over the last block and crawled towards the center of the pyramid’s flat top. Eason was a few seconds behind me, rising to his feet and making a more dignified victory procession.
 
 As I admired the new bruises that were forming on my arms, hands, and legs, I also had the chance to admire the graffiti: the pyramid was covered with it, chiseled into every surface. I don’t know how many generations of people had been leaving their mark up there, but I decided to take out a pen and leave a mark of my own.
 

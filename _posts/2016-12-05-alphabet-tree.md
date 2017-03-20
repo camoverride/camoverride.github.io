@@ -14,7 +14,7 @@ I'm obsessed with learning different writing systems, but keeping things organiz
 
 ### Method
 
-While many of these writing systems have historically attested geneologies, I had to apply some guesswork in assembling this tree. I relied on Wikipedia as both a source itself and as a platform for finding primary sources (many of these primary sources weren't properly reflected in the Wikipedia articles citing them, requiring me to edit a few articles).
+While many of these writing systems have historically attested geneologies, I had to apply some guesswork in assembling this tree. I relied on Wikipedia as both a source itself and as a platform for finding primary sources (many of these primary sources weren't properly reflected in the articles citing them, requiring me to make some edits).
 
 <hr/>
 

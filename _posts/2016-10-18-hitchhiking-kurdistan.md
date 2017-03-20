@@ -9,9 +9,15 @@ I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan
 
 #### Bazaar
 
-This is the main market in Sulaymaniyah, cultural capital of Iraqi Kurdistan. Sulaymaniyah's suburbs sprawl into the brown naked hills that ring the city. Because of its location in a valley, the city is shrouded in thick smog before the afternoon winds arrive to blow it away. After the smog dissipates, the market becomes populated.
+This is the main market in Sulaymaniyah, cultural capital of Iraqi Kurdistan. Sulaymaniyah's suburbs sprawl into the brown naked hills that ring the city. Because of its location in a valley, the city is shrouded in thick smog before the afternoon winds arrive. After the smog dissipates, the market becomes populated.
 
 ![]({{ site.url }}/img/market.png)
+
+#### Bakery
+
+Food in Iraqi Kurdistan is cheap and delicious. Bakeries, tea houses, and small shops are wedged between apartment buildings. These bakers were enthusiastic about getting their picture taken.
+
+![]({{ site.url }}/img/bakery.png)
 
 #### Qizqapan
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Zero Waste Lifestyle
+title: Minimalism
 categories: [blog]
 comments: true
-published: true
+published: false
 ---
 
 Minimalism is a trend in Silicon Valley. People are obsessed with reducing their number of personal belongings in favor of (hopefully) a greater emphasis on social interaction but (more likely) a greater emphasis on Github commits. A minimalist lifestyle by itself doesn't mean much: you have to peek beneath the surface and see what's motivating a person's minimalism.

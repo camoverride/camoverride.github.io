@@ -3,6 +3,7 @@ layout: post
 title: Climbing the Great Pyramid of Giza at Night
 categories: [travel]
 comments: true
+published: false
 ---
 
 Even though it’s two kilometers away, the Great Pyramid is the biggest thing on the horizon. It looms over the Giza Plateau, which in turn looms over the city of Giza. It’s hard to describe just how large the pyramid is; it’s more of a geographic feature than a building. And there’s this even bigger contrast between the Pyramid, which embodies the eternal, the ahistorical, and the enigmatic, and the city of Giza, where you can buy pirated copies of Frozen from teenagers who are chain-smoking cigarettes next to the McDonald’s.
@@ -53,7 +54,7 @@ But after a few minutes the lights were cut. We waited until we’d convinced ou
 
 As we got closer to the pyramid’s apex, I could feel the cold desert air on my skin. When I turned my head, I could see faint urban lights on the ground below. But I absolutely refused to look down, even to speak to Eason, who was a few blocks below me. I couldn’t make myself look down to speak to him: we would only talk only during breaks while resting on the same block.
 
-The pyramid rises at an angle of about 45 degrees. 45 degrees doesn’t seem that steep if you look at it on a protractor. But when you’re hugging the side of a pyramid, that’s an angle steep enough to make the horizon vanish below you, creating the illusion of a perpetual vertical drop. 
+The pyramid rises at an angle of about 45 degrees. 45 degrees doesn’t seem that steep if you look at it on a protractor. But when you’re hugging the side of a pyramid, that’s an angle steep enough to make the horizon vanish below you, creating the illusion of a perpetual vertical drop.
 
 I guess the adrenaline let me fight through the fear: I was never paralyzed like I usually am by heights. After about thirty minutes we were almost there. I could see the last few blocks above me. But then things got tricky. Up here, the blocks started disintegrating. Although terrifying near the base, there wasn't much of a risk of slipping and falling. Up here was much worse: the cracked and slanting rocks made it more challenging to find a stable foothold. Our pace slowed.
 

@@ -3,6 +3,7 @@ layout: post
 title: Yazidi Symbols
 categories: [travel]
 comments: true
+published: false
 ---
 
 Yazidis believe that god created the world by casting a white pearl into the cosmic ocean. As it sunk into the depths, the pearl shattered, becoming the substance from which the material universe would be formed. To assist in his work, god created the Peacock Angel, Tawsi Melek. Six more angels were fashioned by god to assist Tawsi Melek, greatest of the angels, in his creation of the world.

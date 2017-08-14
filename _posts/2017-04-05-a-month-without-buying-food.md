@@ -3,7 +3,7 @@ layout: post
 title: A Month Without Buying Food
 categories: [blog]
 comments: true
-published: true
+published: false
 ---
 
 I've been dumpster diving for food for the past two years and have gotten quite good at it. Dumpster diving isn't an explicit skill like playing an instrument: it's more of a habit or behavior. If you want to fully embrace dumpster diving, it requires modifying your lifestyle in subtle but important ways. These modifications include scouting, scavenging, and preserving.

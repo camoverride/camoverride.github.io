@@ -3,6 +3,7 @@ layout: post
 title: Strawberry Trees
 categories: [blog]
 comments: true
+published: false
 ---
 
 ![Strawberry tree]({{ site.url }}/img/strawberry-trees.png)

@@ -36,7 +36,7 @@ $$
 P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = 
 
 
-{\dfrac{\dfrac{3}{4}} \cdot {\dfrac{2}{3}}{x}}   lasagna4   {\dfrac{3}{4}} \cdot {\dfrac{2}{3}} + {\dfrac{1}{4}} \cdot {\dfrac{1}{3}}
+{\frac{{\frac{3}{4}} \cdot {\frac{2}{3}}}{x}}   lasagna5   {\dfrac{3}{4}} \cdot {\dfrac{2}{3}} + {\dfrac{1}{4}} \cdot {\dfrac{1}{3}}
 
 
 $$

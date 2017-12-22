@@ -107,18 +107,20 @@ class GetArticles(object):
 
 ~~~
 
-This module contains an object that can be used to download articles. For instance, if you have a directory called `data/sco` (the code for English is `en`) where you want to save your Scots data, you can download 80 files with the following command:
+This module contains an object that can be used to download articles. For instance, if you have a directory called `data/sco` where you want to save your Scots data (the code for English is `en`), you can download 100 files with the following command:
 
 ~~~python
 from get_data import GetArticles
 gd = GetArticles()
-gd.write_articles('sco', 80, 'data/sco')
+gd.write_articles('sco', 100, 'data/sco')
 ~~~
 
-After downloading, you should have 80 individual text files with the article titles as filenames.
+After downloading, you should have 100 individual text files with the article titles as filenames.
 
 
 ## Classification
+Now that we have some data to play with, it's time to choose a classification algorithm. Naive Bayes seems promising. In the first half of this section, I'll explain the math behind Naive Bayes. In the second half, I'll use scikit to train a Multinomial Naive Bayes classifier on our data.
+
 Naive Bayes classifiers are a family of classifiers that take inspiration from Bayes' Theorem. Most people like to memorize Bayes' theorem and go from there, but I find that it's more useful to derive Bayes' theorem instead, as it sheds some light on how the pieces fit together. This is especially important when we need to fiddle with the prior probability (which the nature of our corpus will force us to do). I'll add other languages later on, but I'll keep things simple for the purposes of this tutorial.
 
 We can think of the probability of A given B as being equivalent to the probability of the intersection of [A and B](https://en.wikipedia.org/wiki/Logical_conjunction#/media/File:Venn0001.svg) divided by the probability of B, where the probability of B is further equivalent to the intersection of A and B plus the intersection of [B and not A](https://en.wikipedia.org/wiki/Boolean_algebra#/media/File:Vennandornot.svg) (I've linked Venn Diagram illustrations of these logical functions):
@@ -148,7 +150,7 @@ $$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{3}{4} $$
 
 This removes the corpus' bias towards Scots: the division into documents was an artifact of data collection and has no meaning for the task of text classification.
 
-To actually combine the 80 Scots files into one text file, navigate to the directory containing the data and use the following command:
+To actually combine the 100 Scots files into one text file, navigate to the directory containing the data and use the following command:
 
 `ls | xargs cat > all_data.dat`
 

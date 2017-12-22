@@ -24,18 +24,16 @@ $$
 P(A | B) = {\dfrac{P(A \cap B)}{P(B)}} = {\dfrac{P(A \cap B)}{P(A \cap B) + P(B \cap ¬A)}}
 $$
 
-The formula above is implemented with logic, but it's more useful to convert this to math so that we can play around with specific quantities. The intersection of two sets, A and B, is the same as the probability of B given A multiplied by the probability of A:
+The formula above is implemented with logic, but it's more useful to convert this to math so that we can play around with specific quantities. The intersection of two sets, A and B, is the same as the probability of B given A multiplied by the probability of A. The middle section below is the canonical form of Bayes' Theorem:
 
 $$
 P(A | B) = {\dfrac{P(B|A) \cdot P(A)}{P(B)}} = {\dfrac{P(B|A) \cdot P(A)}{ P(B|A) \cdot P(A) + P(B|¬A) \cdot P(¬A)  }}
 $$
 
-The middle section above is the canonical form of Bayes' theorem. The denominator of the right section is called the prior, which in our case will ultimately reduce to a constant.
-
-The intuition behind Naive Bayes is quite simple. Let's say we discover that the word "auld" appears 4 times in our Scots corpus and only one time in our English corpus. If we are judging the input sentence \["auld"\] (a sentence with only one word), then the probability of this belonging to Scots is 4 / 4 + 1, or 80%.
+The intuition behind Naive Bayes is quite simple. Let's say we discover that the word "auld" appears 4 times in our Scots documents and only one time in our English documents. Further, let's assume that documents labeled "Scots" account for 40% = 0.4 of our total corpus. If we are judging the input sentence \["auld"\] (a vector of words containing only one element), then the probability of this belonging to Scots is 80%.
 
 $$
-P(Scots|`auld') = {\dfrac{P(`auld'|Scots) \cdot P(Scots)}{P(`auld')}} = 
+P(Scots|`auld') = {\dfrac{P(`auld'|Scots) \cdot P(Scots)}{P(`auld')}} = {\dfrac{ 4 \cdot 0.4}{4 + 1} }
 $$
 
 

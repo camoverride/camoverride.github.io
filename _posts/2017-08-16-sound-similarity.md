@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sound Similarity
-categories: [blog]
+categories: [data]
 comments: true
 published: true
 ---

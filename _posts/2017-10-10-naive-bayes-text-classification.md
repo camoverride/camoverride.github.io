@@ -18,10 +18,10 @@ In this article, I'm going to build a text classification application from scrat
 ## Classification
 Naive Bayes classifiers are a family of classifiers that take inspiration from Bayes' Theorem. Most people like to memorize Bayes' theorem and go from there, but I find that it's more useful to derive Bayes' theorem instead, as it sheds some light on how all the pieces fit together. This is especially important when we need to remove the prior probability from the equation (which we'll have to do to make out model more valid).
 
-We can think of the probability of A given be as being equivalent to the probability of the intersection of A and B divided by the probability of B:
+We can think of the probability of A given be as being equivalent to the probability of the intersection of A and B divided by the probability of B, where the probability of B is equivalent to the intersection of A and B plus the intersection of B and not A:
 
 $$
-P(A | B) = {\dfrac{P(A \cap B)}{/P(B)}}
+P(A | B) = {\dfrac{P(A \cap B)}{P(B)}} = {\dfrac{P(A \cap B)}{P(A \cap B) + P(B \cap ¬A)}}
 $$
 
 

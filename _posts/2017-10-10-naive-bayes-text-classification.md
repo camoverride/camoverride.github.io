@@ -36,7 +36,7 @@ $$
 P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = 
 
 
-\cfrac{\cfrac{3}{4}\cdot\cfrac{2}{3}}{\cfrac{A}{C}\cdot\cfrac{T}{T}+\cfrac{A}{C}\cdot\cfrac{T}{T}}
+\cfrac{\cfrac{3}{4}\cdot\cfrac{2}{3}}{\cfrac{3}{4}\cdot\cfrac{2}{3}+\cfrac{1}{4}\cdot\cfrac{1}{3}}
 
 
 

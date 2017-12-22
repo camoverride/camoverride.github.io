@@ -35,9 +35,12 @@ The middle section above is the canonical form of Bayes' theorem. The denominato
 The intuition behind Naive Bayes is quite simple. Let's say we discover that the word "auld" appears 4 times in our Scots corpus and only one time in our English corpus. If we are judging the input sentence \["auld"\] (a sentence with only one word), then the probability of this belonging to Scots is 4 / 4 + 1, or 80%.
 
 $$
-P(``auld``|Scots) = {\dfrac{P(Scots|``auld``) \cdot P(``auld``)}{P(Scots)}} = 
+P(Scots|`auld`) = {\dfrac{P(`auld`|Scots) \cdot P(Scots)}{P(`auld`)}} = 
 $$
 
+
+
+prior = P(Scots)
 
 
 If we want to know the likelihood that a specific word belongs to a specific category,

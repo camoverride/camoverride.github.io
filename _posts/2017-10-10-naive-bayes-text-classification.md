@@ -41,7 +41,7 @@ If you paid attention to the way that the data was collected, you might think th
 
 Because there are two Scots articles in our toy corpus and only one in English, this means that the prior for Scots is 2/3. We can relax the prior that word the number of documents is meaningful, which is equivalent to collapsing all the Scots documents in one mega-document (and likewise for English):
 
-$$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{6}{7} $$
+$$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{3}{4} $$
 
 Notice that now our conditional probabilities are equivalent:
 

@@ -35,8 +35,7 @@ The intuition behind Naive Bayes is quite simple. Let's say we have three docume
 $$
 P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = 
 
-
-\cfrac{\cfrac{3}{4}\cdot\cfrac{2}{3}}{\cfrac{3}{4}\cdot\cfrac{2}{3}+\cfrac{1}{4}\cdot\cfrac{1}{3}}
+\cfrac{\cfrac{3}{4}\cdot\cfrac{2}{3}}{\cfrac{3}{4}\cdot\cfrac{2}{3}+\cfrac{1}{4}\cdot\cfrac{1}{3}} = \cfrac{6}{7}
 
 
 

@@ -119,7 +119,7 @@ After downloading, you should have 80 individual text files with the article tit
 
 
 ## Classification
-Naive Bayes classifiers are a family of classifiers that take inspiration from Bayes' Theorem. Most people like to memorize Bayes' theorem and go from there, but I find that it's more useful to derive Bayes' theorem instead, as it sheds some light on how the pieces fit together. This is especially important when we need to fiddle with the prior probability (which the nature of our corpus will force us to do).
+Naive Bayes classifiers are a family of classifiers that take inspiration from Bayes' Theorem. Most people like to memorize Bayes' theorem and go from there, but I find that it's more useful to derive Bayes' theorem instead, as it sheds some light on how the pieces fit together. This is especially important when we need to fiddle with the prior probability (which the nature of our corpus will force us to do). I'll add other languages later on, but I'll keep things simple for the purposes of this tutorial.
 
 We can think of the probability of A given B as being equivalent to the probability of the intersection of [A and B](https://en.wikipedia.org/wiki/Logical_conjunction#/media/File:Venn0001.svg) divided by the probability of B, where the probability of B is further equivalent to the intersection of A and B plus the intersection of [B and not A](https://en.wikipedia.org/wiki/Boolean_algebra#/media/File:Vennandornot.svg) (I've linked Venn Diagram illustrations of these logical functions):
 

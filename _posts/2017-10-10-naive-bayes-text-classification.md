@@ -3,7 +3,7 @@ layout: post
 title: Text Classification from Scratch
 categories: [data]
 comments: true
-published: true
+published: false
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
@@ -25,7 +25,7 @@ $$
 $$
 $$\alpha$$
 
-
+<h1>header</h1>
 In this article, I'm going to build a text classification application from scratch. This will involve (1) constructing a corpus, (2) creating a language classifier, and (3) deploying the application to the web. Along the way, I'll explore some of the interesting properties of Bayes Theorem, feature hashing, and database design.
 
 ## Building a Corpus

@@ -30,10 +30,10 @@ $$
 P(A | B) = {\dfrac{P(B|A) \cdot P(A)}{P(B)}} = {\dfrac{P(B|A) \cdot P(A)}{ P(B|A) \cdot P(A) + P(B|¬A) \cdot P(¬A)  }}
 $$
 
-The intuition behind Naive Bayes is quite simple. Let's say we discover that the word "auld" appears 4 times in our Scots documents and only one time in our English documents. Further, let's assume that documents labeled "Scots" account for 40% = 0.4 of our total corpus. If we are judging the input sentence \["auld"\] (a vector of words containing only one element), then the probability of this belonging to Scots is 80%.
+The intuition behind Naive Bayes is quite simple. Let's say we have three documents, one is English and contains \["auld", "man", "girl"\] and the other two are Scots and are \["the", "auld"\] and \["auld", "auld"\] (Not the most realistic data, but it'll suit our purposes.) If we are judging the input sentence \["auld"\] (a vector of words containing only one element), then the probability of this belonging to Scots is:
 
 $$
-P(Scots|`auld') = {\dfrac{P(`auld'|Scots) \cdot P(Scots)}{P(`auld')}} = {\dfrac{ 4 \cdot 0.4}{4 + 1} }
+P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = {\dfract{\dfract{3}{4}} \cdot {\dfract{2}{3}} 5 }
 $$
 
 

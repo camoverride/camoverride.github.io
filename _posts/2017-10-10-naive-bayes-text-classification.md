@@ -43,48 +43,8 @@ Because there are two Scots articles in our toy corpus and only one in English, 
 
 $$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{3}{4} $$
 
-Notice that now our conditional probabilities are equivalent:
+This removes the corpus' bias towards Scots: the division into documents was an artifact of data collection and has no meaning for the task of text classification. Notice that now the conditional probabilities are equivalent:
 
 $$ P(Scots|auld) = P(auld|Scots) $$
 
-This is convenient
-
-
-
-
-
-
-prior = P(Scots)
-
-
-If we want to know the likelihood that a specific word belongs to a specific category,
-
-
-mention generative, category first
-
-
-
-
-
-
-
-///////
-Bayes is a Generative algorithm
-Discriminative = looking at everything, fitting a line between things
-Generative = looking at one category, modeling that category first
-
-no need to divide into texts, as the class prior isn't relevent here, p(y) = p(english)
-
-
-## issues
-how to reduce dimensions?
-    - use hashing trick
-
-how to store data?
-    - in memory? database?
-
-what features to look at?
-    - bigrams?
-    - unicode representation?
-
-double hash?
+If we think that having a prior will improve the model, one can always be introduced -- for instance, if network traffic shows that more people in Scotland are using the language classifier service, we might want to adjust the model in favor of Scots.

@@ -36,9 +36,10 @@ $$
 P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = 
 
 
-\cfrac{1}{T_{\text{ex}}} = \cfrac{\cfrac{1}{T_{\text{kin}}}+\left(\cfrac{A_{\text{ul}}}{C_{\text{ul}}}
-\cfrac{T_{\text{cmb}}}{T_*}\right)\cfrac{1}{T_{\text{cmb}}}}{1+\cfrac{A_{\text{ul}}}{C_{\text{ul}}}
-\cfrac{T_{\text{cmb}}}{T_*}}
+\cfrac{\cfrac{1}{T}+\left(\cfrac{A}{C}
+\cfrac{T}{T}\right)\cfrac{1}{T}}{1+\cfrac{A}{C_{\text{ul}}}
+\cfrac{T}{T}}
+
 
 
 $$

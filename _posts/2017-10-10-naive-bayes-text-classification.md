@@ -162,4 +162,6 @@ After eliminating document frequency as a variable, nottice that the conditional
 
 $$ P(Scots|auld) = P(auld|Scots) $$
 
+You might have noticed that by removing our prior, our Naive Bayes model is no longer Bayesian! But this is acceptable. Dirichlet distributions and other maximum likelihood estimators are commonly used for a prior, so tweaking this value is not uncommn nor will it harm the efficacy of our model
+
 If we think that having a prior will improve the model, one can always be introduced -- for instance, if network traffic shows that more people in Scotland are using the language classifier service, we might want to adjust the model in favor of Scots.

@@ -11,7 +11,7 @@ published: true
 In this article, I'm going to build a text classification application from scratch. This will involve (1) constructing a corpus, (2) creating a language classifier, and (3) deploying the application to the web. Along the way, I'll explore some of the interesting properties of Bayes Theorem, feature hashing, and database design. This application will let people enter blocks of text and will return the text's language.
 
 ## Building a Corpus
-In order to perform language classification, a data source is needed. A good source will have a large amount of text and accurate category labels. Wikipedia seems like a great place to start. Not only do they have a well-documented API, but it allows for language-specific querying. I'm going to challenge myself by choosing two languages that machine learning algorithms will have trouble telling apart: English and [Scots](https://sco.wikipedia.org/wiki/Yird) (yes, it's a real language, and attempting to decipher it is quite fun).
+In order to perform language classification, a data source is needed. A good source will have a large amount of text and accurate category labels. Wikipedia seems like a great place to start. Not only do they have a well-documented API, but it allows for language-specific querying. I'm going to challenge myself by choosing two languages that machine learning algorithms will have trouble telling apart: English and its cousin [Scots](https://sco.wikipedia.org/wiki/Yird) (yes, it's a real language, and attempting to decipher it is quite fun).
 
 The Python object below takes care of building our corpus. The process of sanitizing the incoming HTML is rudimentary, but gets the job done:
 
@@ -107,7 +107,7 @@ class GetArticles(object):
 
 ~~~
 
-This module contains an object that can be used to download articles. For instance, if you have a directory called `data/sco` where you want to save your Scots data, you can download 80 files with the following command:
+This module contains an object that can be used to download articles. For instance, if you have a directory called `data/sco` (the code for English is `en`) where you want to save your Scots data, you can download 80 files with the following command:
 
 ~~~python
 from get_data import GetArticles
@@ -115,11 +115,7 @@ gd = GetArticles()
 gd.write_articles('sco', 80, 'data/sco')
 ~~~
 
-
-
-
-* bash script to add to one mega file
-
+After downloading, you should have 80 individual text files with the article titles as filenames.
 
 
 ## Classification
@@ -150,7 +146,17 @@ Because there are two Scots articles in our toy corpus and only one in English, 
 
 $$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{3}{4} $$
 
-This removes the corpus' bias towards Scots: the division into documents was an artifact of data collection and has no meaning for the task of text classification. Notice that now the conditional probabilities are equivalent:
+This removes the corpus' bias towards Scots: the division into documents was an artifact of data collection and has no meaning for the task of text classification.
+
+To actually combine the 80 Scots files into one text file, navigate to the directory containing the data and use the following command:
+
+`ls | xargs cat > all_data.dat`
+
+Then remove the remaining `.txt` files:
+
+`rm *.txt`
+
+After eliminating document frequency as a variable, nottice that the conditional probabilities are equivalent:
 
 $$ P(Scots|auld) = P(auld|Scots) $$
 

@@ -3,7 +3,7 @@ layout: post
 title: Sound Similarity
 categories: [blog]
 comments: true
-published: false
+published: true
 ---
 
 It is easy to implement an overlap function in Python:

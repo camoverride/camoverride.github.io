@@ -3,7 +3,7 @@ layout: post
 title: Hitchhiking Kurdistan
 categories: [travel]
 comments: true
-published: true
+published: false
 ---
 
 I hitchhiked from Sulaymaniyah in Iraqi Kurdistan to Silopi in Turkish Kurdistan. Below are some pictures that I took along the way.

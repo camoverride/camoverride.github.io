@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Text Classification from Scratch
-categories: [data]
+categories: [data, verbose]
 comments: true
 published: true
 ---
@@ -27,11 +27,23 @@ $$
 The formula above is implemented with logic, but it's more useful to convert this to math so that we can play around with specific quantities. The intersection of two sets, A and B, is the same as the probability of B given A multiplied by the probability of A:
 
 $$
-P(A | B) = {\dfrac{P(B|A) \cdot P(A)}{P(B)}} = {\dfrac{P(B|A) \cdot P(A)}{ P(B|A) \cdot P(A) + P(B|¬A) \dot P(¬A)  }}
+P(A | B) = {\dfrac{P(B|A) \cdot P(A)}{P(B)}} = {\dfrac{P(B|A) \cdot P(A)}{ P(B|A) \cdot P(A) + P(B|¬A) \cdot P(¬A)  }}
+$$
+
+The middle section above is the canonical form of Bayes' theorem. The denominator of the right section is called the prior, which in our case will ultimately reduce to a constant.
+
+The intuition behind Naive Bayes is quite simple. Let's say we discover that the word "auld" appears 4 times in our Scots corpus and only one time in our English corpus. If we are judging the input sentence \["auld"\] (a sentence with only one word), then the probability of this belonging to Scots is 4 / 4 + 1, or 80%.
+
+$$
+P("auld"|Scots) = {\dfrac{P(Scots|"auld") \cdot P("auld")}{P(Scots)}}
 $$
 
 
 
+If we want to know the likelihood that a specific word belongs to a specific category,
+
+
+mention generative, category first
 
 
 

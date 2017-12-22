@@ -13,14 +13,111 @@ In this article, I'm going to build a text classification application from scrat
 ## Building a Corpus
 In order to perform language classification, a data source is needed. A good source will have a large amount of text and accurate category labels. Wikipedia seems like a great place to start. Not only do they have a well-documented API, but it allows for language-specific querying. I'm going to challenge myself by choosing two languages that machine learning algorithms will have trouble telling apart: English and [Scots](https://sco.wikipedia.org/wiki/Yird) (yes, it's a real language, and attempting to decipher it is quite fun).
 
+The code 
+
 ~~~python
 
-print('hello world')
+"""
+This module creates an object that can be used to grab data from Wikipedia.
+Because data sent from Wikipedia is not always consistent, you should
+check the number of files that get downloaded.
+"""
+import re
+import json
+import requests
+
+
+class GetArticles(object):
+    """
+    This is an object with the public method write_articles(language_id, number_of_articles,
+    db_location). This writes sanitized articles to text files in a specified location.
+    """
+    def __init__(self):
+        pass
+
+
+    def _get_random_article_ids(self, language_id, number_of_articles):
+        """
+        Makes a request for random articles. "rnnamespace=0" means that only articles are chosen,
+        as opposed to user-talk pages or category pages.
+        """
+        query = \
+                        'https://' + language_id \
+                        + '.wikipedia.org/w/api.php?format=json&action=query&list=random&rnlimit=' \
+                        + str(number_of_articles) + '&rnnamespace=0'
+
+        # reads the response into a json object that can be iterated over
+        data = json.loads(requests.get(query).text)
+        # print(data)
+
+        # collects the ids from the json
+        ids = []
+        for article in data['query']['random']:
+            ids.append(article['id'])
+
+        return ids
+
+
+    def _get_article_text(self, language_id, article_id_list):
+        """
+        This function takes a list of articles and yields a tuple (article_title, article_text).
+        """
+        for idx in article_id_list:
+            idx = str(idx)
+            query = \
+                            'https://' + language_id \
+                            + '.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&pageids=' \
+                            + idx + '&redirects=true'
+
+            data = json.loads(requests.get(query).text)
+
+            try:
+                title = data['query']['pages'][idx]['title']
+                text_body = data['query']['pages'][idx]['extract']
+            except KeyError as e:
+                # if nothing is returned for the request, skip to the next item
+                # if it is important to download a precise number of files
+                # then this can be repeated for every error to get a new file
+                # but I think this is an edge case
+                print(e)
+                continue
+
+            def clean(text):
+                """
+                Removes HTML tags.
+                """
+                match_tag = re.compile(r'<[^>]+>')
+                return match_tag.sub('', text)
+
+            yield title, clean(text_body)
+
+
+    def write_articles(self, language_id, number_of_articles, db_location):
+        """
+        This writes articles to the location specified.
+        """
+        articles = self._get_random_article_ids(language_id, number_of_articles)
+        text_list = self._get_article_text(language_id, articles)
+
+        for title, text in text_list:
+            # slugify the title (make a valid UNIX filename)
+            title = "".join(x for x in title if x.isalnum())
+            with open(db_location + '/' + title + '.txt', 'w+') as f:
+                f.write(text)
+
+~~~
+
+This module contains an object that can be used to download articles. For instance, if you have a directory called `data/sco` where you want to save your Scots data, you can download 80 files with the following command:
+
+~~~python
+from get_data import GetArticles
+gd = GetArticles()
+gd.write_articles('sco', 80, 'data/sco')
 ~~~
 
 
 
-* python program
+
 * bash script to add to one mega file
 
 

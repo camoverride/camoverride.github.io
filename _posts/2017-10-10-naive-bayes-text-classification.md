@@ -13,7 +13,7 @@ In this article, I'm going to build a text classification application from scrat
 ## Building a Corpus
 In order to perform language classification, a data source is needed. A good source will have a large amount of text and accurate category labels. Wikipedia seems like a great place to start. Not only do they have a well-documented API, but it allows for language-specific querying. I'm going to challenge myself by choosing two languages that machine learning algorithms will have trouble telling apart: English and [Scots](https://sco.wikipedia.org/wiki/Yird) (yes, it's a real language, and attempting to decipher it is quite fun).
 
-The code 
+The Python object below takes care of building our corpus. The process of sanitizing the incoming HTML is rudimentary, but gets the job done:
 
 ~~~python
 

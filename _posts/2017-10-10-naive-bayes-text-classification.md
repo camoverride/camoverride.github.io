@@ -21,7 +21,7 @@ Naive Bayes classifiers are a family of classifiers that take inspiration from B
 We can think of the probability of A given be as being equivalent to the probability of the intersection of A and B divided by the probability of B:
 
 $$
-P(A | B) = P(A \cap B)/P(B)
+P(A | B) = {\dfrac{P(A \cap B)}{/P(B)}}
 $$
 
 

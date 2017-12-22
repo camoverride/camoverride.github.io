@@ -1,17 +1,27 @@
 ---
 layout: post
 title: Text Classification from Scratch
-categories: [data, verbose]
+categories: [data]
 comments: true
 published: true
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
-In this article, I'm going to build a text classification application from scratch. This will involve (1) constructing a corpus, (2) creating a language classifier, and (3) deploying the application to the web. Along the way, I'll explore some of the interesting properties of Bayes Theorem, feature hashing, and database design.
+In this article, I'm going to build a text classification application from scratch. This will involve (1) constructing a corpus, (2) creating a language classifier, and (3) deploying the application to the web. Along the way, I'll explore some of the interesting properties of Bayes Theorem, feature hashing, and database design. This application will let people enter blocks of text and will return the text's language.
 
 ## Building a Corpus
-...
+In order to perform language classification, a data source is needed. A good source will have a large amount of text and accurate category labels. Wikipedia seems like a great place to start. Not only do they have a well-documented API, but it allows for language-specific querying. I'm going to challenge myself by choosing two languages that machine learning algorithms will have trouble telling apart: English and [Scots](https://sco.wikipedia.org/wiki/Yird) (yes, it's a real language, and attempting to decipher it is quite fun).
+
+~~~python
+
+print('hello world')
+~~~
+
+
+
+* python program
+* bash script to add to one mega file
 
 
 

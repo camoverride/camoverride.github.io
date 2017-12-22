@@ -20,9 +20,7 @@ Naive Bayes classifiers are a family of classifiers that take inspiration from B
 
 We can think of the probability of A given B as being equivalent to the probability of the intersection of [A and B](https://en.wikipedia.org/wiki/Logical_conjunction#/media/File:Venn0001.svg) divided by the probability of B, where the probability of B is further equivalent to the intersection of A and B plus the intersection of [B and not A](https://en.wikipedia.org/wiki/Boolean_algebra#/media/File:Vennandornot.svg) (I've linked Venn Diagram illustrations of these logical functions):
 
-$$
-P(A | B) = {\dfrac{P(A \cap B)}{P(B)}} = {\dfrac{P(A \cap B)}{P(A \cap B) + P(B \cap ¬A)}}
-$$
+$$ P(A | B) = {\dfrac{P(A \cap B)}{P(B)}} = {\dfrac{P(A \cap B)}{P(A \cap B) + P(B \cap ¬A)}} $$
 
 The formula above is implemented with logic, but it's more useful to convert this to math so that we can play around with specific quantities. The intersection of two sets, A and B, is the same as the probability of B given A multiplied by the probability of A. The middle section below is the canonical form of Bayes' Theorem:
 
@@ -41,8 +39,15 @@ Intuitively, this result makes sense. Three out of four times, the word "auld" a
 
 If you paid attention to the way that the data was collected, you might think that the division of text into different documents was a bit arbitrary. When filtering emails, it makes sense to keep track of what proportion of incoming mail was labeled spam. This is because the spam model and the spam corpus exist in the same environment. In our case, the environments won't match. We are not randomly selecting a Wikipedia article and guessing the language. Instead, users will input snippets of text to learn what language it is in. There are 5,535,380 English Wikipedia articles at the time of this writing, but only 48,228 in Scots. If we were to take the prior probabilities of an article being in English vs Scots, we would be more than a hundred times more likely to identify it as English, all other things being equal. Because of that, we might want to rethink our prior.
 
-Because there are two Scots articles in our toy corpus and only one in English, this means that the prior for Scots is 2/3. If we relax this prior assumption, 
+Because there are two Scots articles in our toy corpus and only one in English, this means that the prior for Scots is 2/3. We can relax the prior that word the number of documents is meaningful, which is equivalent to collapsing all the Scots documents in one mega-document (and likewise for English):
 
+$$ \cfrac{3/4 \cdot 1}{3/4 \cdot 1 + 1/4 \cdot 1} = \cfrac{6}{7} $$
+
+Notice that now our conditional probabilities are equivalent:
+
+$$ P(Scots|auld) = P(auld|Scots) $$
+
+This is convenient
 
 
 

@@ -39,6 +39,9 @@ $$
 
 Intuitively, this result makes sense. Three out of four times, the word "auld" appears in Scots, and documents labeled "Scots" occur more frequently than documents in the "English" category.
 
+If you paid attention to the way that the data was collected, you might think that the division of text into different documents was a bit arbitrary. When filtering emails, it makes sense to keep track of what proportion of incoming mail was labeled spam. This is because the spam model and the spam corpus exist in the same environment. In our case, the environments won't match. We are not randomly selecting a Wikipedia article and guessing the language. Instead, users will input snippets of text to learn what language it is in. There are 5,535,380 English Wikipedia articles at the time of this writing, but only 48,228 in Scots. If we were to take the prior probabilities of an article being in English vs Scots, we would be more than a hundred times more likely to identify it as English, all other things being equal. Because of that, we might want to rethink our prior.
+
+Because there are two Scots articles in our toy corpus and only one in English, this means that the prior for Scots is 2/3. If we relax this prior assumption, 
 
 
 

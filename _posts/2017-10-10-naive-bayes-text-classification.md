@@ -33,7 +33,7 @@ $$
 The intuition behind Naive Bayes is quite simple. Let's say we have three documents, one is English and contains \["auld", "man", "girl"\] and the other two are Scots and are \["the", "auld"\] and \["auld", "auld"\] (Not the most realistic data, but it'll suit our purposes.) If we are judging the input sentence \["auld"\] (a vector of words containing only one element), then the probability of this belonging to Scots is:
 
 $$
-P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = {\dfract{\dfract{3}{4}} \cdot {\dfract{2}{3}} 5 }
+P(Scots|auld) = {\dfrac{P(auld|Scots) \cdot P(Scots)}{P(auld)}} = {\dfrac{3}{4} } \cdot {\dfrac{2}{3}}
 $$
 
 

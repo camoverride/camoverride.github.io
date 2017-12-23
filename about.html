@@ -29,6 +29,12 @@ next(co)
 print(co.send('World'))
 ~~~
 
+{% capture x %}
+## This is markdown
+
+so and so
+{% endcapture %}{{ x | markdownify }}
+
 <!--
 <h5>Languages</h5>
 

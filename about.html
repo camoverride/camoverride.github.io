@@ -19,6 +19,7 @@ $$ \binom{n}{k} p^k (1-p)^{n-k} $$
 
 <h5>Code</h5>
 Coroutines are really great. I'm getting more comfortable with Node.js. I recently discovered Python's Multiprocessing library and am falling in love. (I still haven't finished reading <a href="https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs">sicp</a>.)
+{% capture x %}
 ~~~python
 def coroutine():
     hi = yield 'Hello'
@@ -28,11 +29,6 @@ co = coroutine()
 next(co)
 print(co.send('World'))
 ~~~
-
-{% capture x %}
-## This is markdown
-
-so and so
 {% endcapture %}{{ x | markdownify }}
 
 <!--

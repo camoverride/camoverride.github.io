@@ -7,7 +7,7 @@ published: true
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-When I'm trying to decipher some hairy math formula, I find it helpful to translate the equation into code. In my experience, it's often easier to follow the logical flow of a programming function than an equivalent function written in mathematical notation. This guide is intended for programmers who want to gain a deeper understanding of mathematical notations and concepts. I decided to use Python as it's closer to pseudo-code than any other language I'm familiar with.
+When I'm trying to decipher some hairy math formula, I find it helpful to translate the equation into code. In my experience, it's often easier to follow the logical flow of a programming function than an equivalent function written in mathematical notation. This guide is intended for programmers who want to gain a deeper understanding of both mathematical notations and concepts. I decided to use Python as it's closer to pseudo-code than any other language I'm familiar with.
 
 # Table of Contents
 
@@ -21,10 +21,25 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Optimization](#optimization)
 3. [Statistics](#statistics)
     - [Maximum Likelihood Estimators](#maximum-likelihood-estimators)
-    - [Kolmogorov's Axioms](#kolmogorov's-axioms)
+    - [Kolmogorov's Axioms](#kolmogorovs-axioms)
 4. [Sets](#sets)
+    - [Union](#union)
+    A U B = { x | x  A U x  B } 
+    - [Intersection](#intersection)
+    - [Difference](#difference)
+    - [Complement](#complement)
+    - [Ordered n-Tuple](#ordered-n-tuple)
+    - [Cartesian Product](#cartesian-product)
+    - [Countably Infinite Sets](#countably-infinite-sets)
 5. [Logic](#logic)
-    - [De Morgan's Theorem](#de-morgan's-theorem)
+    - [Universal Quantifier](#universal-quantifier)
+    - [Existential Quantifier](#universal-quantifier)
+    - [Implication](#implication)
+    - [Biconditional](#biconditional)
+    - [Negation](#negation)
+    - [De Morgan's Theorem](#de-morgans-theorem)
+
+
 6. [Functions](#functions)
     - [Vector-Valued Functions](#vector-valued-functions)
     - [Anonymous Functions](#anonymous-functions)
@@ -54,9 +69,33 @@ calculation of 2^n for events defined on outcome space
 
 
 ## Sets
+Some of these are more accuratelt described as logical connectives. However, I find them easier to understand in terms of explicit set operations.
+### Union
+
+### Intersection
+
+### Difference
+
+### Complement
+
+### Ordered n-Tuple
+
+### Cartesian Product
+
+### Countably Infinite Set
 
 
 ## Logic
+### Universal Quantifier
+
+### Existential Quantifier
+
+### Implication
+
+### Biconditional
+
+### Negation
+
 ### De Morgan's Theorem
 
 

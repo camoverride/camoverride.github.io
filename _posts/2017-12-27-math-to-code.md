@@ -9,7 +9,7 @@ published: true
 
 When I'm trying to decipher some hairy math formula, I find it helpful to translate the equation into code. In my experience, it's often easier to follow the logical flow of a programming function than an equivalent function written in mathematical notation. This guide is intended for programmers who want to gain a deeper understanding of both mathematical notations and concepts. I decided to use Python as it's closer to pseudo-code than any other language I'm familiar with.
 
-# Table of Contents
+## Table of Contents
 
 1. [Sequences](#sequences)
     - [Sequence Summation](#sequence-summation)
@@ -26,7 +26,6 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Kolmogorov's Axioms](#kolmogorovs-axioms)
 4. [Sets](#sets)
     - [Union](#union)
-    A U B = { x | x  A U x  B } 
     - [Intersection](#intersection)
     - [Difference](#difference)
     - [Complement](#complement)
@@ -80,6 +79,7 @@ calculation of 2^n for events defined on outcome space
 ## Sets
 Some of these are more accuratelt described as logical connectives. However, I find them easier to understand in terms of explicit set operations.
 ### Union
+    A U B = { x | x  A U x  B } 
 
 ### Intersection
 

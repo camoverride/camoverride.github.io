@@ -48,8 +48,8 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 
 ## Sequences
 ### Sequence Summation
-Sigma (Σ) represents summation.
-$$sum_{i=1}^10 2*i = 90$$
+Sigma (Σ) represents summation:
+$$\sum_{i=1}^10 2*i = 90$$
 
 Because Python is indexed from 0, in order to count from 1 to n, we count from 1 to n + 1:
 ~~~python

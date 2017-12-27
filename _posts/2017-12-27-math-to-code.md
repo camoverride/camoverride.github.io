@@ -30,39 +30,39 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Anonymous Functions](#Anonymous-Functions)
 
 
-##Sequences
-###Sequence Summation
+## Sequences
+### Sequence Summation
 
-###Sequence Product
+### Sequence Product
 
-###Sequence
-
-
-##Calculus
-###Gradient
-
-###Gradient Descent
-
-###Optimization
+### Sequence
 
 
-##Statistics
-###Maximum Likelihood Estimators
+## Calculus
+### Gradient
 
-###Kolmogorov's Axioms
+### Gradient Descent
+
+### Optimization
+
+
+## Statistics
+### Maximum Likelihood Estimators
+
+### Kolmogorov's Axioms
 calculation of 2^n for events defined on outcome space
 
 
-##Sets
+## Sets
 
 
-##Logic
-###De Morgan's Theorem
+## Logic
+### De Morgan's Theorem
 
 
-##Functions
-###Vector-Valued Functions
+## Functions
+### Vector-Valued Functions
 
-###Anonymous Functions
+### Anonymous Functions
 
 

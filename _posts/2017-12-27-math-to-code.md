@@ -16,6 +16,8 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Sequence Product](#sequence-product)
     - [Infinite Sequences](#infinite-sequences)
 2. [Calculus](#calculus)
+    - [Derivatives](#derivatives)
+    - [Integrals](#integrals)
     - [Gradient](#gradient)
     - [Gradient Descent](#gradient-descent)
     - [Optimization](#optimization)
@@ -47,6 +49,7 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 
 ## Sequences
 ### Sequence Summation
+double sequence...
 
 ### Sequence Product
 
@@ -54,6 +57,12 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 
 
 ## Calculus
+## Derivatives
+second derivative, third, etc.
+
+## Integrals
+double integral...
+
 ### Gradient
 
 ### Gradient Descent

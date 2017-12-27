@@ -69,8 +69,17 @@ for i in range(1, 11):
 Sums can also be linked together. When both sums are finite, order doesn't matter. This is extremely close to the idea of a for loop:
 
 $$
-\sum_{i=1}^{10} \sum_{j=1}^{3} i*j-1
+\sum_{i=1}^{4} \sum_{j=1}^{2} ij^2
 $$
+
+Sums are evaluated from right to left. This means that the left-most sigma is the top-most nested loop:
+
+~~~python
+total = 0
+for i in range(1, 5):
+    for j in range(1, 3):
+        total += i * j**2
+~~~
 
 ### Sequence Product
 

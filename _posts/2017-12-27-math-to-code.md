@@ -20,8 +20,8 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Gradient Descent](#Gradient-Descent)
     - [Optimization](#Optimization)
 3. [Statistics](#Statistics)
-    - [Maximum Likelihood Estimator](#Maximum-Likelihood-Estimator)
-    - 
+    - [Maximum Likelihood Estimators](#Maximum-Likelihood-Estimators)
+    - [Kolmogorov's Axioms](#Kolmogorov's-Axioms)
 4. [Sets](#Logic)
 5. [Logic](#Logic)
     - [De Morgan's Theorem](#De-Morgan's-Theorem)
@@ -30,7 +30,7 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Anonymous Functions](#Anonymous-Functions)
 
 
-## Sequences
+##Sequences
 ###Sequence Summation
 
 ###Sequence Product
@@ -38,9 +38,31 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 ###Sequence
 
 
-## Calculus
+##Calculus
 ###Gradient
 
-### Gradient Descent
+###Gradient Descent
+
+###Optimization
+
+
+##Statistics
+###Maximum Likelihood Estimators
+
+###Kolmogorov's Axioms
+calculation of 2^n for events defined on outcome space
+
+
+##Sets
+
+
+##Logic
+###De Morgan's Theorem
+
+
+##Functions
+###Vector-Valued Functions
+
+###Anonymous Functions
 
 

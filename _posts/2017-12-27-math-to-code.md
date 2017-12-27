@@ -57,22 +57,24 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 ### Sequence Summation
 Sigma (Σ) represents summation:
 
-$$
-
-\sum_{i=1}^{10} 2*i = 90
-
-$$
+$$ \sum_{i=1}^{10} 2*i = 90 $$
 
 Because Python is indexed from 0, in order to count from 1 to n, we count from 1 to n + 1:
 ~~~python
 total = 0
-for i in range(1, 10):
+for i in range(1, 11):
     total += 2 * i
 ~~~
 
+Sums can also be linked together. When both sums are finite, order doesn't matter. This is extremely close to the idea of a for loop:
+
+$$
+\sum_{i=1}^{10} \sum_{j=1}^{3} i*j-1
+$$
+
 ### Sequence Product
 
-### Sequence
+### Infinite Sequences
 
 
 ## Calculus

@@ -51,7 +51,7 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 Sigma (Σ) represents summation:
 
 $$\begin{flushleft}
-\sum_{i=1}^10 2*i = 90
+\sum_{i=1}^{10} 2*i = 90
 \end{flushleft}$$
 
 Because Python is indexed from 0, in order to count from 1 to n, we count from 1 to n + 1:

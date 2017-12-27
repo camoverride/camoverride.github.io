@@ -11,8 +11,8 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 
 # Table of Contents
 
-1. [Sequences](#Sequences)
-    - [Sequence Summation](#Sequence-Summation)
+1. [Sequences](#sequences)
+    - [Sequence Summation](#sequence-Summation)
     - [Sequence Product](#Sequence-Product)
     - [Infinite Sequences](#Infinite-Sequences)
 2. [Calculus](#Calculus)

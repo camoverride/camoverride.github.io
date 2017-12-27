@@ -55,9 +55,10 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
 
 ## Sequences
 ### Sequence Summation
-Sigma (Σ) represents summation:
-
-$$ \sum_{i=1}^{10} 2*i = 90 $$
+Sigma `Σ` represents summation:
+$$
+\sum_{i=1}^{10} 2i = 90
+$$
 
 Because Python is indexed from 0, in order to count from 1 to n, we count from 1 to n + 1:
 ~~~python
@@ -67,13 +68,11 @@ for i in range(1, 11):
 ~~~
 
 Sums can also be linked together. When both sums are finite, order doesn't matter. This is extremely close to the idea of a for loop:
-
 $$
-\sum_{i=1}^{4} \sum_{j=1}^{2} ij^2
+\sum_{i=1}^{4} \sum_{j=1}^{2} ij^2 = 50
 $$
 
 Sums are evaluated from right to left. This means that the left-most sigma is the top-most nested loop:
-
 ~~~python
 total = 0
 for i in range(1, 5):
@@ -82,6 +81,11 @@ for i in range(1, 5):
 ~~~
 
 ### Sequence Product
+
+The product of a sequence is represented by a capital letter pi `Π`:
+$$
+\prod_{1}^{4} = 24
+$$
 
 ### Infinite Sequences
 

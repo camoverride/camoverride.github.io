@@ -160,7 +160,7 @@ def odd_numbers():
 
 In math, infinite sequences and series also have cardinality. For instance, the cardinality of the natural numbers is $$\aleph_0$$ and the cardinality of the real numbers is $$\mathfrak{c}$$. One of Georg Cantor's surprising discoveries was that the set of all positive odd numbers has the same cardinality as natural numbers (intuitively, it seems like there are twice as many natural numbers as there are odd numbers). This is because infinite sets are not measured by counting their elements -- after all, this would be futile, because you'd go on counting forever. Instead, infinite sets are measured by the functions that generate them. If a function can be lined-up 1:1 with the natural numbers, then it has the same cardinality as the natural numbers, $$\aleph_0$$.
 
-Given a generator that produces the natural numbers, we can create a second function that gives us the odd numbers:
+Given a generator that produces the natural numbers, we can create a second function that gives us the odd numbers, demonstrating that these sets have the same cardinality:
 
 ~~~python
 def natural_numbers():
@@ -180,7 +180,9 @@ for i in odds():
 
 However, we cannot use our natural number generator to produce the set of real numbers. Think about it. Let's say that we start counting from 1. What is the first real number that comes after 1? It's got to be something very close to 1, like 1.01. Well, this isn't close enough, because 1.0001 is even closer. In fact, we can keep adding 0's and never stop (well, actually, our computer will eventually run out of memory and crash).
 
-I'm not a professional mathematician, but my failure to think of a function that gives us the real numbers seems to be evidence that the cardinality of the real numbers is strictly greater than the cardinality of the natural numbers. Apart from an *ex ante* specification of our accuracy (e.g., we will have numbers with at most 100 digits), it seems like this problem is intractable. In other words, you can translate countably infinite sequences from math to programming, but uncountable sets get trickier (if anyone has any insight into this problem, please send me an email, as I'm very curious to hear more).
+I'm not a professional mathematician, but my failure to think of a function that gives us the real numbers seems to be evidence that the cardinality of the real numbers is strictly greater than the cardinality of the natural numbers. Apart from a before-the-fact specification of our accuracy (e.g., we will have numbers with at most 100 digits), it seems like this problem is intractable. In other words, you can translate countably infinite sequences from math to programming, but uncountable sets get trickier.
+
+(If anyone has any insight into this problem, please send me an email, as I'm very curious to hear more.)
 
 <!--more-->
 

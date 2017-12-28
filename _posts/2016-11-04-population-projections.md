@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Population Projections
-categories: [blog]
+categories: [data]
 comments: true
 ---
 

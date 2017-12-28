@@ -370,7 +370,15 @@ dblquad(lambda t, x: sines(t, x), 0, pi, lambda x: 0, lambda x: pi)
 ~~~
 
 ### Gradients
-I'm not going to cover single-valued derivatives here, because they're too simple. But what if you want to find the derivative of a vector-valued function with more than one argument? The gradient evaluated at a given point gives you some idea of a function's multivariable slope at that point. A gradient is a vector of a the partial derivatives of a function. Gradients are important in some Machine Learning algorithms ([next section](#gradient-descent)).
+I'm not going to cover single-valued derivatives here, because they're too simple. But what if you want to find the derivative of a vector-valued function with more than one argument? The gradient evaluated at a given point gives you some idea of a function's multivariable slope at that point. A gradient is a vector of a the partial derivatives of a function. Gradients are important in some Machine Learning algorithms ([next section](#gradient-descent)). The gradient of a function, $$f$$, is written as $$\nabla f$$.
+
+If we have a function $$f(x, y) = x^2 - xy$$, then:
+
+$$
+\nabla f
+= \begin{bmatrix}  \frac{\partial}{\partial x} (x^2 - xy)  \\  \frac{\partial}{\partial y} (x^2 - xy)  \end{bmatrix}
+= \begin{bmatrix}  2x - y \\ -x  \end{bmatrix}
+$$
 
 
 

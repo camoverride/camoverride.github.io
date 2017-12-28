@@ -142,7 +142,7 @@ $$
 (1, 3, 5, 7,...)
 $$
 
-More accurately:
+It's often more useful to specify a function that generates an infinite sequence than simply implying a function using $$...$$ (more on that at the end of this section):
 
 $$
 Odd = \{ 2k + 1 : k \in \mathbb{Z} \}

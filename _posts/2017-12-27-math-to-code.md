@@ -329,7 +329,7 @@ assert
 ### Integrals
 Suppose we have a function, $$f(x) = sin(x)$$. The area under $$f(x)$$ from 0 to $$\pi$$ is represented by the blue region in this graph:
 
-<img src="/img/sinx.png" width="300px">
+![sinx]({{ site.url }}/img/sinx.png){:height="36px" width="300px"}
 
 Which can be written as an integral:
 
@@ -351,7 +351,7 @@ In the tuple that gets returned, the first value is the integral and the second 
 
 But what if we want to know the area under a graph with more than one dimension, like $$f(x, y) = sin(x) sin(y)$$?
 
-<img src="/img/sinxy.png" width="300px">
+![sinxy]({{ site.url }}/img/sinxy.png){:height="36px" width="400px"}
 
 Let's say that we want to know the area under the curve of 0 to $$pi$$ on the y-axis and 0 to $$pi$$ on the x-axis. The solution is to take a double integral:
 

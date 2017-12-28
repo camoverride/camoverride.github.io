@@ -31,13 +31,7 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Complement](#complement)
     - [Ordered n-Tuple](#ordered-n-tuple)
     - [Cartesian Product](#cartesian-product)
-4. [Calculus](#calculus)
-    - [Derivatives](#derivatives)
-    - [Integrals](#integrals)
-    - [Gradient](#gradient)
-    - [Gradient Descent](#gradient-descent)
-    - [Optimization](#optimization)
-5. [Statistics](#statistics)
+4. [Statistics](#statistics)
     - [Maximum Likelihood Estimators](#maximum-likelihood-estimators)
     - [Kolmogorov's Axioms](#kolmogorovs-axioms)
 6. [Logic](#logic)
@@ -47,6 +41,11 @@ When I'm trying to decipher some hairy math formula, I find it helpful to transl
     - [Biconditional](#biconditional)
     - [Negation](#negation)
     - [De Morgan's Theorem](#de-morgans-theorem)
+6. [Calculus](#calculus)
+    - [Integrals](#integrals)
+    - [Gradients](#gradients)
+    - [Gradient Descent](#gradient-descent)
+<!--    - [Optimization](#optimization)-->
 7. [Functions](#functions)
     - [Vector-Valued Functions](#vector-valued-functions)
     - [Anonymous Functions](#anonymous-functions)
@@ -279,35 +278,32 @@ complement_A = U - A # {2, 4}
 An ordered n-tuple $$ <x_1, x_2, x_3, ... x_n> $$ is equivalent to a [list](#finite-sequences) in Python with n elements.
 
 ### Cartesian Product
-For sets A and B, the Cartesian product is the set of all ordered pairs $$(a, b)$$ where $$a \in A$$ and $$b \in B$$.
+For sets A and B, the Cartesian product is the set of all ordered pairs $$(a, b)$$ where $$a \in A$$ and $$b \in B$$. In set-builder notation, this is:
 
+$$
+A \times B = \{(a, b) \hspace{1mm} | \hspace{1mm} a \in \hspace{1mm} A \hspace{1mm} and \hspace{1mm} b \in B\}
+$$
 
+Let's say that $$A = \{a_1, a_2, a_3\}$$ and $$B = \{b_1, b_2\}$$, then $$A \times B$$ is:
 
+$$
+(a_1, b_1), (a_2, b_1), (a_3, b_1) \\
+(a_1, b_2), (a_2, b_2), (a_3, b_2)
+$$
 
+In Python, this is:
 
-
-
-
-
-
-
-## Calculus
-### Derivatives
-second derivative, third, etc.
-
-### Integrals
-double integral...
-
-### Gradient
-
-### Gradient Descent
-
-### Optimization
+~~~python
+A = {'a1', 'a2', 'a3'}
+B = {'b1', 'b2'}
+{(a, b) for a in A for b in B} # {('a2', 'b2'), ('a3', 'b2'), ('a1', 'b2'), ('a1', 'b1'), ('a2', 'b1'), ('a3', 'b1')}
+~~~
 
 
 ## Statistics
 ### Maximum Likelihood Estimators
 
+gaussian distribution, function input with semicolon
 ### Kolmogorov's Axioms
 calculation of 2^n for events defined on outcome space
 
@@ -324,8 +320,64 @@ calculation of 2^n for events defined on outcome space
 ### Biconditional
 
 ### Negation
+assert
 
 ### De Morgan's Theorem
+
+
+## Calculus
+### Integrals
+Suppose we have a function, $$f(x) = sin(x)$$. The area under $$f(x)$$ from 0 to $$\pi$$ is represented by the blue region in this graph:
+
+<img src="/img/sinx.png" width="300px">
+
+Which can be written as an integral:
+
+$$
+\int_{0}^{\pi} f(x) = 2
+$$
+
+Integration in Python is simple:
+
+~~~python
+import scipy.integrate as integrate
+from numpy import sin
+pi = 3.14159
+integrate.quad(lambda x: sin(x), 0, pi)
+# (1.9999999999964795, 2.2204460492464044e-14)
+~~~
+
+In the tuple that gets returned, the first value is the integral and the second value is the upper bound on the possible error.
+
+But what if we want to know the area under a graph with more than one dimension, like $$f(x, y) = sin(x) sin(y)$$?
+
+<img src="/img/sinxy.png" width="300px">
+
+Let's say that we want to know the area under the curve of 0 to $$pi$$ on the y-axis and 0 to $$pi$$ on the x-axis. The solution is to take a double integral:
+
+$$
+\int_{0}^{\pi} \int_{0}^{\pi} f(x) \hspace{1mm} dy dx = 4
+$$
+
+In Python, you can use scipy's dblquad function. This takes as arguments a function to be integrated, a pair of bounds for the outer integral, and a pair of inner bounds wrapped in functions for the inner integral:
+
+~~~python
+from scipy.integrate import dblquad
+def sines(x, y):
+    return sin(x)*sin(y)
+dblquad(lambda t, x: sines(t, x), 0, pi, lambda x: 0, lambda x: pi)
+# (3.9999999999859175, 4.4408920984849916e-14)
+~~~
+
+### Gradients
+I'm not going to cover single-valued derivatives here, because they're too simple. But what if you want to find the derivative of a vector-valued function with more than one argument? The gradient evaluated at a given point gives you some idea of a function's multivariable slope at that point. A gradient is a vector of a the partial derivatives of a function. Gradients are important in some Machine Learning algorithms ([next section](#gradient-descent)).
+
+
+
+### Gradient Descent
+
+<!--### Optimization-->
+
 
 
 ## Functions

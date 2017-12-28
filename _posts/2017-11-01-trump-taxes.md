@@ -22,5 +22,5 @@ Facts are necessary but not sufficient to gain insight. Anyone can visit Wikiped
 [^1]: [*CBO: Senate tax plan would increase deficit by $1.4T over 10 years*](http://www.cnn.com/2017/11/27/politics/cbo-score-senate-tax/index.html), CNN
 [^2]: [*CBO: Senate tax bill increases deficit by $1.4 trillion*](http://thehill.com/blogs/floor-action/senate/362905-cbo-senate-tax-bill-increases-deficit-by-14-trillion), The Hill
 [^3]: [*GOP tax cut plan would add $1.7 trillion to the deficit, CBO projects*](https://www.cnbc.com/2017/11/08/house-tax-reform-plan-would-raise-deficit-by-1-point-7-trillion-cbo.html)
-[^4]: debt by country
+[^4]: [*List of Countries by External Debt*](https://en.wikipedia.org/wiki/List_of_countries_by_external_debt), Wikipedia
 [^5]: [*United States Gross Federal Debt to GDP*](https://tradingeconomics.com/united-states/government-debt-to-gdp), Trading Economics

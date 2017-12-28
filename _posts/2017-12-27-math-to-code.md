@@ -170,8 +170,8 @@ def natural_numbers():
         i += 1
 
 def odds():
-    for i in natural_numbers():
-        yield 2 * i + 1
+    for k in natural_numbers():
+        yield 2 * k + 1
 
 # if we iterate through odds(), we get odd numbers
 for i in odds():

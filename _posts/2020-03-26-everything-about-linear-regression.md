@@ -3,7 +3,7 @@ layout: post
 title: Everything You Ever Wanted to Know About Linear Regression
 categories: [data]
 comments: true
-published: false
+published: true
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -42,6 +42,7 @@ df_1 = df_1.loc[df_1.Gender == "Male"]
 df_1 = df_1.drop("Gender", axis=1)
 ~~~
 
+
 ## Data Visualization
 
 Now let's plot the data to see what it looks like. If the data appears to fall on a line, then it's linear and we can use a linear model to describe it.
@@ -67,6 +68,7 @@ set_plot_1()
 
 Great! This data looks approximately linear. As someone's _height_ goes up, so does their _weight_ -- and this totally makes sense. When two variables change such that when one gets larger the other one also gets larger, we call that a _positive correlation_. When one variable gets bigger and another gets larger, that's called _negative corrlelation_. These variables are positively correlated and linear.
 
+
 ## Simple Modeling
 
 Now it's time to put our data science hat on... what if we happened to have some new data on hand, but this data only contained information about people's _heights_. If we only knew height information, would we be able to predict a person's weight? The answer is yes! We could imagine drawing a line through the middle of our data, like below. If we know someone's height (from the _x-axis_) we can choose the value on the _y-axis_ (weight) that it corresponds to.
@@ -81,6 +83,7 @@ plt.plot([63, 75], [140, 240], color='orange', linestyle='dashed', linewidth=2, 
 ![]({{ site.url }}/img/graph_2.png)
 
 With this model, we can make simple predictions. However, how do we know if this model is a good model? Furthermore, how can we tell whether it's better than other models we could create? This model was created by simply drawing a line through two pairs of points: `[63, 140], [75, 240]`, (above).
+
 
 ## Simple Math
 
@@ -158,6 +161,7 @@ plt.plot(x2, y2, color='red', linestyle='dashed', linewidth=2, markersize=12, la
 
 Notice that the new model, which is represented by the red line, is a better model than the green line. But how can we prove, mathematically, that the red line is better instead of just eye-balling it? In the next section, I'll show you how to do exactly that!
 
+
 ## Visually Measuring Error
 
 In the last section, I showed how we can use the equation of a line to generate predicted y-values (weights) based on some x-values (heights). In this context, the equation of a line is a function that accepts _x-values_ and outputs _y-values_. And because this is machine learning and we're making predictions, this function is called a _model_. 
@@ -212,6 +216,7 @@ plt.plot(x2, y2, color='red', linestyle='dashed', linewidth=2, markersize=12, la
 ~~~
 
 ![]({{ site.url }}/img/graph_6.png)
+
 
 ## Sum of Squared Errors
 
@@ -286,6 +291,7 @@ $$ SSE = \sum_{i=1}^n (\hat{y_i} - y_i)^2 $$
 Where the _y_ with a hat above it (often just called "y-hat") means "predicted y" (or in our case, predicted height), _y_ (with no hat) means the actual height, and the large sigma means that we sum across all of our data, indexing through the y's starting with _i_ (the index) at _0_ and going all the way through our to our last value, _n_, which is the length of the dataset.
 
 If you want to learn more about sigma notation, see [my blog post about the topic](https://camtsmith.com/articles/2017-12/math-to-code) or [the more formal treatment](http://www.mathcentre.ac.uk/resources/uploaded/mc-ty-sigma-2009-1.pdf).
+
 
 ## Finding the Right Parameters
 
@@ -403,6 +409,7 @@ plt.plot([min_x, max_x], [pred_y_min, pred_y_max], color='green', linestyle='das
 ![]({{ site.url }}/img/graph_7.png)
 
 Wow! Even though we randomly guessed coefficients, this line looks pretty good -- that's the power of computers: they're really fast and can make a lot of guesses. But the line still doesn't look perfect. In fact, it can still be improved quite a bit. If random guessing feels inefficient and imperfect to you, then your intuitions are correct. There's a much better way to find the correct coefficients, but it involves calculus. In the next section I'll introduce a new dataset. That dataset will be useful when thinking about gradient descent, which is an algorithm that finds good coefficients (the section after).
+
 
 ## A New Dataset
 
@@ -526,6 +533,7 @@ Once some value for the coefficient is discovered, you can find the slope of the
 
 In the next section, we'll find the derivitive of the error function. Knowing the derivitive is the key that lets us find the bottom of the bowl... but it'll take some calculus.
 
+
 ## Gradient Descent
 
 Note: a "gradient" is just the multi-dimensional generalization of a derivative. In the case of linear regression, each parameter (_m_, _b_) represents a different dimension. However, because a linear equation has only one parameter, _m_, you can simple take the derivative, not the gradient. However, the algorithm is still called _gradient_ descent.
@@ -611,6 +619,7 @@ plt.plot([0, 1], [model.predict(0), model.predict(1)], color='orange', linestyle
 ![]({{ site.url }}/img/graph_12.png)
 
 This model looks great! Instead of optimizing the coefficient _m_ using random guessing, we used a much more efficient algorithm called gradient descent. Let's see if we can apply the same logic with affine equations.
+
 
 ## Back to Affine
 
@@ -764,6 +773,7 @@ In the next few sections I'm going to wrap up a few loose ends by dealing with t
 
 In order to answer these questions, I'm going to have to introduce a little linear algebra -- but if you've been able to follow along so far, it won't be too hard. I'll also introduce a little but more math when talking about more complicated linear models (with several variables).
 
+
 ## Multiple Linear Regression
 
 The first two data sets we've explored -- height vs weight and the dummy dataset we created -- both had a single input variable and a single outcome variable. But what if you have multiple variables that you care about? For instance, let's say that you're trying to predict a person's blood pressure given their age and weight? Well, there's [a dataset](https://college.cengage.com/mathematics/brase/understandable_statistics/7e/students/datasets/mlr/frames/frame.html) with that exact information!
@@ -912,11 +922,13 @@ The R-squared for this model is 0.98, which means the data is strongly linear!
 
 In this section we learned the _standard approach_ to solving the data science problem of creating a linear model: import a useful package (Sklearn), do some analysis, and party. However, if you __only__ use a library there's a strong possibility that you'll be doing work and not understand what's going on under the hood -- which is something that __will__ come back to bite you.
 
+
 ## Wrapping Things Up
 
 In this article I showed you how to build and understand linear models. But there are few loose ends to wrap up. The first of these has to do with the vague way I've been using the phrase __linear model__. I've been using this to refer to linear equations, affine equations, and linear regression models with one (or more) input variables that make use of these types of equations. But a linear model can also mean something else: a model that is _linear in its coefficients_. But what does that exactly mean?
 
-### Complexity...
+
+## Complexity...
 
 A model like multiple linear regression is linear in its coefficients because when we add another input value, _x_, to the model, the number of coefficients in the model goes up by one. To make it explicit, when there are two input variables:
 
@@ -932,7 +944,8 @@ $$ y = \beta_0 + \beta x + \beta x^2 + \beta x^3 + \beta x^4 + \beta x^5$$
 
 These models are flexible and can fit even non-linear data. However, there is a consequence to all of this flexibility: your model can overfit the data. When a model overfits the data, it begins to make predictions that are specific to the data that was used to train it, and don't generalize to new data. This is why data scientists usually split their data into a training and a test set. When building models, data scientists use the training set. When the model is built, it's evaluated on the test set -- this ensures that the model can't "cheat" by overfitting itself to the test set. To learn more about this, see my post about [penalizing complexity](https://camtsmith.com/articles/2019-08/regularization).
 
-### Different Types of Variables
+
+## Different Types of Variables
 
 The last issue I'll deal with are different types of variables. All the data we've dealt with so far has been continuous and numeric: all natural numbers (or floats if you want to think in computer science terms). But sometimes data comes in other forms: what if we want to return to the original dataset and predict _gender_ as a function of _height_? Let's try that out and see what happens:
 
@@ -968,6 +981,7 @@ plt.plot([120, 200], [model.predict([[120]]), model.predict([[200]])], color=col
 
 Ok. This looks really bad. We're trying to predict the gender from the weight... but the predictions (which should be either _0_ for male of _1_ for female) are negative numbers, nowhere near the data... I'm not even going to go into all the problems here, except to suggest using __a different model__ like logistic regression. Linear regression is useful for linear data... but the outcome variable here (gender) is binary... this algorithm just won't work. You should try implementing logistic regression yourself!
 
-### Footnote
+
+## Footnote
 
 I hope this article has helped you understand linear regression better. Not only that, but the tools and tricks you learned here -- the calculus, linear algebra, and optimization to name just a few -- will be useful in other data science tasks.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Statistical Argument for Intersectionality
-categories: [blog]
+categories: [data]
 comments: true
 published: true
 ---

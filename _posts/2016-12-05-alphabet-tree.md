@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Orthography Tree
-categories: [linguistics]
+categories: [language]
 comments: true
 published: true
 ---

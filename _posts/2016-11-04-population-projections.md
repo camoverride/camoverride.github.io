@@ -3,12 +3,14 @@ layout: post
 title: Population Projections
 categories: [data]
 comments: true
-published: false
+published: true
 ---
 
-In science fiction, it's a common theme (maybe even a cliché!) for the future world to be greatly influenced by East Asian culture. This is a reasonable assumption for writers to make, given the enormous economic and demographic expansion that East Asia has undergone in the past half-century. However, as East Asia's economy stagnates and its population begins one of the sharpest declines in world history, it's becoming clear that this cliché is outdated. The future planet will be proportionally more African, South Asian, and Islamic than it is today. People interested in depicting future societies might want to turn away from East Asia and pay more attention to these under-appreciated societies.
+In science fiction, it's a common theme (maybe even a cliché!) for the future world to be greatly influenced by East Asian culture. This is a reasonable assumption for writers to make, given the enormous economic and demographic expansion that East Asia has undergone in the past half-century. However, as East Asia's population growth flattens, it's becoming clear that this cliché is outdated. The future planet will be proportionally more African, South Asian, and Muslim than it is today. People interested in depicting future societies might want to turn away from East Asia and pay more attention to these under-appreciated societies.
 
 In the next section I created some data visualizations to demonstrate the planet's changing demographic composition. In the section after that, I reflect on how this information might inform speculative fiction.
+
+<!-- more -->
 
 ## Data
 
@@ -18,13 +20,12 @@ The United Nations Population Division has projected[^1] that the world's popula
 
 Population growth can also be considered in relation to other countries. Any country with a population that grows more than 145% between 2020 and 2100 will constitute a greater share of the human race than it did in 2020. The pie charts below shows how each region's[^3] share of the total human population will change over the next eighty years (population is measured in billions).
 
-<!--more-->
-
 {% include pie1.html %}
 
 The next map shows the population density (people/km<sup>2</sup>) of countries in 2100. In 2020, many of the most densely-populated large countries will be in South Asia (India, Bangladesh), East Asia (South Korea, Japan), and Europe (Belgium, the Netherlands). While these countries will still be densely populated in 2100, they will be joined by African nations such as Uganda, Malawi, and Nigeria.
 
 {% include map2.html %}
+
 
 ## Comments
 

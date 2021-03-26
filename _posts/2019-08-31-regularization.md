@@ -19,6 +19,7 @@ Models are simplified representations of the world around us. Sometimes by simpl
 
 Regularization is a topic that's often applied in machine learning. Regularization reduces the complexity of a model by penalizing the magnitude of its coefficients. But what are a model's coefficients? And how does "penalizing" help us get better results? In the next few sections, I'll show how _linear regression_ can be used to fit some data. After that I'll show you that it can be problematic when a model fits the data _too well_. Then I'll introduce different ways of talking about _distance_ and finally show how this can be used to improve a model.
 
+
 ## Linear Regression
 
 Consider the affine equation $$ y = \beta_0 + \beta_1x $$. This is known as _the equation of a line_ and was probably presented to you in middle school under the guise of $$ y = mx + b$$. We can use this to model a linear relationship between variables (an input variable, $$x$$, and an output variable, $$y$$) along with $$ \beta_0 $$ and $$ beta_1x $$ which are just numbers that make our equation work. The equation of the line is defined by two variables $$\beta_0$$ (the y-intercept) and $$\beta_1$$ (the slope of the line). But how do we find these values?
@@ -47,6 +48,7 @@ However, this is an _inefficient_ way of doing things. You could imagine tweakin
 
 In the sort of models that get used in the field of deep learning, we have to use optimization techniques like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent) to find the best (or much more often, "the most acceptable") values for the coefficients of our model. Luckily, we don't have to go down this pathway when dealing with linear regression. There is a [closed-form solution](http://mlwiki.org/index.php/Normal_Equation) that will always give us the best answer for our coefficients. In the next section I'll show how models can fit data _too-closely_ and how we can prevent this.
 
+
 ## Complexity
 
 The parts of a model that a machine learning algorithm tries to learn are the coefficients ($$\beta_0$$ and $$\beta_1$$ above). More complicated models have more coefficients (also called parameters). A model with more parameters is able to learn to represent more complicated data (for instance, it would be unrealistic to assume that people recognize faces based on only two parameters: let's say $$\beta_0$$ is pupil-separation and $$\beta_1$$ is nose size -- there are probably hundreds of things that differentiate one face from another.)
@@ -62,6 +64,7 @@ This model has MSE that's even lower than the "green" model above: `0.0003`. But
 The way that we can prove that a model is unlikely to generalize to new data is by applying a model that was fit to a _training set_ and try it out on our _test set_. Although the polynomial model's MSE for it's training set is only `0.0003`, it's MSE for its test set is `14.24`. Compare that with the numbers for our "green" model: training = `0.002` and test = `0.0015`. The green model is much more likely to perform well on new data than the polynomial model.
 
 But let's say that we've been given a model like the one above: a polynomial model with 15 different coefficients we can tweak. At first it might seem like there will always be too much flexibility: the model will just fit any training set, meaning it'll fail on the test set. One way to get around this is with regularization.
+
 
 ## Regularization
 
@@ -84,6 +87,7 @@ Here is the same degree-15 polynomial but with regularization applied to it:
 <img src="{{ site.url }}/img/regression_3.png" alt="overfit model" width="600" height="300">
 
 Ridge and lasso regression behave differently: ridge tends to shrink all of the coefficients at the same time, whereas lasso tends to shrink some of the irrelevant coefficients all the way to 0. To demonstrate why this is the case, it's important to talk about how to calculate distance.
+
 
 ## Distance
 
@@ -150,6 +154,7 @@ $$
 $$
 
 This is the reason why the different regularization don't behave the same way: they're measuring distance in different ways!
+
 
 ## Putting it all Together
 

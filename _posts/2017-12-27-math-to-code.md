@@ -92,6 +92,7 @@ And is equivalent to:
 len(A)
 ~~~
 
+
 ### Infinite Sequences
 
 An example of an infinite sequence are the odd numbers:
@@ -145,6 +146,7 @@ I'm not a professional mathematician, but my failure to think of a function that
 
 ## Series
 ### Series Summation
+
 Sigma `Σ` represents summation:
 
 $$ \sum_{i=1}^{10} 2i = 90 $$
@@ -170,6 +172,7 @@ for i in range(1, 5):
         total += i * j**2
 ~~~
 
+
 ### Series Product
 
 The product of a series is represented by a capital letter pi `Π`:
@@ -189,6 +192,7 @@ Notice that this particular instance of summation is equal to $$ 4! $$
 
 ## Sets
 ### Union
+
 Given a set A and a set B, the union of A and B is the set of items from either or both sets:
 
 $$
@@ -211,7 +215,9 @@ $$
 A \cup B = \{x : x \in A \hspace{1mm} or \hspace{1mm} x \in B \}
 $$
 
+
 ### Intersection
+
 The intersection of two sets is the set of items that belong to both sets. Using A and B from above:
 
 $$
@@ -236,7 +242,9 @@ Which in Python is:
 {i for i in A if i in B} # {1, 3}
 ~~~
 
+
 ### Difference
+
 The difference between set A = {1, 2, 3, 10, 11} and set B = {1, 3, 7, 9} are the items in A that are not in B:
 
 $$
@@ -261,7 +269,9 @@ Which is equivalent to:
 {i for i in A if i not in B} # {2, 10, 11}
 ~~~
 
+
 ### Complement
+
 The complement of A is everything in the universe, U, that is not in A. In our case, the universe will consist of $$U = \{1, 2, 3, 4\}$$, where $$A = \{1, 3\}$$:
 
 $$
@@ -277,10 +287,14 @@ U = A | B | C
 complement_A = U - A # {2, 4}
 ~~~
 
+
 ### Ordered n-Tuple
+
 An ordered n-tuple $$ <x_1, x_2, x_3, ... x_n> $$ is equivalent to a [list](#finite-sequences) in Python with n elements.
 
+
 ### Cartesian Product
+
 For sets A and B, the Cartesian product is the set of all ordered pairs $$(a, b)$$ where $$a \in A$$ and $$b \in B$$. In set-builder notation, this is:
 
 $$
@@ -304,9 +318,12 @@ B = {'b1', 'b2'}
 
 
 ## Logic
+
 Many of the symbols in logic are similar to those used when we talk about [sets](#sets). For instance, set [intersection](#intersection), $$\cap$$, is similar to the logical conjunction $$\wedge$$ (AND). And set [union](#union), $$\cup$$ is similar to the logical disjunction, $$\vee$$ (OR). These logical connectives are similar to what you see in sets.
 
+
 ### Universal Quantifier
+
 The universal quantifier, $$\forall$$, means "for all." For instance, this formula:
 
 $$
@@ -337,7 +354,9 @@ def Q(i):
 
 Now we get an `AssertionError`, indicating that the statement evaluates to False.
 
+
 ### Existential Quantifier
+
 The existential quantifier symbol, $$ $$, means "there exists." For instance, the formula below means that there exists one number in the set $$A$$ such that condition $$Q$$ is met:
 
 $$
@@ -360,7 +379,9 @@ def Q(li):
 Q(A) # True
 ~~~
 
+
 ### Implication
+
 Arrows are used for implication. For the material implication (below), if A is true, then B is true too:
 
 $$
@@ -379,7 +400,9 @@ if A:
     assert B # AssertionError
 ~~~
 
+
 ### Biconditional
+
 An arrow with two heads is the biconditional. $$A \iff B$$ means "A is true if and only if B is true." This is often written as "A iff B." The biconditional is equivalent to $$(A \Rightarrow B) \cap (B \Rightarrow A)$$.
 
 In code, this would mean that before we evaluate A, we first need to check B:
@@ -394,7 +417,9 @@ def biconditional(A, B):
 
 This function takes two arguments, A and B. A is returned as true if and only if B is true. This is done by first setting A to False before evaluating it.
 
+
 ### Negation
+
 $$\neg A$$ means "not A" and is true only when A is false. This is easily understood in the context of an if-then statement:
 
 ~~~python
@@ -405,7 +430,9 @@ if not A:
 
 Logical negation is similar to the set operation [complement](#complement).
 
+
 ### De Morgan's Theorem
+
 De Morgan's Theorem relates the concepts of conjunction and disjunction (similar to [union](#union) and [intersection](#intersection), respectively) with [negation](#negation):
 
 $$
@@ -431,6 +458,7 @@ U - (A | B) # {8, 9, 6, 7}
 
 ## Calculus
 ### Integrals
+
 Suppose we have a function, $$f(x) = sin(x)$$. The area under $$f(x)$$ from 0 to $$\pi$$ is represented by the blue region in this graph:
 
 ![sinx]({{ site.url }}/img/sinx.png){:height="36px" width="300px"}
@@ -473,7 +501,9 @@ dblquad(lambda t, x: sines(t, x), 0, pi, lambda x: 0, lambda x: pi)
 # (3.9999999999859175, 4.4408920984849916e-14)
 ~~~
 
+
 ### Gradients
+
 I'm not going to cover single-valued derivatives here, because they're too simple. But what if you want to find the derivative of a vector-valued function with more than one argument? The gradient evaluated at a given point gives you some idea of a function's multivariable slope at that point. A gradient is a vector of a the partial derivatives of a function. Gradients are important in some Machine Learning algorithms. The gradient of a function, $$f$$, is written as $$\nabla f$$. The symbol $$\nabla$$ is called "nabla" or "del."
 
 If we have a function $$f(x, y) = x^2 - xy$$, then:
@@ -542,5 +572,3 @@ gaussian distribution, function input with semicolon-->
 ### Vector-Valued Functions
 
 ### Anonymous Functions-->
-
-

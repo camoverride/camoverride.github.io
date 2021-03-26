@@ -7,7 +7,7 @@ published: true
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-Please see [the update post](https://camtsmith.com/articles/2021-02/how-to-build-ml-app-from-scratch) for a sleeker and more modern approach to the same problem!
+Please see [the updated post](https://camtsmith.com/articles/2021-02/how-to-build-ml-app-from-scratch) for a sleeker and more modern approach to the same problem!
 
 <!--
 

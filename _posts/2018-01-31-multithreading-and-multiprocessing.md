@@ -3,7 +3,7 @@ layout: post
 title: Multi-threading and Multi-processing in Python
 categories: [code]
 comments: true
-published: false
+published: true
 ---
 
 When I first encountered multi-threading and multi-processing, I wasn't able to distinguish the two. For me, both were some sort of magical way to make your programs run faster. However, understanding how multi-threading and multi-processing is critical for many medium- and large-sized software projects. In this post, I'll explain how each works.
@@ -19,6 +19,7 @@ If we have a list of webpages, a naive way to access them is to loop over the si
 ~~~python
 import requests
 from timeit import default_timer as timer
+
 
 url_list = [
     'https://en.wikipedia.org/wiki/Main_Page',
@@ -45,13 +46,12 @@ end = timer()
 
 print('  Synchronous request time: {}'.format(end - start))
 
-# ...
 # Synchronous request time: 9.43742299103178
 ~~~
 
 For me, it took 9 seconds to make all of these requests. That doesn't seem like much time, but what if we wanted to access a million websites? We'd be waiting all day. So instead of just iterating through a list and waiting for one request to be finished before the next is made, what if we just stopped waiting? We still iterate through our list, but instead of pausing, we just push the current item to the background and start processing another. This is the idea behind multi-threading.
 
-If you have any intuition about how computers work, that seems impossible. After all, the operations of a CPU are supposed to be executed serially - one at a time. So how can we have processes operating in "the background?" A simple way to conceptualize it is this: your computer is more than just a CPU. It also has parts responsible for performing network I/O. When a program uses multiple threads, execution of a thread can be hended off to the parts that perform network I/O. When those parts have finished their jobs, execution is returned to the program that initiated them.
+If you have any intuition about how computers work, that seems impossible. After all, the operations of a CPU are supposed to be executed serially - one at a time. So how can we have processes operating in "the background?" A simple way to conceptualize it is this: your computer is more than just a CPU. It also has parts responsible for performing network I/O. When a program uses multiple threads, execution of a thread can be handed off to the parts that perform network I/O. When those parts have finished their jobs, execution is returned to the program that initiated them.
 
 Another way to think of things are cooks in a kitchen: a single-threaded pizza cook puts the pizza in the oven and waits for it to finish before starting to make the salad. A multi-threaded pizza cook puts the pizza in the oven and starts to make the salad while it's baking. A multi-processing pizza cook is actually two cooks (more on that later).
 
@@ -61,6 +61,7 @@ I've added an extra section to the script from above. This is a multi-threaded i
 import requests
 from timeit import default_timer as timer
 from multiprocessing import Pool as ThreadPool
+
 
 url_list = [
     'https://en.wikipedia.org/wiki/Main_Page',
@@ -96,13 +97,12 @@ end = timer()
 
 print('  Asynchronous request time: {}'.format(end - start))
 
-# ...
 # Synchronous request time: 8.583241935120896
-# ...
 # Asynchronous request time: 1.3029110548086464
 ~~~
 
 That's a huge improvement. Instead of waiting for each item, we dispatch all of our network requests and handle them as they're returned to us. But not everything can be improved with multiple threads. Only tasks that are I/O bound will benefit from multi-threading.
+
 
 ## Multi-processing
 
@@ -112,6 +112,7 @@ Let's say that you have some huge text files (millions of lines) and you'd like 
 
 ~~~python
 from timeit import default_timer as timer
+
 
 file_list = ['hugefile1.txt', 'hugefile2.txt', 'hugefile3.txt', 'hugefile4.txt', 'hugefile5.txt']
 
@@ -132,7 +133,6 @@ end = timer()
 print(count_list)
 print('Single process line counting: {}'.format(end - start))
 
-# ...
 # Single process line counting: 14.913661726051942
 ~~~
 
@@ -143,6 +143,7 @@ For every file in the `file_list` a new process is spawned. These processes take
 ~~~python
 from timeit import default_timer as timer
 from multiprocessing import Process, Manager
+
 
 file_list = ['hugefile1.txt', 'hugefile2.txt', 'hugefile3.txt', 'hugefile4.txt', 'hugefile5.txt']
 
@@ -172,11 +173,11 @@ with Manager() as manager:
 end = timer()
 print('Multi-processing line counting: {}'.format(end - start))
 
-# ...
 # Multi-processing line counting: 2.4305348589550704
 ~~~
 
 Our multi-processing program has finished the work in a fraction of the time -- just two seconds.
+
 
 ## Different Tools for Different Problems
 

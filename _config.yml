@@ -33,13 +33,17 @@ kramdown:
 #
 owner:
   name: Cameron Smith
-  avatar: cam2.png
-  job: "Data, language, code"
-  bio: "Welcome to my personal site."
-  email: camsmith9976@gmail.com
+  avatar: cam-new.png
+  # job: 
+  bio: "welcome to my personal site"
+  email: camoverride@gmail.com
   disqus-shortname: camtsmith
-  twitter: #username
-  facebook: camsmith9976
+  twitter: camoverride
+  facebook: camoverride1
+  github: camoverride
+  instagram: camoverride
+  linkedin: camoverride
+  medium: camoverride
   google:
     plus: #username
     analytics:
@@ -47,13 +51,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: camoverride
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: camsmith9976
   skype: #username
   xing: #username
-  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username

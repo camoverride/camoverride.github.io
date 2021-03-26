@@ -1,5 +1,13 @@
+<iframe src="awesome_plot.html"></iframe>
+<iframe src="www.google.com"></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 ### Overview
 This website uses a modified version of the [Leonids theme](https://github.com/renyuanz/leonids). Feel free to copy any part of this website's theme. All files in the `_posts` folder are the personal property of the owner and not subject to this project's MIT license.
+
 
 ## This site is great (from Leonids):
 

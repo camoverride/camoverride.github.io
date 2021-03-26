@@ -21,7 +21,11 @@ layout: default
      <!-- •
       {% include read_time.html %}-->
       •
-      <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}"> {{ page.categories }} </a>
+      <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}"> 
+        /{% for cat in page.categories %} 
+        {{ cat }} /
+        {% endfor %}
+      </a>
 
 
 

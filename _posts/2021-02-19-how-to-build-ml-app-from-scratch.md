@@ -5,7 +5,6 @@ categories: [data]
 comments: true
 published: true
 excerpt: In this article I'll teach you how to build a text classification app from scratch. You'll enter some text from a language, and the app will identify which language it comes from (English, Spanish, Vietnamese, etc). All it'll take you to get started is a rudimentary knowledge of Python, the command line, and Git.
-
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 

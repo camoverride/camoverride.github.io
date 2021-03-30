@@ -12,7 +12,8 @@ This got me thinking - if Japanese doesn't sound like English, what languages do
 
 All of the data analysis I did is in [this notebook](https://github.com/camoverride/notebooks/blob/master/notebooks/Sound_Similarity.ipynb), and the interesting bits are reduplicated here. Enjoy.
 
-<!-- more -->
+<!--more-->
+
 
 ## Phonemes
 

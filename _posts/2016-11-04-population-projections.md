@@ -10,7 +10,7 @@ In science fiction, it's a common theme (maybe even a cliché!) for the future w
 
 In the next section I created some data visualizations to demonstrate the planet's changing demographic composition. In the section after that, I reflect on how this information might inform speculative fiction.
 
-<!-- more -->
+<!--more-->
 
 ## Data
 

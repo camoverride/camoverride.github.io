@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to Code (Part 2)
-excerpt: A beginner's guide to learning how to program with Python.
 categories: [code]
 comments: true
 published: true
@@ -17,7 +16,8 @@ Frank Herbert, Dune
 
 The science fiction novel _Dune_ occurs thousands of years after a cybernetic revolt led to the near-extinction of the human race. In the wake of this disaster, a religious cult has permeated a dogma across the galaxy, proclaiming that _Thou shalt not make a machine in the likeness of a man's mind_: a permanent ban in Artificial Intelligence and computers. In order to compensate for the absence of this technology, _mentats_ have been trained to mimic the abilities of digital computers. But there's a problem with this: digital computers themselves mimic the same logical reasoning that humans perform. The only difference between a computer and a human is that the computer is capable of holding a larger sequence of logical events in memory and can act faster. There are only a small number of fundamental building blocks that software is made out of: concepts like _variables_, _data types_, _loops_, and _conditional statements_ -- all of which are easily comprehensible to humans: you can memorize a program, write it on a piece of paper, or run it in a computer. This chapter will explore some of these fundamental building blocks in the Python language, leaving you with a strong foundation to build upon.
 
-<!-- more -->
+<!--more-->
+
 
 ## What is a Programming Language?
 

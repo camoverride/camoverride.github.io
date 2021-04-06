@@ -58,7 +58,7 @@ After transforming each phoneme into a list of binary features, I took the Jacca
 - Tagalog
 - Kera
 - Berom
-- Ishkashimi
+- <span style="color:blue">Ishkashimi</span>
 - <span style="color:blue">Wymysorys</span>
 - Cebuano
 - Fur

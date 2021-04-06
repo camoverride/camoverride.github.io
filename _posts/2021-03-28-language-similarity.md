@@ -94,20 +94,22 @@ Some of these are totally unsurprising: there are other English dialects, Englis
 
 I wanted to understand whether my results were random or if there was some pattern. If closely-related languages are ranked as closer to English than unrelated languages, then the algorithm is performing well - after all, related languages should sound similar.
 
-__7%__ of the world's languages are members of the [Indo-European family](https://en.wikipedia.org/wiki/Indo-European_languages), of which English is a member, whereas __40%__ of the languages in the top-50 sample are Indo-European - a significant difference. I performed [a statistical test](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2)) to prove that this result was unlikely to occur by chance. This validates the algorithm: it's selecting closely-related languages more often than unrelated ones
+__7%__ of the world's languages are members of the [Indo-European family](https://en.wikipedia.org/wiki/Indo-European_languages), of which English is a member, whereas __40%__ of the languages in the top-50 sample are Indo-European - a significant difference. I performed [a statistical test](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2)) to prove that this result was unlikely to occur by chance. This result proves that the algorithm is actually working: it's selecting closely-related languages more often than unrelated ones.
 
 It also seems like the algorithm prefers languages from the unrelated [Austronesian language family](https://en.wikipedia.org/wiki/Austronesian_languages) - 5% of the world's languages are Austronesian, but 16% of the languages in the sample are Austronesian. I performed another statistical test which showed that this result was extremely unlikely to occur by chance - Austronesian languages actually do sound more like English than languages from other families.
+
+Interestingly, it doesn't matter very much which distant metric you use: Austronesian languages are always disproportionately represented in the top 50 results.
 
 
 ## English's Neighbors
 
-The Austronesian languages [Tagalog](https://en.wikipedia.org/wiki/Tagalog_language), [Ivatan](https://en.wikipedia.org/wiki/Ivatan_language), [Taba](https://en.wikipedia.org/wiki/Taba_language), [Indonesian](https://en.wikipedia.org/wiki/Indonesian_language), and [Malay](https://en.wikipedia.org/wiki/Malay_language) have a simple phonological inventory: their consonants are a subset of English (except for the palatal nasal /ɲ/ in Indonesian). Their vowels are also a subset of English, except for Tagalog which has a mid-back rounded vowel that English lacks: /o̞/.
+The Austronesian languages [Tagalog](https://en.wikipedia.org/wiki/Tagalog_language#Phonology), [Ivatan](https://en.wikipedia.org/wiki/Ivatan_language#Phonology), [Taba](https://en.wikipedia.org/wiki/Taba_language#Phonology), [Indonesian](https://en.wikipedia.org/wiki/Indonesian_language#Phonology), and [Malay](https://en.wikipedia.org/wiki/Malay_language#Phonology) have a simple phonological inventory: their consonants are a subset of English (except for the palatal nasal /ɲ/ in Indonesian). Their vowels are also a subset of English, except for Tagalog which has a mid-back rounded vowel that English lacks: /o̞/.
 
-[Toba-Batak](https://en.wikipedia.org/wiki/Toba_Batak_language) resembles the rest of the languages in this family except that is possesses the palatals /d͡ʑ/ and /t͡ɕ/.
+[Toba-Batak](https://en.wikipedia.org/wiki/Toba_Batak_language#Phonology) resembles the rest of the languages in this family except that is possesses the palatals /d͡ʑ/ and /t͡ɕ/.
 
-[Cebuano's](https://en.wikipedia.org/wiki/Cebuano_language) consonants are often dentalized, making it slightly different from its relatives on this list.
+[Cebuano's](https://en.wikipedia.org/wiki/Cebuano_language#Phonology) consonants are often dentalized, making it slightly different from its relatives on this list.
 
-In [Javanese](https://en.wikipedia.org/wiki/Javanese_language) there are breathy-voiced consonants like /ɖ̥/ and dentalized stops like /t̪/.
+In [Javanese](https://en.wikipedia.org/wiki/Javanese_language#Phonology) there are breathy-voiced consonants like /ɖ̥/ and dentalized stops like /t̪/.
 
 All of these languages are non-tonal like English. However, unlike English, the sound /ŋ/ can occur in the beginnings of syllables as well as at the end: English is weird in that it bans /ŋ/ from starting out a syllable.
 
@@ -115,4 +117,4 @@ I think it's fair to conclude that Austronesian languages are _weirdly similar_ 
 
 However, it's worth keeping in mind that all the distance metrics I explored are, by definition, symmetrical: the distance from point A to point B is always the same as the distance from B to A. However, the "learning difficulty" of a language's speech sounds is definitely not symmetrical: all the Austronesian languages I explored have phoneme inventories that are subsets of English: that means it should be easier for an English-speaker to pronounce Tagalog words than for a Tagalog-speaker to pronounce English words.
 
-So if you're an American and want to learn a language that's easy to pronounce, I suggest taking a trip to the Philippines or Indonesia 🌴
+So if you're an American and want to learn a language that's easy to pronounce, I suggest taking a trip to Southeast Asia 🌴

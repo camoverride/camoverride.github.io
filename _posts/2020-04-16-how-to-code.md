@@ -6,7 +6,7 @@ comments: true
 published: true
 ---
 
-I know a lot of people who work in tech but not as software engineers. They often ask me the question "how do I code?" This isn't the kind of question you can answer with a single sentence like _"the sky is blue because it's sad"_ or _"no"_. Instead, I have to answer this question by pointing to books or online resources that promise to teach coding. I also have to point out which kinds of things _aren't_ coding (e.g. online interfaces, HTML, an SQL are __not__ programming languages in the conventional [imperative](https://en.wikipedia.org/wiki/Imperative_programming) sense). But when I give an answer like this, it's not really my answer: it's someone else's answer that I'm just packaging and reselling. In this blog post I'm going to give _my_ answer to the question _how do I code?_ -- this is an answer that I personally find satisfying (and so will you!). This will be a long post, equivalent to a meaty textbook chapter or even a short monograph (this __is__ a short monograph). In it I'll first explain what programming means using very abstract language, then I'll show you the environment that programmers work in. Lastly I'll show you the core logical concepts that constitute programming.
+I know a lot of people who work in tech but not as software engineers. They often ask me the question "how do I code?" This isn't the kind of question you can with a _yes_ or a _no_ or in a single paragraph. Instead, I have to answer this question by pointing to books or online resources that promise to teach coding. I also have to point out which kinds of things _aren't_ coding (e.g. online interfaces, HTML, and SQL are __not__ programming languages in the conventional [imperative](https://en.wikipedia.org/wiki/Imperative_programming) sense). But when I give an answer like this, it's not really my answer: it's someone else's answer that I'm just packaging and reselling. In this blog post I'm going to give _my_ answer to the question _how do I code?_ -- this is an answer that I personally find satisfying (and so will you!). This will be a long post, equivalent to a meaty textbook chapter or even a short monograph. In it I'll first explain what programming means using very abstract language, then I'll show you the environment that programmers work in. Lastly I'll show you the core logical concepts that constitute programming.
 
 <!--more-->
 
@@ -17,8 +17,8 @@ There's a very abstract definition of a programming language that goes like this
 Here's an example of some Python code:
 
 ~~~python
-hospital = ["Bill", "Jared", "Billy"]
-if "Jared" in hospital:
+hospital_patients = ["Bill", "Jared", "Billy"]
+if "Jared" in hospital_patients:
     print("Jared is sick :(")
 ~~~
 

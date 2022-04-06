@@ -31,7 +31,7 @@ The snippet of code above is called a _program_. If you wanted to, you could wri
 
 ## The Terminal
 
-You might have encountered your computer's terminal in the past. This is a box that imitates what all computers looked like before [Graphical User Interfaces](https://en.wikipedia.org/wiki/Graphical_user_interface) (GUI's) became commonplace in the mid 1990's. The terminal is only that: a box, and is a type of [Command Line Interface]](https://en.wikipedia.org/wiki/Command-line_interface) (CLI). But inside the terminal a programmer can type commands that lets them navigate around their computer, create new folders and files, search for things, and run programs.
+You might have encountered your computer's terminal in the past. This is a box that imitates what all computers looked like before [Graphical User Interfaces](https://en.wikipedia.org/wiki/Graphical_user_interface) (GUI's) became commonplace in the mid 1990's. The terminal is only that: a box, and is a type of [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI). But inside the terminal a programmer can type commands that lets them navigate around their computer, create new folders and files, search for things, and run programs.
 
 The tool that you use to execute these commands is called the Z Shell (zsh) and is installed by default on all versions of MacOS starting with Catalina: if you're using an older version of MacOS, make sure to upgrade! Zsh is not a programming language per se, but is a command language that lets you access and control your computer. Before you learn how to program, you should learn the basics of this simpler kind of language.
 

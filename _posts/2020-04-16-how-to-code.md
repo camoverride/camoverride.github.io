@@ -12,7 +12,7 @@ I know a lot of people who work in tech but not as software engineers. They ofte
 
 ## What is Programming?
 
-There's a very abstract definition of a programming language that goes like this: programming languages are _formal languages_ which define a _set of instructions_ that produces some kind of _output_. The problem with a definition like this is that you're forced to define _formal language_, _set of instructions_, and _output_ -- which can all be tricky and have equally abstract, annoying definitions that might lead you down a frustrating Wikipedia rabbit hole. Instead I think it's useful to provide a less rigorous definition, give some examples, and refine our definition over time until, eventually, the _formal languages blah blah blah_ definition starts to make sense.
+There's a very abstract definition of a programming language that goes like this: programming languages are __formal languages__ which define a __set of instructions__ that produces some kind of __output__. The problem with a definition like this is that you're forced to define _formal language_, _set of instructions_, and _output_ -- which can all be tricky and have equally abstract, annoying definitions that might lead you down a frustrating Wikipedia rabbit hole. Instead I think it's useful to provide a less rigorous definition, give some examples, and refine our definition over time until, eventually, the meanings of all these concepts start to make intuitive sense. You learn to drive a car by driving it, not by reading a textbook about how to drive cars.
 
 Here's an example of some Python code:
 
@@ -22,7 +22,7 @@ if "Jared" in hospital_patients:
     print("Jared is sick :(")
 ~~~
 
-What's happening here is that some data is being defined, a logical operation is being performed on it, and some output is being produced. It doesn't matter if you don't understand anything that's written in the code block above, because each of these concepts will be defined in the following sections.
+What's happening here is that some data is being defined (a list called `hospital_patients`), a logical operation is being performed on it (is Jared `in` that list?), and some output is being produced (`print` the answer to your computer screen). It doesn't matter if you don't understand anything that's written in the code block above, because each of these concepts will be defined in the following sections.
 
 When I teach you about Python, we'll explore various kinds of data and the different kinds of logic you can apply to it and the outputs you should expect: want to search a gigantic database to see whether your ex-boyfriend is in it? Want to automatically generate a story? Want to make a graph database of friends (Facebook)? Programming can do all these things once you've defined the data and logic in certain, very-specific ways.
 
